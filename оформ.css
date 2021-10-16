@@ -1,0 +1,249 @@
+body {
+    background-color: rgba(202, 202, 206, 0.932);
+}
+  .butass{
+    height: 28px;
+    width: 35px;
+    z-index: 1;
+    position: absolute;
+    top: 540px;
+    left: 2.5%;
+    background-image: url(кнопка2.jpg);
+    background-position: center;
+  }
+  .butass1{
+    height: 28px;
+    width: 35px;
+    z-index: 1;
+    top: 540px;
+    position: absolute;
+    left: 30.7%;
+    background-image: url(кнопка.jpg);
+    background-position: center;
+  }
+      .left {
+        left: 1.5%;
+        height: 500px;
+        width: 450px;
+        border: 2px solid black;
+        padding: 5px;
+        background-color: black;
+        box-shadow: 5px 5px;
+        box-shadow: 3px 3px 5px rgba(122,122,122,0.5);;
+        position: absolute;
+      }
+      .right {
+        height: 216px;
+        width: 400px;
+        background-color: rgba(255, 255, 255, 0.425);
+        right: 1.5%;
+        border: 2px solid black;
+        padding: 5px;
+        padding-top: 5px;
+        box-shadow: 5px 5px;
+        box-shadow: 3px 3px 5px rgba(122,122,122,0.5);;
+        position: absolute;
+      }
+img {
+    float:left;
+}
+.objasne{
+  top: 17%;
+  width: 20%;
+  height: 20%;
+  text-align: center;
+  font: message-box;
+  font-size: 16px;
+  color: white;
+  padding: 2%;
+  font-weight: normal;
+  position: absolute;
+  z-index: 1;
+  left: 39.5%;
+}
+.play{
+left: 44%;
+top: 57%;
+position: absolute;
+width: 45px;
+height: 45px;
+z-index: 1;
+background-position: center;
+background-image: url(плей.bmp);
+}
+.pause{
+left: 48%;
+top: 57%;
+position: absolute;
+width: 45px;
+height: 45px;
+z-index: 1;
+background-position: center;
+background-image: url(пауза.bmp);
+}
+.prev{
+left: 52%;
+top: 57%;
+position: absolute;
+width: 45px;
+height: 45px;
+z-index: 1;
+background-position: center;
+background-image: url(назад.bmp);
+}
+.next{
+left: 56%;
+top: 57%;
+position: absolute;
+width: 45px;
+height: 45px;
+z-index: 1;
+background-position: center;
+background-image: url(вперде.bmp);
+}
+.audio-track {
+  width: 15%;
+  height: 1%;
+  background-color: #000000;
+  left: 44%;
+top: 53%;
+position: absolute;
+z-index: 1;
+}
+.time {
+  width: 0;
+  height: 100%;
+  background-color: white;
+  left: 0;
+position: absolute;
+z-index: 1;
+}
+.fon{
+  background-image: url(fon.jpg);
+  background-position: center;
+  width: 350px;
+  height: 420px;
+  position: absolute;
+  left: 39.3%;
+  top: 10%;
+  box-shadow: 0 0 15px black;
+  border-radius: 10px;
+}
+table {
+  position: absolute;
+  width: 100%;
+  top: 650px;
+  left: 0;
+  border-collapse: collapse;
+  border-spacing: 0px 0px;
+  border: 5px solid black; 
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 16px;
+  background-color: rgb(197, 197, 197);
+}
+
+th {
+  border-right: black 2px solid;
+  border-left: black 2px solid;
+  text-align: center;
+  border-collapse: collapse;
+  font-size: 13px;
+  font-weight: normal;
+  color: black;
+  padding: 3px;
+}
+td {
+  border-right: black 2px solid;
+  border-collapse: collapse;
+  border-top: 2px black dashed;
+  width: 45%;
+  text-align: center;
+  font-size: 13px;
+  color: black;
+  padding: 3px;
+}
+.spisok{
+  position: absolute;
+  top: 600px;
+  left: 35%;
+  font-size: 22px;
+  font-family: sans-serif;
+}
+.s {
+  background-color: gray;
+}
+.g {
+  background-color: green;
+}
+.y {
+  background-color: yellow;
+}
+.r {
+  background-color: red;
+}
+.videoyou{
+  position: absolute;
+  top: 2400px;
+}
+.video{
+  position: absolute;
+  top: 2400px;
+  right: 0;
+}
+
+.fail{
+  position: absolute;
+  top: 2760px;
+  right: 1.5%;
+}
+.fael{
+  position: absolute;
+  top: 2827px;
+  left: 1.8%;
+  width: 55px;
+  height: 55px;
+  background-image: url(pdff.png);
+  background-position: center;
+  cursor: pointer;
+  z-index: 1;
+}
+button:hover{
+  cursor: pointer;
+}
+.falo{
+  position: absolute;
+  top: 2827px;
+  left: 45.3%;
+  width: 55px;
+  height: 55px;
+  background-image: url(pdfl.png);
+  background-position: center;
+  cursor: pointer;
+  z-index: 1;
+}
+.otkr{
+  position: absolute;
+  top: 2760px;
+  left: 1.5%;
+  width: 150px;
+  height: 120px;
+  border-collapse: collapse;
+  border: 3px solid black; 
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 14px;
+  box-shadow: 5px 5px;
+  box-shadow: 3px 3px 5px rgba(122, 122, 122, 0.5);;
+}
+.down{
+  position: absolute;
+  top: 2760px;
+  left: 45%;
+  width: 150px;
+  height: 120px;
+  border-collapse: collapse;
+  border: 3px solid black; 
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 14px;
+  box-shadow: 5px 5px;
+  box-shadow: 3px 3px 5px rgba(122,122,122,0.5);;
+}
