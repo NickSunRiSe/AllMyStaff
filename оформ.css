@@ -1,6 +1,13 @@
 body {
     background-color: rgba(202, 202, 206, 0.932);
 }
+@media all and (max-width: 450px) {
+  .video{
+    position: absolute;
+    top: 2400px;
+    right: 0;
+  }
+}
   .butass{
     height: 28px;
     width: 35px;
@@ -32,9 +39,10 @@ body {
         box-shadow: 3px 3px 5px rgba(122,122,122,0.5);;
         position: absolute;
       }
+     
       .right {
-        height: 216px;
-        width: 400px;
+        height: 35%;
+        width: 25%;
         background-color: rgba(255, 255, 255, 0.425);
         right: 1.5%;
         border: 2px solid black;
@@ -43,16 +51,16 @@ body {
         box-shadow: 5px 5px;
         box-shadow: 3px 3px 5px rgba(122,122,122,0.5);;
         position: absolute;
+        margin: 0;
       }
-img {
-    float:left;
-}
+    
+  
 .objasne{
   top: 17%;
   width: 20%;
   height: 20%;
   text-align: center;
-  font: message-box;
+  font-style: gothic;
   font-size: 16px;
   color: white;
   padding: 2%;
@@ -61,45 +69,85 @@ img {
   z-index: 1;
   left: 39.5%;
 }
+.zon{
+  margin: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  min-width: 3.2%;
+  min-height: 6%;
+  max-width: 3.2%;
+  max-height: 6%;
+ border-collapse: collapse;
+ border: black 0.1% solid;
+}
 .play{
 left: 44%;
 top: 57%;
 position: absolute;
-width: 45px;
-height: 45px;
+min-width: inherit;
+min-height: inherit;
+max-width: inherit;
+max-height: inherit;
 z-index: 1;
-background-position: center;
+background-attachment:inherit;
+background-position: inherit;
 background-image: url(плей.bmp);
+background-repeat: inherit;
+background-size: inherit;
+border-collapse: inherit;
+border: inherit;
 }
 .pause{
 left: 48%;
 top: 57%;
 position: absolute;
-width: 45px;
-height: 45px;
+min-width: inherit;
+min-height: inherit;
+max-width: inherit;
+max-height: inherit;
 z-index: 1;
-background-position: center;
+background-position: inherit;
 background-image: url(пауза.bmp);
+background-repeat: inherit;
+background-attachment: inherit;
+background-size: inherit;
+border-collapse: inherit;
+border: inherit;
 }
 .prev{
 left: 52%;
 top: 57%;
 position: absolute;
-width: 45px;
-height: 45px;
+min-width: inherit;
+min-height: inherit;
+max-width: inherit;
+max-height: inherit;
 z-index: 1;
 background-position: center;
 background-image: url(назад.bmp);
+background-repeat: inherit;
+background-attachment:inherit;
+background-size: inherit;
+border-collapse: inherit;
+border: inherit;
 }
 .next{
 left: 56%;
 top: 57%;
 position: absolute;
-width: 45px;
-height: 45px;
+min-width: inherit;
+min-height: inherit;
+max-width: inherit;
+max-height: inherit;
 z-index: 1;
 background-position: center;
 background-image: url(вперде.bmp);
+background-repeat: inherit;
+background-attachment:inherit;
+background-size: inherit;
+border-collapse: inherit;
+border: inherit;
 }
 .audio-track {
   width: 15%;
@@ -129,6 +177,8 @@ z-index: 1;
   box-shadow: 0 0 15px black;
   border-radius: 10px;
 }
+
+
 table {
   position: absolute;
   width: 100%;
