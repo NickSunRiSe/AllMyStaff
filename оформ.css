@@ -15,7 +15,7 @@ body {
     position: absolute;
     top: 540px;
     left: 2.5%;
-    background-image: url(кнопка2.jpg);
+    background-image: url(assets/images/кнопка2.jpg);
     background-position: center;
   }
   .butass1{
@@ -25,7 +25,7 @@ body {
     top: 540px;
     position: absolute;
     left: 30.7%;
-    background-image: url(кнопка.jpg);
+    background-image: url(assets/images/кнопка.jpg);
     background-position: center;
   }
       .left {
@@ -92,7 +92,7 @@ max-height: inherit;
 z-index: 1;
 background-attachment:inherit;
 background-position: inherit;
-background-image: url(плей.bmp);
+background-image: url(assets/images/плей.bmp);
 background-repeat: inherit;
 background-size: inherit;
 border-collapse: inherit;
@@ -108,7 +108,7 @@ max-width: inherit;
 max-height: inherit;
 z-index: 1;
 background-position: inherit;
-background-image: url(пауза.bmp);
+background-image: url(assets/images/пауза.bmp);
 background-repeat: inherit;
 background-attachment: inherit;
 background-size: inherit;
@@ -125,7 +125,7 @@ max-width: inherit;
 max-height: inherit;
 z-index: 1;
 background-position: center;
-background-image: url(назад.bmp);
+background-image: url(assets/images/назад.bmp);
 background-repeat: inherit;
 background-attachment:inherit;
 background-size: inherit;
@@ -142,7 +142,7 @@ max-width: inherit;
 max-height: inherit;
 z-index: 1;
 background-position: center;
-background-image: url(вперде.bmp);
+background-image: url(assets/images/вперде.bmp);
 background-repeat: inherit;
 background-attachment:inherit;
 background-size: inherit;
@@ -167,7 +167,7 @@ position: absolute;
 z-index: 1;
 }
 .fon{
-  background-image: url(fon.jpg);
+  background-image: url(assets/images/fon.jpg);
   background-position: center;
   width: 350px;
   height: 420px;
@@ -252,7 +252,7 @@ td {
   left: 1.8%;
   width: 55px;
   height: 55px;
-  background-image: url(pdff.png);
+  background-image: url(assets/images/pdff.png);
   background-position: center;
   cursor: pointer;
   z-index: 1;
@@ -266,7 +266,7 @@ button:hover{
   left: 45.3%;
   width: 55px;
   height: 55px;
-  background-image: url(pdfl.png);
+  background-image: url(assets/images/pdfl.png);
   background-position: center;
   cursor: pointer;
   z-index: 1;

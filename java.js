@@ -1,7 +1,7 @@
 var images = [
-    'РНП1.jpg',
-    'РНП2.jpg',
-    'РНП3.jpg'
+    'assets/images/РНП1.jpg',
+    'assets/images/РНП2.jpg',
+    'assets/images/РНП3.jpg'
     ];
     var num = 0;
     function nextfoto() {
@@ -28,9 +28,9 @@ var images = [
     let btnNext = document.querySelector(".next");
     let lp = document.querySelector(".lp");
     let playlist = [
-        '111.mp3',
-        '333.mp3',
-        '222.mp3',
+        'sounds/111.mp3',
+        'sounds/222.mp3',
+        'sounds/333.mp3',
     ];
     let treck; 
     window.onload = function() {
