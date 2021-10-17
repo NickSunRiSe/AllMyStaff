@@ -21,20 +21,22 @@ var images = [
     foto.src = images[num];
     };
     let audio = document.getElementById("audio");  
+    let tits = document.getElementById("tits");
     let time = document.querySelector(".time");       
     let btnPlay = document.querySelector(".play");   
     let btnPause = document.querySelector(".pause"); 
     let btnPrev = document.querySelector(".prev");   
     let btnNext = document.querySelector(".next");
     let lp = document.querySelector(".lp");
-    let playlist = [
-        'sounds/111.mp3',
-        'sounds/222.mp3',
-        'sounds/333.mp3',
+    var playlist = [
+        'sounds/111.mp3'
+        ,'sounds/222.mp3'
+        ,'sounds/333.mp3'
+        ,
     ];
-    let treck; 
+    let mp3; 
     window.onload = function() {
-        treck = 0; 
+        mp3 = 0;
     }
     btnPlay.addEventListener("click", function() {
         audio.play(); 
@@ -42,14 +44,14 @@ var images = [
             let audioTime = Math.round(audio.currentTime);
             let audioLength = Math.round(audio.duration);
             time.style.width = (audioTime * 100) / audioLength + '%';
-            if (audioTime == audioLength && treck < 2) { //колличество треков ручное, длинна не срабатывает 
-                treck++;
-                audio.src = playlist[treck];
+            if (audioTime == audioLength && mp3 < 2) { //колличество треков ручное, длинна не срабатывает 
+                mp3++;
+                audio.src = playlist[mp3];
                 audio.play();
                 } 
                 else if (audioTime == audioLength) {
-                treck = 0;
-                audio.src = playlist[treck];
+                    mp3 = 0;
+                audio.src = playlist[mp3];
                 audio.play();
                 }
         }, 10)
@@ -59,19 +61,19 @@ var images = [
         clearInterval(audioPlay) 
     });
     btnPrev.addEventListener("click", function() {
-        treck--;
-        if(treck < 0) {
-            treck=2;
+        mp3--;
+        if(mp3 < 0) {
+            mp3=2;
         }
-        audio.src = playlist[treck];
+        audio.src = playlist[mp3];
         audio.play();
     });
     btnNext.addEventListener("click", function() {
-        treck++;
-        if(treck >= playlist.length) {
-            treck = 0;
+        mp3++;
+        if(mp3 >= playlist.length) {
+        mp3 = 0;
         }
-        audio.src = playlist[treck];
+        audio.src = playlist[mp3];
         audio.play();
     })
     

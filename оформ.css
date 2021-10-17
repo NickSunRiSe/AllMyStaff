@@ -1,20 +1,54 @@
 body {
-    background-color: rgba(202, 202, 206, 0.932);
+  font-family: 'Gothic A1', sans-serif;
+  font-size: 15px;
+  color: #000000;
+  background-color: rgba(202, 202, 206, 0.932);
 }
-@media all and (max-width: 450px) {
+.fonts{
+  font-family: 'Gothic A1', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Nanum Brush Script', cursive;
+font-family: 'Nanum Gothic Coding', monospace;
+font-family: 'Nanum Myeongjo', serif;
+font-family: 'Nanum Pen Script', cursive;
+font-family: 'Oswald', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Sawarabi Gothic', sans-serif;
+}
+.firsts{
+  width: 100%;
+  height: 100vh;
+  z-index: 1;
+}
+
+.con{
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
   .video{
     position: absolute;
     top: 2400px;
     right: 0;
   }
+
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+}
+h1{
+  margin: 0;
 }
   .butass{
     height: 28px;
     width: 35px;
     z-index: 1;
     position: absolute;
-    top: 540px;
-    left: 2.5%;
+    top: 70vh;
+    right: 30.7%;
     background-image: url(assets/images/кнопка2.jpg);
     background-position: center;
   }
@@ -22,172 +56,153 @@ body {
     height: 28px;
     width: 35px;
     z-index: 1;
-    top: 540px;
+    top: 70vh;
     position: absolute;
-    left: 30.7%;
+    right: 2.5%;
     background-image: url(assets/images/кнопка.jpg);
     background-position: center;
   }
+  .rl{
+    top: 15vh;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    right: 0;
+  }
       .left {
-        left: 1.5%;
-        height: 500px;
-        width: 450px;
-        border: 2px solid black;
+        right: 1.5vh;
+        max-height: 515px;
+        max-width: 465px;
+        border-collapse: collapse;
+        border: 3px solid black;
         padding: 5px;
         background-color: black;
         box-shadow: 5px 5px;
         box-shadow: 3px 3px 5px rgba(122,122,122,0.5);;
-        position: absolute;
+        position: inherit;
+        margin: 0;
+        z-index: inherit;
       }
      
       .right {
-        height: 35%;
-        width: 25%;
+        max-height: 40vh;
+        max-width: 45vh;
         background-color: rgba(255, 255, 255, 0.425);
-        right: 1.5%;
-        border: 2px solid black;
+        left: 1.5vh;
+        border: 3px solid black;
         padding: 5px;
+        border-collapse: collapse;
         padding-top: 5px;
         box-shadow: 5px 5px;
         box-shadow: 3px 3px 5px rgba(122,122,122,0.5);;
-        position: absolute;
+        position: inherit;
         margin: 0;
+        z-index: inherit;
       }
-    
-  
-.objasne{
-  top: 17%;
-  width: 20%;
-  height: 20%;
-  text-align: center;
-  font-style: gothic;
-  font-size: 16px;
-  color: white;
-  padding: 2%;
-  font-weight: normal;
-  position: absolute;
-  z-index: 1;
-  left: 39.5%;
-}
-.zon{
-  margin: 0;
-  background-position: center;
+    button{
+      background-position: center;
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  min-width: 3.2%;
-  min-height: 6%;
-  max-width: 3.2%;
-  max-height: 6%;
+    }
+  
+.header{
+  z-index: 100;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  left: 0;
+  
+}
+.kf{
+  margin: 0;
+  min-width: 45px;
+  min-height: 45px;
+  max-width: 45px;
+  max-height: 45px;
  border-collapse: collapse;
  border: black 0.1% solid;
 }
 .play{
-left: 44%;
-top: 57%;
-position: absolute;
-min-width: inherit;
-min-height: inherit;
-max-width: inherit;
-max-height: inherit;
-z-index: 1;
-background-attachment:inherit;
-background-position: inherit;
+left: 70%;
+top: inherit;
+position: inherit;
+min-width: 45px;
+  min-height: 45px;
+  max-width: 45px;
+  max-height: 45px;
+z-index: inherit;
 background-image: url(assets/images/плей.bmp);
-background-repeat: inherit;
-background-size: inherit;
-border-collapse: inherit;
-border: inherit;
+border-collapse: collapse;
+ border: black 0.1% solid;
 }
 .pause{
-left: 48%;
-top: 57%;
-position: absolute;
-min-width: inherit;
-min-height: inherit;
-max-width: inherit;
-max-height: inherit;
-z-index: 1;
-background-position: inherit;
+left: 75%;
+top: inherit;
+position: inherit;
+min-width: 45px;
+  min-height: 45px;
+  max-width: 45px;
+  max-height: 45px;
+z-index: inherit;
 background-image: url(assets/images/пауза.bmp);
-background-repeat: inherit;
-background-attachment: inherit;
-background-size: inherit;
-border-collapse: inherit;
-border: inherit;
+border-collapse: collapse;
+ border: black 0.1% solid;
 }
 .prev{
-left: 52%;
-top: 57%;
-position: absolute;
-min-width: inherit;
-min-height: inherit;
-max-width: inherit;
-max-height: inherit;
-z-index: 1;
-background-position: center;
+left: 80%;
+top: inherit;
+position: inherit;
+min-width: 45px;
+  min-height: 45px;
+  max-width: 45px;
+  max-height: 45px;;
+z-index: inherit;
 background-image: url(assets/images/назад.bmp);
-background-repeat: inherit;
-background-attachment:inherit;
-background-size: inherit;
-border-collapse: inherit;
-border: inherit;
+border-collapse: collapse;
+ border: black 0.1% solid;
 }
 .next{
-left: 56%;
-top: 57%;
-position: absolute;
-min-width: inherit;
-min-height: inherit;
-max-width: inherit;
-max-height: inherit;
-z-index: 1;
-background-position: center;
+left: 85%;
+top: inherit;
+position: inherit;
+min-width: 45px;
+  min-height: 45px;
+  max-width: 45px;
+  max-height: 45px;
+z-index: inherit;
 background-image: url(assets/images/вперде.bmp);
-background-repeat: inherit;
-background-attachment:inherit;
-background-size: inherit;
-border-collapse: inherit;
-border: inherit;
+border-collapse: collapse;
+ border: black 0.1% solid;
 }
 .audio-track {
-  width: 15%;
-  height: 1%;
+  width: 30vh;
+  height: 0.5vh;
   background-color: #000000;
   left: 44%;
-top: 53%;
-position: absolute;
-z-index: 1;
+top: 35%;
+position: inherit;
+z-index: inherit;
 }
 .time {
   width: 0;
   height: 100%;
   background-color: white;
   left: 0;
-position: absolute;
-z-index: 1;
+position: inherit;
+z-index: inherit;
 }
-.fon{
-  background-image: url(assets/images/fon.jpg);
-  background-position: center;
-  width: 350px;
-  height: 420px;
-  position: absolute;
-  left: 39.3%;
-  top: 10%;
-  box-shadow: 0 0 15px black;
-  border-radius: 10px;
-}
+
 
 
 table {
   position: absolute;
-  width: 100%;
-  top: 650px;
-  left: 0;
+  width: 95%;
+  top: 110vh;
+  left: 2.5%;
   border-collapse: collapse;
   border-spacing: 0px 0px;
   border: 5px solid black; 
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Lato', sans-serif;
   font-size: 16px;
   background-color: rgb(197, 197, 197);
 }
@@ -196,7 +211,9 @@ th {
   border-right: black 2px solid;
   border-left: black 2px solid;
   text-align: center;
+  background-color: rgb(145, 145, 175);
   border-collapse: collapse;
+  font-family: inherit;
   font-size: 13px;
   font-weight: normal;
   color: black;
@@ -205,6 +222,7 @@ th {
 td {
   border-right: black 2px solid;
   border-collapse: collapse;
+  font-family: inherit;
   border-top: 2px black dashed;
   width: 45%;
   text-align: center;
@@ -214,10 +232,10 @@ td {
 }
 .spisok{
   position: absolute;
-  top: 600px;
+  top: 101vh;
   left: 35%;
   font-size: 22px;
-  font-family: sans-serif;
+  font-family: 'Nanum Gothic Coding', monospace;
 }
 .s {
   background-color: gray;
@@ -233,22 +251,34 @@ td {
 }
 .videoyou{
   position: absolute;
-  top: 2400px;
+  top: 380vh;
 }
 .video{
   position: absolute;
-  top: 2400px;
+  top: 380vh;
   right: 0;
 }
-
+.fonts{
+  font-family: 'Gothic A1', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Nanum Brush Script', cursive;
+font-family: 'Nanum Gothic Coding', monospace;
+font-family: 'Nanum Myeongjo', serif;
+font-family: 'Nanum Pen Script', cursive;
+font-family: 'Oswald', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Sawarabi Gothic', sans-serif;
+}
 .fail{
   position: absolute;
-  top: 2760px;
+  top: 450vh;
   right: 1.5%;
 }
 .fael{
   position: absolute;
-  top: 2827px;
+  top: 450vh;
   left: 1.8%;
   width: 55px;
   height: 55px;
@@ -262,7 +292,7 @@ button:hover{
 }
 .falo{
   position: absolute;
-  top: 2827px;
+  top: 450vh;
   left: 45.3%;
   width: 55px;
   height: 55px;
@@ -273,7 +303,7 @@ button:hover{
 }
 .otkr{
   position: absolute;
-  top: 2760px;
+  top: 450vh;
   left: 1.5%;
   width: 150px;
   height: 120px;
@@ -286,7 +316,7 @@ button:hover{
 }
 .down{
   position: absolute;
-  top: 2760px;
+  top: 450vh;
   left: 45%;
   width: 150px;
   height: 120px;
