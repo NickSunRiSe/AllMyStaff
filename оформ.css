@@ -18,19 +18,19 @@ font-family: 'Roboto', sans-serif;
 font-family: 'Sawarabi Gothic', sans-serif;
 }
 .firsts{
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   z-index: 1;
 }
 
 .con{
-  width: 100%;
+  width: 100vh;
   max-width: 1200px;
   margin: 0 auto;
 }
   .video{
     position: absolute;
-    top: 2400px;
+    top: 380vh;
     right: 0;
   }
 
@@ -43,23 +43,23 @@ h1{
   margin: 0;
 }
   .butass{
-    height: 28px;
+    height: 35px;
     width: 35px;
     z-index: 1;
     position: absolute;
-    top: 70vh;
-    right: 30.7%;
-    background-image: url(assets/images/кнопка2.jpg);
+    top: 60vh;
+    right: 29.5vw;
+    background-image: url(assets/images/назад.bmp);
     background-position: center;
   }
   .butass1{
-    height: 28px;
+    height: 35px;
     width: 35px;
     z-index: 1;
-    top: 70vh;
+    top: 60vh;
     position: absolute;
-    right: 2.5%;
-    background-image: url(assets/images/кнопка.jpg);
+    right: 2vw;
+    background-image: url(assets/images/вперде.bmp);
     background-position: center;
   }
   .rl{
@@ -71,8 +71,8 @@ h1{
   }
       .left {
         right: 1.5vh;
-        max-height: 515px;
-        max-width: 465px;
+        max-height: 68vh;
+        max-width: 35vw;
         border-collapse: collapse;
         border: 3px solid black;
         padding: 5px;
@@ -196,9 +196,9 @@ z-index: inherit;
 
 table {
   position: absolute;
-  width: 95%;
-  top: 110vh;
-  left: 2.5%;
+  width: 95vw;
+  top: 102vh;
+  left: 2vw;
   border-collapse: collapse;
   border-spacing: 0px 0px;
   border: 5px solid black; 
@@ -232,8 +232,8 @@ td {
 }
 .spisok{
   position: absolute;
-  top: 101vh;
-  left: 35%;
+  top: 107vh;
+  left: 35vw;
   font-size: 22px;
   font-family: 'Nanum Gothic Coding', monospace;
 }
@@ -278,8 +278,8 @@ font-family: 'Sawarabi Gothic', sans-serif;
 }
 .fael{
   position: absolute;
-  top: 450vh;
-  left: 1.8%;
+  top: 457.3vh;
+  left: 12vw;
   width: 55px;
   height: 55px;
   background-image: url(assets/images/pdff.png);
@@ -292,8 +292,8 @@ button:hover{
 }
 .falo{
   position: absolute;
-  top: 450vh;
-  left: 45.3%;
+  top: 457.3vh;
+  left: 55.5vw;
   width: 55px;
   height: 55px;
   background-image: url(assets/images/pdfl.png);
@@ -304,9 +304,9 @@ button:hover{
 .otkr{
   position: absolute;
   top: 450vh;
-  left: 1.5%;
-  width: 150px;
-  height: 120px;
+  left: 1.5vw;
+  width: 15vw;
+  height: 15vh;
   border-collapse: collapse;
   border: 3px solid black; 
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -317,9 +317,9 @@ button:hover{
 .down{
   position: absolute;
   top: 450vh;
-  left: 45%;
-  width: 150px;
-  height: 120px;
+  left: 45vw;
+  width: 15vw;
+  height: 15vh;
   border-collapse: collapse;
   border: 3px solid black; 
   font-family: Georgia, 'Times New Roman', Times, serif;
