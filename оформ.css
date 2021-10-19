@@ -18,14 +18,15 @@ font-family: 'Roboto', sans-serif;
 font-family: 'Sawarabi Gothic', sans-serif;
 }
 .firsts{
-  width: 100vw;
+  left: 2vw;
+  width: 95vw;
   height: 100vh;
   z-index: 1;
 }
 
 .con{
-  width: 100vh;
-  max-width: 1200px;
+  left: 2vw;
+  width: 95vw;
   margin: 0 auto;
 }
   .video{
@@ -41,6 +42,7 @@ font-family: 'Sawarabi Gothic', sans-serif;
 }
 h1{
   margin: 0;
+  font-family: 'Oswald', sans-serif;
 }
   .butass{
     height: 35px;
@@ -63,34 +65,31 @@ h1{
     background-position: center;
   }
   .rl{
-    top: 15vh;
+    top: 10vh;
     position: absolute;
     z-index: 1;
     left: 0;
     right: 0;
   }
-      .left {
+      .right {
         right: 1.5vh;
-        max-height: 68vh;
-        max-width: 35vw;
-        border-collapse: collapse;
-        border: 3px solid black;
-        padding: 5px;
-        background-color: black;
+        padding: 0.5%;
+        background-color: #000000;
         box-shadow: 5px 5px;
         box-shadow: 3px 3px 5px rgba(122,122,122,0.5);;
         position: inherit;
         margin: 0;
         z-index: inherit;
+        
+
       }
      
-      .right {
-        max-height: 40vh;
-        max-width: 45vh;
+      .left {
+        
         background-color: rgba(255, 255, 255, 0.425);
         left: 1.5vh;
-        border: 3px solid black;
-        padding: 5px;
+        border: 0.2vw solid black;
+        padding: 0.5%;
         border-collapse: collapse;
         padding-top: 5px;
         box-shadow: 5px 5px;
@@ -98,6 +97,8 @@ h1{
         position: inherit;
         margin: 0;
         z-index: inherit;
+        font-size: 13px;
+        font-family: 'Nanum Gothic Coding', monospace;
       }
     button{
       background-position: center;
@@ -105,15 +106,18 @@ h1{
   background-size: 100% 100%;
     }
   
-.header{
+header{
   z-index: 100;
-  position: absolute;
+  position: fixed;
   top: 0;
-  width: 100%;
+  width: 100vw;
   left: 0;
-  
+  background-color: rgb(131, 133, 161);
+  max-height: 6%;
+  min-height: 6%;
+  border-collapse: collapse;
 }
-.kf{
+.slider{
   margin: 0;
   min-width: 45px;
   min-height: 45px;
@@ -132,8 +136,8 @@ min-width: 45px;
   max-height: 45px;
 z-index: inherit;
 background-image: url(assets/images/плей.bmp);
-border-collapse: collapse;
- border: black 0.1% solid;
+border-collapse: inherit;
+
 }
 .pause{
 left: 75%;
@@ -145,8 +149,7 @@ min-width: 45px;
   max-height: 45px;
 z-index: inherit;
 background-image: url(assets/images/пауза.bmp);
-border-collapse: collapse;
- border: black 0.1% solid;
+border-collapse: inherit;
 }
 .prev{
 left: 80%;
@@ -158,8 +161,7 @@ min-width: 45px;
   max-height: 45px;;
 z-index: inherit;
 background-image: url(assets/images/назад.bmp);
-border-collapse: collapse;
- border: black 0.1% solid;
+border-collapse: inherit;
 }
 .next{
 left: 85%;
@@ -171,23 +173,23 @@ min-width: 45px;
   max-height: 45px;
 z-index: inherit;
 background-image: url(assets/images/вперде.bmp);
-border-collapse: collapse;
- border: black 0.1% solid;
+border-collapse: inherit;
 }
 .audio-track {
-  width: 30vh;
+  width: 100%;
   height: 0.5vh;
   background-color: #000000;
-  left: 44%;
-top: 35%;
+  left: 0;
+top: 6%;
 position: inherit;
 z-index: inherit;
 }
 .time {
   width: 0;
-  height: 100%;
+  height: 0.5vh;
   background-color: white;
   left: 0;
+  top: 6%;
 position: inherit;
 z-index: inherit;
 }
@@ -197,7 +199,7 @@ z-index: inherit;
 table {
   position: absolute;
   width: 95vw;
-  top: 102vh;
+  top: 108vh;
   left: 2vw;
   border-collapse: collapse;
   border-spacing: 0px 0px;
@@ -232,7 +234,7 @@ td {
 }
 .spisok{
   position: absolute;
-  top: 107vh;
+  top: 101vh;
   left: 35vw;
   font-size: 22px;
   font-family: 'Nanum Gothic Coding', monospace;
@@ -253,10 +255,27 @@ td {
   position: absolute;
   top: 380vh;
 }
-.video{
+.vdcon{
   position: absolute;
-  top: 380vh;
-  right: 0;
+  top: 45vh;
+  left: 5vw;
+  display: block;
+  width: 25vw;
+  height: 50vh;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 0 3px 3px #000000;
+  margin: 13px;
+  z-index: 2;
+}
+.video{
+  position: inherit;
+  display: block;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: inherit;
 }
 .fonts{
   font-family: 'Gothic A1', sans-serif;
