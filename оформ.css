@@ -27,12 +27,14 @@ font-family: 'Sawarabi Gothic', sans-serif;
 .con{
   left: 2vw;
   width: 95vw;
-  margin: 0 auto;
+  margin: 0 auto; 
+  display:inline-block;
 }
   .video{
     position: absolute;
     top: 380vh;
     right: 0;
+    display: inherit;
   }
 
 *,
@@ -44,32 +46,14 @@ h1{
   margin: 0;
   font-family: 'Oswald', sans-serif;
 }
-  .butass{
-    height: 35px;
-    width: 35px;
-    z-index: 1;
-    position: absolute;
-    top: 60vh;
-    right: 29.5vw;
-    background-image: url(assets/images/назад.bmp);
-    background-position: center;
-  }
-  .butass1{
-    height: 35px;
-    width: 35px;
-    z-index: 1;
-    top: 60vh;
-    position: absolute;
-    right: 2vw;
-    background-image: url(assets/images/вперде.bmp);
-    background-position: center;
-  }
   .rl{
     top: 10vh;
     position: absolute;
-    z-index: 1;
+    z-index: 0;
     left: 0;
     right: 0;
+    margin: 0;
+    display:inline-block;
   }
       .right {
         right: 1.5vh;
@@ -78,10 +62,9 @@ h1{
         box-shadow: 5px 5px;
         box-shadow: 3px 3px 5px rgba(122,122,122,0.5);;
         position: inherit;
-        margin: 0;
+        margin: inherit;
         z-index: inherit;
-        
-
+        display: inherit;
       }
      
       .left {
@@ -95,10 +78,39 @@ h1{
         box-shadow: 5px 5px;
         box-shadow: 3px 3px 5px rgba(122,122,122,0.5);;
         position: inherit;
-        margin: 0;
+        margin: inherit;
         z-index: inherit;
         font-size: 13px;
         font-family: 'Nanum Gothic Coding', monospace;
+        display: inherit;
+      }
+      .butass{
+        height: 35px;
+        width: 35px;
+        z-index: 1;
+        position: inherit;
+        top: 60vh;
+        right: 29.5vw;
+        background-image: url(assets/images/назад.bmp);
+        background-position: center;
+        border-collapse: collapse;
+        border: black 0.1% solid;
+        margin: inherit;
+        display: inherit;
+      }
+      .butass1{
+        height: 35px;
+        width: 35px;
+        z-index: 1;
+        top: 60vh;
+        position: inherit;
+        right: 2vw;
+        background-image: url(assets/images/вперде.bmp);
+        background-position: center;
+        border-collapse: collapse;
+       border: black 0.1% solid;
+       margin: inherit;
+       display:inherit;
       }
     button{
       background-position: center;
@@ -112,19 +124,10 @@ header{
   top: 0;
   width: 100vw;
   left: 0;
-  background-color: rgb(131, 133, 161);
+  background-color: rgb(145, 146, 156);
   max-height: 6%;
   min-height: 6%;
   border-collapse: collapse;
-}
-.slider{
-  margin: 0;
-  min-width: 45px;
-  min-height: 45px;
-  max-width: 45px;
-  max-height: 45px;
- border-collapse: collapse;
- border: black 0.1% solid;
 }
 .play{
 left: 70%;
