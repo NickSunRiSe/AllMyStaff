@@ -4,6 +4,7 @@ body {
   color: #000000;
   background-color: rgba(202, 202, 206, 0.932);
 }
+/* 100% */
 @media screen and (max-width: 1600px){
 .fonts{
   font-family: 'Gothic A1', sans-serif;
@@ -310,6 +311,7 @@ button:hover{
   font-family: 'Raleway', sans-serif;
 }
 }
+/* 110% */
 @media all and (max-width: 1400px){
   .fonts{
     font-family: 'Gothic A1', sans-serif;
@@ -568,8 +570,8 @@ button:hover{
     top: 40vh;
     left: 5vw;
     display: block;
-    width: 20vw;
-    height: 40vh;
+    width: 23vw;
+    height: 46vh;
     border-radius: 50%;
     overflow: hidden;
     box-shadow: 0 0 3px 3px #000000;
@@ -617,6 +619,7 @@ button:hover{
     font-family: 'Raleway', sans-serif;
   }
   }
+  /* 125% */
   @media all and (max-width: 1300px){
     .fonts{
       font-family: 'Gothic A1', sans-serif;
@@ -924,6 +927,7 @@ button:hover{
       font-family: 'Raleway', sans-serif;
     }
     }
+    /*   150%       */
     @media screen and (max-width: 1000px){
       .fonts{
         font-family: 'Gothic A1', sans-serif;
@@ -973,10 +977,10 @@ button:hover{
           display:inline-block;
         }
             .right {
-              right: 50vh;
+              right: 1.5vw;
               padding: 0.5%;
               width: 48vw;
-              top: 55vh;
+              height: 100.5vh;
               background-color: #000000;
               box-shadow: 5px 5px;
               box-shadow: 3px 3px 5px rgba(122,122,122,0.5);;
@@ -989,11 +993,11 @@ button:hover{
             .left {
               align-items: center;
               background-color: rgba(255, 255, 255, 0.425);
-              
+              left: 1.5vw;
               border: 0.2vw solid black;
               padding: 0.5%;
-              width: 50vw;
-              height: 50vh;
+              width: 45vw;
+              height: 35vh;
               border-collapse: collapse;
               padding-top: 5px;
               box-shadow: 5px 5px;
@@ -1010,8 +1014,8 @@ button:hover{
               width: 25px;
               z-index: 1;
               position: inherit;
-              top: 145vh;
-              left: 29.5vw;
+              top: 90vh;
+              right: 46vw;
               background-image: url(assets/images/назад.bmp);
               background-position: center;
               border-collapse: collapse;
@@ -1023,9 +1027,9 @@ button:hover{
               height: 25px;
               width: 25px;
               z-index: 1;
-              top: 145vh;
+              top: 90vh;
               position: inherit;
-              right: 29.5vw;
+              right: 2.5vw;
               background-image: url(assets/images/вперде.bmp);
               background-position: center;
               border-collapse: collapse;
@@ -1054,10 +1058,10 @@ button:hover{
       left: 70%;
       top: inherit;
       position: inherit;
-      min-width: 25px;
-        min-height: 25px;
-        max-width: 25px;
-        max-height: 25px;
+      min-width: 30px;
+        min-height: 30px;
+        max-width: 30px;
+        max-height: 30px;
       z-index: inherit;
       background-image: url(assets/images/плей.bmp);
       border-collapse: inherit;
@@ -1067,10 +1071,10 @@ button:hover{
       left: 75%;
       top: inherit;
       position: inherit;
-      min-width: 25px;
-        min-height: 25px;
-        max-width: 25px;
-        max-height: 25px;
+      min-width: 30px;
+      min-height: 30px;
+      max-width: 30px;
+      max-height: 30px;
       z-index: inherit;
       background-image: url(assets/images/пауза.bmp);
       border-collapse: inherit;
@@ -1079,10 +1083,10 @@ button:hover{
       left: 80%;
       top: inherit;
       position: inherit;
-      min-width: 25px;
-        min-height: 25px;
-        max-width: 25px;
-        max-height: 25px;
+      min-width: 30px;
+      min-height: 30px;
+      max-width: 30px;
+      max-height: 30px;
       z-index: inherit;
       background-image: url(assets/images/назад.bmp);
       border-collapse: inherit;
@@ -1091,10 +1095,10 @@ button:hover{
       left: 85%;
       top: inherit;
       position: inherit;
-      min-width: 25px;
-      min-height: 25px;
-      max-width: 25px;
-      max-height: 25px;
+      min-width: 30px;
+      min-height: 30px;
+      max-width: 30px;
+      max-height: 30px;
       z-index: inherit;
       background-image: url(assets/images/вперде.bmp);
       border-collapse: inherit;
@@ -1184,7 +1188,7 @@ button:hover{
       }
       .vdcon{
         position: absolute;
-        top: 180vh;
+        top: 45vh;
         align-items: center;
         display: block;
         width: 25vw;
