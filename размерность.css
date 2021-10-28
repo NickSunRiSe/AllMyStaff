@@ -1,3 +1,16 @@
+@media all and (max-width: 1600px){
+  div{
+    width: 50%
+  }
+}
+@media all and (max-width: 800px){
+  div{
+    width: 100%
+  }
+}
+
+
+
 /* 110% */
 @media all and (max-width: 1400px){
     .fonts{
