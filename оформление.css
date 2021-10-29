@@ -17,3 +17,20 @@ body {
   font-family: 'Roboto', sans-serif;
   font-family: 'Sawarabi Gothic', sans-serif;
   }
+  .zag{
+    font-size: 20px;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: fixed;
+    height: 10vh;
+    width: 100%;
+    background-color: #7f7d86;
+    margin: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  .hui{
+    top: 200vh;
+    position: absolute;
+  }
