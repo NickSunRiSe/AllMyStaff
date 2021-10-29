@@ -1,0 +1,19 @@
+body {
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 15px;
+    color: #000000;
+    background-color: rgba(202, 202, 206, 0.932);
+  }
+.fonts{
+    font-family: 'Gothic A1', sans-serif;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Nanum Brush Script', cursive;
+  font-family: 'Nanum Gothic Coding', monospace;
+  font-family: 'Nanum Myeongjo', serif;
+  font-family: 'Nanum Pen Script', cursive;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Sawarabi Gothic', sans-serif;
+  }
