@@ -22,15 +22,146 @@ body {
     color: white;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     position: fixed;
-    height: 10vh;
+    height: 5%;
     width: 100%;
-    background-color: #7f7d86;
-    margin: 0;
-    top: 0;
     left: 0;
     right: 0;
+    background-color: #7f7d86;
+    top: 0;
+    margin: 0 auto;
+    
   }
-  .hui{
-    top: 200vh;
-    position: absolute;
+  .con{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px 15px;
+    background-color: rgb(187, 187, 187);
+    }
+  @media (max-width:1200px){
+  .con{
+    max-width: 970px;
   }
+  .left{
+    margin-right: 0;
+  }
+  .right{
+    margin-left: 0;
+  }
+}
+@media (max-width:972px){
+  .con{
+    max-width: 750px;
+  }
+}
+@media (max-width:767px){
+  .con{
+    max-width: none;
+  }
+}
+  
+  .fs{
+    display: flex;
+  }
+      .right {
+        
+        right: 0;
+        background-color: #000000;
+        box-shadow: 5px 5px;
+        box-shadow: 3px 3px 5px rgba(122,122,122,0.5);
+        margin-right: 0;
+        margin-left: 10%;
+        margin-top: 7vh;
+        padding: 5px;
+      }
+     
+      .left {
+        left: 0;
+        background-color: rgba(255, 255, 255, 0.425);
+        border: 0.2vw solid black;
+        border-collapse: collapse;
+        padding-top: 5px;
+        box-shadow: 5px 5px;
+        box-shadow: 3px 3px 5px rgba(122,122,122,0.5);
+        font-size: 1.5vmax;
+        font-family: 'Nanum Gothic Coding', monospace;
+        padding: 15px;
+        height: 35%;
+        margin-top: 7vh;
+      }
+      
+
+
+      table {
+        padding-top: 25px;
+        width: 100%;
+        border-collapse: collapse;
+        border-spacing: 0px 0px;
+        border: 5px solid black; 
+        font-family: 'Lato', sans-serif;
+        font-size: 16px;
+        background-color: rgb(197, 197, 197);
+      }
+      
+      th {
+        border-right: black 2px solid;
+        border-left: black 2px solid;
+        text-align: center;
+        background-color: rgb(145, 145, 175);
+        border-collapse: collapse;
+        font-family: inherit;
+        font-size: 13px;
+        font-weight: normal;
+        color: black;
+        padding: 3px;
+      }
+      td {
+        border-right: black 2px solid;
+        border-collapse: collapse;
+        font-family: inherit;
+        border-top: 2px black dashed;
+        width: 45%;
+        text-align: center;
+        font-size: 13px;
+        color: black;
+        padding: 3px;
+      }
+      .spisok{
+        margin-left: 35%;
+        font-size: 22px;
+        font-family: 'Nanum Gothic Coding', monospace;
+      }
+      .s {
+        background-color: gray;
+      }
+      .g {
+        background-color: green;
+      }
+      .y {
+        background-color: yellow;
+      }
+      .r {
+        background-color: red;
+      }
+      .videoyou{
+        width: 100%;
+        height: 80vh;
+        padding-top: 25px;
+      }
+      
+      
+      .fail{
+        padding-top: 25px;
+        margin: 0 auto;
+        width: 100%;
+        height: 80vh;
+      }
+      button:hover{
+        cursor: pointer;
+      }
+      .end{
+        width: 100%;
+        text-align: right;
+        font-family: 'Raleway', sans-serif;
+      }
+      
+      
