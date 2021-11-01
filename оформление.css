@@ -17,25 +17,13 @@ body {
   font-family: 'Roboto', sans-serif;
   font-family: 'Sawarabi Gothic', sans-serif;
   }
-  .zag{
-    font-size: 20px;
-    color: white;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    position: fixed;
-    height: 5%;
-    width: 100%;
-    left: 0;
-    right: 0;
-    background-color: #7f7d86;
-    top: 0;
-    margin: 0 auto;
-    
-  }
+  
   .con{
     max-width: 1200px;
     margin: 0 auto;
     padding: 0px 15px;
     background-color: rgb(187, 187, 187);
+    
     }
   @media (max-width:1200px){
   .con{
@@ -62,37 +50,156 @@ body {
   .fs{
     display: flex;
   }
-      .right {
+      
+      
+      .header{
+        font-size: 1.5vmax;
+        color: white;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        position: fixed;
+        height: 5%;
+        width: 100%;
+        left: 0;
+        right: 0;
+        background-color: #7f7d86;
+        top: 0;
+        margin: 0 auto;
+      } 
+      .play{
+        left: 45%;
         
+        position: relative;
+        min-width: 30px;
+          min-height: 30px;
+          max-width: 35px;
+          max-height: 35px;
+        z-index: 1;
+        background-image: url(assets/images/плей.bmp);
+        border-collapse: inherit;
+        
+        }
+        .pause{
+          left: 47%;
+        
+        position: relative;
+        min-width: 30px;
+          min-height: 30px;
+          max-width: 35px;
+          max-height: 35px;
+        z-index: 1;
+        background-image: url(assets/images/пауза.bmp);
+        border-collapse: inherit;
+        }
+        .prev{
+          left: 49%;
+        position: relative;
+        min-width: 30px;
+          min-height: 30px;
+          max-width: 35px;
+          max-height: 35px;
+        z-index: 1;
+        background-image: url(assets/images/назад.bmp);
+        border-collapse: inherit;
+        }
+        .next{
+          left: 51%;
+        position: relative;
+        min-width: 30px;
+          min-height: 30px;
+          max-width: 35px;
+          max-height: 35px;
+        z-index: 1;
+        background-image: url(assets/images/вперде.bmp);
+        border-collapse: inherit;
+        }
+        .audio-track {
+          width: 100%;
+          height: 15%;
+          background-color: #000000;
+          left: 0;
+        top: 5%;
+        position: relative;
+        z-index: 1;
+        }
+        .time {
+          width: 0;
+          height: 100%;
+          background-color: white;
+          left: 0;
+          top: 0%;
+        position: relative;
+        z-index: 1;
+        }
+
+        .left {
+          left: 0;
+          background-color: rgba(255, 255, 255, 0.425);
+          border: 0.2vw solid black;
+          border-collapse: collapse;
+          padding-top: 5px;
+          box-shadow: 5px 5px;
+          box-shadow: 3px 3px 5px rgba(122,122,122,0.5);
+          font-size: 1.5vmax;
+          font-family: 'Nanum Gothic Coding', monospace;
+          padding: 15px;
+          height: 35%;
+          margin-top: 7vh;
+        }
+.slid{
+        margin-right: 0;
+        margin-left: 10%;
+        margin-top: 7vh;
+      
+}
+      .right {
         right: 0;
         background-color: #000000;
         box-shadow: 5px 5px;
         box-shadow: 3px 3px 5px rgba(122,122,122,0.5);
-        margin-right: 0;
-        margin-left: 10%;
-        margin-top: 7vh;
         padding: 5px;
       }
-     
-      .left {
-        left: 0;
-        background-color: rgba(255, 255, 255, 0.425);
-        border: 0.2vw solid black;
+      /* кнопки слайдера */
+      .butass{
+        min-width: 35px;
+        min-height: 35px;
+        max-width: 35px;
+        max-height: 35px;
+        z-index: 1;
+        position: relative;
+        bottom: 10%;
+        left: 2.5%;
+        background-image: url(assets/images/назад.bmp);
+        background-position: center;
         border-collapse: collapse;
-        padding-top: 5px;
-        box-shadow: 5px 5px;
-        box-shadow: 3px 3px 5px rgba(122,122,122,0.5);
-        font-size: 1.5vmax;
-        font-family: 'Nanum Gothic Coding', monospace;
-        padding: 15px;
-        height: 35%;
-        margin-top: 7vh;
+        border: black 0.1% solid;
       }
-      
+      .butass1{
+        min-width: 35px;
+        min-height: 35px;
+        max-width: 35px;
+        max-height: 35px;
+        z-index: 1;
+        position: relative;
+        bottom: 10%;
+        left: 81.5%;
+        background-image: url(assets/images/вперде.bmp);
+        background-position: center;
+        border-collapse: collapse;
+       border: black 0.1% solid;
+      }
+    button{
+      background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+    }
+    
+
+
+
 
 
       table {
-        padding-top: 25px;
+        padding-top: 35px;
         width: 100%;
         border-collapse: collapse;
         border-spacing: 0px 0px;
@@ -145,12 +252,12 @@ body {
       .videoyou{
         width: 100%;
         height: 80vh;
-        padding-top: 25px;
+        padding-top: 35px;
       }
       
       
       .fail{
-        padding-top: 25px;
+        padding-top: 35px;
         margin: 0 auto;
         width: 100%;
         height: 80vh;
@@ -164,4 +271,31 @@ body {
         font-family: 'Raleway', sans-serif;
       }
       
+      /* Контейнер с видео*/
+
+      .vdcon{
+        position: absolute;
+        top: 45vh;
+        left: 5vw;
+        display: block;
+        width: 25vw;
+        height: 50vh;
+        border-radius: 50%;
+        overflow: hidden;
+        box-shadow: 0 0 3px 3px #000000;
+        margin: 13px;
+        z-index: 2;
+      }
+      .video{
+        position: inherit;
+        display: block;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: inherit;
+      }
+
+
+/* Плеер */
       
