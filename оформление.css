@@ -61,23 +61,25 @@ body {
         background-color: #7f7d86;
         top: 0;
         margin: 0 auto;
+        z-index: 100;
       } 
       .te{
+        left: 8%;
         font-size: 1.5vmax;
         color: white;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-family: 'Ubuntu', sans-serif;
         position: fixed;
         top: 1%;
       }
       .play{
         top: 0.2%;
-        left: 65%;
+        left: 74%;
         position: fixed;
         min-width: 2.3%;
         min-height: 4.5%;
           max-width: 35px;
           max-height: 35px;
-        z-index: 1;
+        z-index: 101;
         background-image: url(assets/images/плей.bmp);
         border-collapse: collapse;
         border: black 0.1% solid;
@@ -85,39 +87,39 @@ body {
         }
         .pause{
           top: 0.2%;
-          left: 68%;
+          left: 78%;
         position: fixed;
         min-width: 2.3%;
         min-height: 4.5%;
           max-width: 35px;
           max-height: 35px;
-        z-index: 1;
+        z-index: 101;
         background-image: url(assets/images/пауза.bmp);
         border-collapse: collapse;
         border: black 0.1% solid;
         }
         .prev{
           top: 0.2%;
-          left: 71%;
+          left: 82%;
         position: fixed;
         min-width: 2.3%;
           min-height: 4.5%;
           max-width: 35px;
           max-height: 35px;
-        z-index: 1;
+        z-index: 101;
         background-image: url(assets/images/назад.bmp);
         border-collapse: collapse;
         border: black 0.1% solid;
         }
         .next{
           top: 0.2%;
-          left: 74%;
+          left: 86%;
         position: fixed;
         min-width: 2.3%;
         min-height: 4.5%;
           max-width: 35px;
           max-height: 35px;
-        z-index: 1;
+        z-index: 101;
         background-image: url(assets/images/вперде.bmp);
         border-collapse: collapse;
         border: black 0.1% solid;
