@@ -53,9 +53,6 @@ body {
       
       
       .header{
-        font-size: 1.5vmax;
-        color: white;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         position: fixed;
         height: 5%;
         width: 100%;
@@ -65,69 +62,82 @@ body {
         top: 0;
         margin: 0 auto;
       } 
+      .te{
+        font-size: 1.5vmax;
+        color: white;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        position: fixed;
+        top: 1%;
+      }
       .play{
-        left: 45%;
-        
-        position: relative;
-        min-width: 30px;
-          min-height: 30px;
+        top: 0.2%;
+        left: 65%;
+        position: fixed;
+        min-width: 2.3%;
+        min-height: 4.5%;
           max-width: 35px;
           max-height: 35px;
         z-index: 1;
         background-image: url(assets/images/плей.bmp);
-        border-collapse: inherit;
+        border-collapse: collapse;
+        border: black 0.1% solid;
         
         }
         .pause{
-          left: 47%;
-        
-        position: relative;
-        min-width: 30px;
-          min-height: 30px;
+          top: 0.2%;
+          left: 68%;
+        position: fixed;
+        min-width: 2.3%;
+        min-height: 4.5%;
           max-width: 35px;
           max-height: 35px;
         z-index: 1;
         background-image: url(assets/images/пауза.bmp);
-        border-collapse: inherit;
+        border-collapse: collapse;
+        border: black 0.1% solid;
         }
         .prev{
-          left: 49%;
-        position: relative;
-        min-width: 30px;
-          min-height: 30px;
+          top: 0.2%;
+          left: 71%;
+        position: fixed;
+        min-width: 2.3%;
+          min-height: 4.5%;
           max-width: 35px;
           max-height: 35px;
         z-index: 1;
         background-image: url(assets/images/назад.bmp);
-        border-collapse: inherit;
+        border-collapse: collapse;
+        border: black 0.1% solid;
         }
         .next{
-          left: 51%;
-        position: relative;
-        min-width: 30px;
-          min-height: 30px;
+          top: 0.2%;
+          left: 74%;
+        position: fixed;
+        min-width: 2.3%;
+        min-height: 4.5%;
           max-width: 35px;
           max-height: 35px;
         z-index: 1;
         background-image: url(assets/images/вперде.bmp);
-        border-collapse: inherit;
+        border-collapse: collapse;
+        border: black 0.1% solid;
         }
         .audio-track {
           width: 100%;
-          height: 15%;
+          height: 1%;
           background-color: #000000;
           left: 0;
         top: 5%;
-        position: relative;
+        position: fixed;
         z-index: 1;
         }
         .time {
           width: 0;
-          height: 100%;
+          height: 1%;
           background-color: white;
           left: 0;
-          top: 0%;
-        position: relative;
+          top: 5%;
+        position: fixed;
         z-index: 1;
         }
 
@@ -139,17 +149,16 @@ body {
           padding-top: 5px;
           box-shadow: 5px 5px;
           box-shadow: 3px 3px 5px rgba(122,122,122,0.5);
-          font-size: 1.5vmax;
+          font-size: 1.2vmax;
           font-family: 'Nanum Gothic Coding', monospace;
-          padding: 15px;
+          padding: 10px;
           height: 35%;
           margin-top: 7vh;
         }
 .slid{
         margin-right: 0;
-        margin-left: 10%;
+        margin-left: 20%;
         margin-top: 7vh;
-      
 }
       .right {
         right: 0;
@@ -158,7 +167,7 @@ body {
         box-shadow: 3px 3px 5px rgba(122,122,122,0.5);
         padding: 5px;
       }
-      /* кнопки слайдера */
+      
       .butass{
         min-width: 35px;
         min-height: 35px;
@@ -167,7 +176,7 @@ body {
         z-index: 1;
         position: relative;
         bottom: 10%;
-        left: 2.5%;
+        left: 4.5%;
         background-image: url(assets/images/назад.bmp);
         background-position: center;
         border-collapse: collapse;
@@ -181,7 +190,7 @@ body {
         z-index: 1;
         position: relative;
         bottom: 10%;
-        left: 81.5%;
+        left: 79.5%;
         background-image: url(assets/images/вперде.bmp);
         background-position: center;
         border-collapse: collapse;
@@ -205,7 +214,7 @@ body {
         border-spacing: 0px 0px;
         border: 5px solid black; 
         font-family: 'Lato', sans-serif;
-        font-size: 16px;
+        font-size: 0.9vmax;
         background-color: rgb(197, 197, 197);
       }
       
@@ -216,7 +225,7 @@ body {
         background-color: rgb(145, 145, 175);
         border-collapse: collapse;
         font-family: inherit;
-        font-size: 13px;
+        font-size: 1vmax;
         font-weight: normal;
         color: black;
         padding: 3px;
@@ -228,7 +237,7 @@ body {
         border-top: 2px black dashed;
         width: 45%;
         text-align: center;
-        font-size: 13px;
+        font-size: inherit;
         color: black;
         padding: 3px;
       }
