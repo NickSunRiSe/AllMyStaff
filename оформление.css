@@ -142,6 +142,9 @@ body {
         position: fixed;
         z-index: 1;
         }
+  
+
+
 
         .left {
           left: 0;
@@ -206,7 +209,24 @@ body {
     
 
 
-
+.vdcon{
+  display: block;
+  width: 25%;
+  height: 43%;
+  border-radius: 45%;
+  box-shadow: 0 0 3px 3px #000000;
+  margin: 0 auto;
+  z-index: 2;
+}
+.vid{
+  
+  display: block;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: inherit;
+}
 
 
       table {
