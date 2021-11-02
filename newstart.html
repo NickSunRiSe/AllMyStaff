@@ -1,53 +1,66 @@
 <!DOCTYPE html>
 
 <html>
-    <title>Новая надежда</title>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width">
-        <link rel="stylesheet" href = "оформление.css">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet"> 
-        <link href="https://fonts.googleapis.com/css2?family=Gothic+A1&family=Lato&family=Montserrat&family=Nanum+Brush+Script&family=Nanum+Gothic+Coding&family=Nanum+Myeongjo&family=Nanum+Pen+Script&family=Oswald&family=Raleway:wght@100;300;400&family=Roboto&family=Sawarabi+Gothic&display=swap" rel="stylesheet"> 
-    </head>
-<body>
-    <header class="header"> <div class="te">Приветствую на второй попытке создать сайт!</div> 
+  <title>Новая надежда</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="оформление.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gothic+A1&family=Lato&family=Montserrat&family=Nanum+Brush+Script&family=Nanum+Gothic+Coding&family=Nanum+Myeongjo&family=Nanum+Pen+Script&family=Oswald&family=Raleway:wght@100;300;400&family=Roboto&family=Sawarabi+Gothic&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="te">Приветствую на второй попытке создать сайт!</div>
       <audio id="audio" type="audio/mpeg">
-        <source src="sounds/111.mp3">
-        <source src="sounds/222.mp3">
-        <source src="sounds/333.mp3">
+        <source src="sounds/111.mp3" />
+        <source src="sounds/222.mp3" />
+        <source src="sounds/333.mp3" />
       </audio>
       <button class="play" type="button"></button>
-      <button class="pause" type="button"></button> 
+      <button class="pause" type="button"></button>
       <button class="prev" type="button"></button>
       <button class="next" type="button"></button>
       <div class="audio-track"><div class="time"></div></div>
     </header>
-    <div class="con"> 
-    <div class="fs">
-      <div class="left">
-        <p> Наш кандидат на выборы президнета РФ в 2024 году, Роман! <br>
-        Молодой, активный и работящий мужчина. <br>
-        Не боится трудностей и готов к любым проблемам, он тот,<br>
-        кто готов вести за собой людей!<br>
-        Отличный педагог, который подготовил для нашей системы образования<br>
-        "Элективные курсы по математике в современной школe"!<br>
-        Является отличным IT специалистом,<br>
-        который сможет разобраться во всём интернете!<br>
-        А главное, очень любит свою страну, настоящий патриот!<br>
-        </p>
+    <div class="con">
+      <div class="fs">
+        <div class="left">
+          <p>
+            Наш кандидат на выборы президнета РФ в 2024 году, Роман! <br />
+            Молодой, активный и работящий мужчина. <br />
+            Не боится трудностей и готов к любым проблемам, он тот,<br />
+            кто готов вести за собой людей!<br />
+            Отличный педагог, который подготовил для нашей системы
+            образования<br />
+            "Элективные курсы по математике в современной школe"!<br />
+            Является отличным IT специалистом,<br />
+            который сможет разобраться во всём интернете!<br />
+            А главное, очень любит свою страну, настоящий патриот!<br />
+          </p>
+        </div>
+        <div class="slid">
+          <img class="right" id="foto" src="assets/images/РНП1.jpg" />
+          <button class="butass" onclick="prevfoto()"></button>
+          <button class="butass1" onclick="nextfoto()"></button>
+        </div>
       </div>
-      <div class="slid">
-      <img class="right" id="foto" src="assets/images/РНП1.jpg">
-      <button class="butass" onclick="prevfoto()"></button>
-      <button class="butass1" onclick="nextfoto()"></button> 
-      </div>
-      </div>
+
       <div class="vdcon">
         <video class="vid">
-<source src="video.mp4" type="video/mp4">
-        </video></div>
+          <source src="video.mp4" type="video/mp4" />
+        </video>
+      </div>
+
       <div class="spisok"><p>Список людей, поддерживающих Романа</p></div>
       <table>
         <tr>
@@ -55,468 +68,542 @@
           <th>Имя</th>
           <th>Статус</th>
           <th>Собака</th>
-          <th>Карма</th></tr>  
-          <tr>
-              <td>Роман</td>
-              <td>Роман</td>
-              <td>Директор</td>
-              <td>@xgolodx</td>
-              <td class = "g"></td>
-              </tr>
-            <tr>
-              <td>какой то инвалид</td>
-              <td>Никита</td>
-              <td>Завхоз</td>
-              <td>@NickSunrise</td>
-              <td class = "y"></td>
-            </tr>
-            <tr>
-              <td>Просроченный Сон</td>
-              <td>Александр</td>
-              <td>Оболтус</td>
-              <td>@SaveTheDust</td>
-              <td class = "y"></td>
-            </tr>
-            <tr>
-              <td>Мурм ~</td>
-              <td class = "s"></td>
-              <td class = "s"></td>
-              <td>@pycccckoe_paguo</td>
-              <td class = "y"></td>
-            </tr>
-            <tr>
-              <td>User</td>
-              <td class = "s"></td>
-              <td>Специалист ОР</td>
-              <td>@bibakhpriehalvgosti</td>
-              <td class = "y"></td>
-            </tr><tr>
-              <td>Juicy Lucy</td>
-              <td>Анастасия</td>
-              <td>Специалист ОП</td>
-              <td>@damnthisphloem</td>
-              <td class = "g"></td>
-            </tr><tr>
-              <td>Николай</td>
-              <td>Николай</td>
-              <td class = "s"></td>
-              <td>@nicksadness</td>
-              <td class = "y"></td>
-            </tr><tr>
-              <td>Данил</td>
-              <td>Данил</td>
-              <td class = "s"></td>
-              <td class = "s"></td>
-              <td class = "y"></td>
-            </tr><tr>
-              <td>Ivan Foflin</td>
-              <td>?Иван?</td>
-              <td class = "s"></td>
-              <td class = "s"></td>
-              <td class = "y"></td>
-            </tr><tr>
-              <td>Илья Факепиж</td>
-              <td>Илья</td>
-              <td>Дизайнер</td>
-              <td>@FakePig</td>
-              <td class = "g"></td>
-            </tr><tr>
-              <td>Андрей Шкретов</td>
-              <td>Андрей</td>
-              <td>Руководитель IT</td>
-              <td>@prepezdak</td>
-              <td class = "g"></td>
-            </tr><tr>
-              <td>Ехидный Блинчик</td>
-              <td class = "s"></td>
-              <td>Специалист ЕБ</td>
-              <td class = "s"></td>
-              <td class = "y"></td>
-            </tr><tr>
-              <td>Эмблемы смерти</td>
-              <td class = "s"></td>
-              <td>Офис-менеджер</td>
-              <td>@fallencomrade</td>
-              <td class = "y"></td>
-            </tr><tr>
-              <td>Black Show</td>
-              <td class = "s"></td>
-              <td class = "s"></td>
-              <td>@Freedomordie</td>
-              <td class = "y"></td>
-            </tr><tr>
-              <td>Олла4ка</td>
-              <td>не помню но знаю</td>
-              <td>Специалист ЛОЛИ</td>
-              <td>@oll4kanyan</td>
-              <td class = "g"></td>
-            </tr><tr>
-              <td>рыба учится читать</td>
-              <td>рыба</td>
-              <td>Специалист РО</td>
-              <td class = "s"></td>
-              <td class = "y"></td>
-            </tr><tr>
-              <td>меня уже нет</td>
-              <td class = "s"></td>
-              <td class = "s"></td>
-              <td>@d9d9s</td>
-              <td class = "y"></td>
-            </tr><tr>
-              <td>святой отец</td>
-              <td class = "s"></td>
-              <td class = "s"></td>
-              <td class = "s"></td>
-              <td class = "y"></td>
-            </tr><tr>
-              <td>Demid Shnukov</td>
-              <td class = "s"></td>
-              <td class = "s"></td>
-              <td>@Shnuuuk</td>
-              <td class = "y"></td>
-            </tr><tr>
-              <td>Henri Lloyd</td>
-              <td class = "s"></td>
-              <td class = "s"></td>
-              <td class = "s"></td>
-              <td class = "y"></td>
-            </tr><tr>
-              <td>reidshadow</td>
-              <td class = "s"></td>
-              <td class = "s"></td>
-              <td>@reidshadow</td>
-              <td class = "y"></td>
-            </tr><tr>
-              <td>X.gazon jopin.X</td>
-              <td class = "s"></td>
-              <td class = "s"></td>
-              <td class = "s"></td>
-              <td class = "y"></td>
-            </tr><tr>
-              <td>Ilya Govorukha</td>
-              <td>Илья</td>
-              <td class = "s"></td>
-              <td>@badcompanion1</td>
-              <td class = "y"></td>
-            </tr><tr>
-              <td>QbuK B KuBe</td>
-              <td class = "s"></td>
-              <td>Соискатель</td>
-              <td>@QbuKx</td>
-              <td class = "y"></td>
-            </tr><tr>
-              <td>IS KA</td>
-              <td class = "s"></td>
-              <td class = "s"></td>
-              <td>@CandyISIS</td>
-              <td class = "y"></td>
-            </tr><tr>
-              <td>Мэш</td>
-              <td class = "s"></td>
-              <td class = "s"></td>
-              <td>@agusanar</td>
-              <td class = "y"></td>
-            </tr><tr>
-              <td>Волжанин</td>
-              <td class = "s"></td>
-              <td class = "s"></td>
-              <td class = "s"></td>
-              <td class = "y"></td>
-            </tr><tr>
-              <td>Джимми 2 куртки</td>
-              <td class = "s"></td>
-              <td class = "s"></td>
-              <td>@HardbassUzbek228</td>
-              <td class = "y"></td>
-            </tr><tr>
-              <td>Motja</td>
-              <td class = "s"></td>
-              <td class = "s"></td>
-              <td>@Motjja</td>
-              <td class = "y"></td>
-            </tr><tr>
-              <td>Какая-то Тянучка</td>
-              <td class = "s"></td>
-              <td class = "s"></td>
-              <td>@heze_kto</td>
-              <td class = "y"></td>
-            </tr><tr>
-              <td>Tamara_Willson Tamara_Willson</td>
-              <td class = "s"></td>
-              <td>Специалист ПБ</td>
-              <td class = "s"></td>
-              <td class = "y"></td>
-            </tr><tr>
-              <td>Эксизтенциональный мегаверс эрибральных трусцов Крыможанский книненист миротворческий трупец</td>
-              <td class = "s"></td>
-              <td class = "s"></td>
-              <td>@EvChoLnz</td>
-              <td class = "y"></td>
-            </tr><tr>
-              <td>Bruh ...</td>
-              <td class = "s"></td>
-              <td class = "s"></td>
-              <td>@Gluttony_555</td>
-              <td class = "y"></td>
-            </tr><tr>
-              <td>slampolice</td>
-              <td class = "s"></td>
-              <td class = "s"></td>
-              <td class = "s"></td>
-              <td class = "y"></td>
-            </tr><tr>
-              <td>🇷🇺</td>
-              <td class = "s"></td>
-              <td class = "s"></td>
-              <td>@ustricaaa</td>
-              <td class = "y"></td>
-            </tr><tr>
-              <td>театр одного кадавра</td>
-              <td class = "s"></td>
-              <td>Бухгалтер</td>
-              <td>@fitochai</td>
-              <td class = "y"></td>
-            </tr><tr>
-              <td>Артём</td>
-              <td>Артём</td>
-              <td>HR-менеджер</td>
-              <td>@TemWithFrog</td>
-              <td class = "y"></td>
-            </tr><tr>
-              <td>Omich Marlow</td>
-              <td class = "s"></td>
-              <td>Специалист ОР</td>
-              <td>@marlowleo</td>
-              <td class = "y"></td>
-            </tr><tr>
-              <td>rareretard</td>
-              <td class = "s"></td>
-              <td class = "s"></td>
-              <td>@shawtyslayer28</td>
-              <td class = "y"></td>
-            </tr><tr>
-              <td>trash trashev</td>
-              <td class = "s"></td>
-              <td class = "s"></td>
-              <td>@trashtrashev</td>
-              <td class = "y"></td>
-            </tr><tr>
-              <td>я не иван</td>
-              <td>не иван, возможно кирилл</td>
-              <td class = "s"></td>
-              <td>@Kirillvoznya</td>
-              <td class = "y"></td>
-            </tr><tr>
-              <td>Eronor Dagoth</td>
-              <td class = "s"></td>
-              <td class = "s"></td>
-              <td>@laaaain</td>
-              <td class = "y"></td>
-            </tr><tr>
-              <td>🌚</td>
-              <td class = "s"></td>
-              <td class = "s"></td>
-              <td>@neinteresnyy33</td>
-              <td class = "y"></td>
-            </tr><tr>
-              <td>Highness</td>
-              <td class = "s"></td>
-              <td class = "s"></td>
-              <td class = "s"></td>
-              <td class = "y"></td>
-            </tr><tr>
-              <td>Pёs</td>
-              <td class = "s"></td>
-              <td class = "s"></td>
-              <td>@Sobakaundead</td>
-              <td class = "y"></td>
-            </tr><tr>
-              <td>Сервелат Домашний</td>
-              <td class = "s"></td>
-              <td class = "s"></td>
-              <td>@forme10q</td>
-              <td class = "y"></td>
-            </tr><tr>
-              <td>Игорь</td>
-              <td>Игорь</td>
-              <td class = "s"></td>
-              <td>@wasals</td>
-              <td class = "y"></td>
-            </tr><tr>
-              <td>ddddddddddddddddddddddddddddddddddddddddddddd</td>
-              <td class = "s"></td>
-              <td class = "s"></td>
-              <td class = "s"></td>
-              <td class = "y"></td>
-            </tr><tr>
-              <td>end ray</td>
-              <td class = "s"></td>
-              <td class = "s"></td>
-              <td>@emowaltzz</td>
-              <td class = "y"></td>
-            </tr><tr>
-              <td>Иван Вахрушев</td>
-              <td>Иван</td>
-              <td class = "s"></td>
-              <td>@bezalkogolik</td>
-              <td class = "y"></td>
-            </tr><tr>
-              <td>Дмитрий</td>
-              <td>Дмитрий</td>
-              <td>Сис. админ</td>
-              <td>@stevenlone</td>
-              <td class = "y"></td>
-            </tr><tr>
-              <td>Tosti</td>
-              <td class = "s"></td>
-              <td class = "s"></td>
-              <td>@TosterYe</td>
-              <td class = "y"></td>
-            </tr><tr>
-              <td>Every Night</td>
-              <td class = "s"></td>
-              <td class = "s"></td>
-              <td class = "s"></td>
-              <td class = "y"></td>
-            </tr><tr>
-              <td>Nikita</td>
-              <td>Никита</td>
-              <td class = "s"></td>
-              <td>@nikitukich</td>
-              <td class = "y"></td>
-            </tr><tr>
-              <td>ю ноу</td>
-              <td class = "s"></td>
-              <td class = "s"></td>
-              <td>@water_girl</td>
-              <td class = "y"></td>
-            </tr><tr>
-              <td>Гришаня</td>
-              <td>Гриша</td>
-              <td class = "s"></td>
-              <td>@seventhobject</td>
-              <td class = "y"></td>
-            </tr><tr>
-              <td>Денис Бугульман</td>
-              <td>Денис</td>
-              <td class = "s"></td>
-              <td>@ppsebnhi</td>
-              <td class = "y"></td>
-            </tr><tr>
-              <td>Ole Lukoie</td>
-              <td class = "s"></td>
-              <td class = "s"></td>
-              <td>@OleeLukoie</td>
-              <td class = "y"></td>
-            </tr><tr>
-              <td>spicyoep</td>
-              <td class = "s"></td>
-              <td class = "s"></td>
-              <td>@Spiceoep</td>
-              <td class = "y"></td>
-            </tr><tr>
-              <td>??? ¿¿¿</td>
-              <td class = "s"></td>
-              <td class = "s"></td>
-              <td>@Kto_toKto_to</td>
-              <td class = "y"></td>
-            </tr><tr>
-              <td>Konstantin Abvgdeyozh</td>
-              <td>?Константин?</td>
-              <td class = "s"></td>
-              <td>@Peach_toad</td>
-              <td class = "y"></td>
-            </tr><tr>
-              <td>₳₹₮€₹</td>
-              <td class = "s"></td>
-              <td class = "s"></td>
-              <td>@AR73R</td>
-              <td class = "y"></td>
-            </tr><tr>
-              <td>Александр</td>
-              <td>Александр</td>
-              <td>Директор</td>
-              <td>@SelenZzz</td>
-              <td class = "y"></td>
-            </tr><tr>
-              <td>ZAEBAL XOCHY_KYRIT'</td>
-              <td class = "s"></td>
-              <td class = "s"></td>
-              <td>@yablevanul</td>
-              <td class = "y"></td>
-            </tr><tr>
-              <td>Егор</td>
-              <td>Егор</td>
-              <td class = "s"></td>
-              <td>@youthchoosespace</td>
-              <td class = "y"></td>
-            </tr><tr>
-              <td>Егор</td>
-              <td>Егор</td>
-              <td class = "s"></td>
-              <td>@Youyouyoyo</td>
-              <td class = "y"></td>
-            </tr><tr>
-              <td>ilosky</td>
-              <td class = "s"></td>
-              <td class = "s"></td>
-              <td>@ktowhiplash</td>
-              <td class = "y"></td>
-            </tr><tr>
-              <td>351</td>
-              <td class = "s"></td>
-              <td class = "s"></td>
-              <td>@p351q</td>
-              <td class = "y"></td>
-            </tr><tr>
-              <td>Тимур Галеев</td>
-              <td>?Тимур?</td>
-              <td class = "s"></td>
-              <td>@crystaltron</td>
-              <td class = "y"></td>
-            </tr><tr>
-              <td>beaver</td>
-              <td class = "s"></td>
-              <td class = "s"></td>
-              <td>@bindingofAzimov</td>
-              <td class = "y"></td>
-            </tr><tr>
-              <td>Саша Флорин</td>
-              <td>Саша</td>
-              <td>Руководитель ОМР</td>
-              <td>@florin6263</td>
-              <td class = "y"></td>
-            </tr><tr>
-              <td>Oleksii Ustinov</td>
-              <td class = "s"></td>
-              <td class = "s"></td>
-              <td>@cookiemonsterleet</td>
-              <td class = "y"></td>
-            </tr><tr>
-              <td>Глеб мельников</td>
-              <td>Глеб</td>
-              <td class = "s"></td>
-              <td>@Anime_boy16</td>
-              <td class = "y"></td>
-            </tr>
-          </table>
-  
-    <iframe class="videoyou" src="https://www.youtube.com/embed/H2vu_Gl4Y1k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<object class="fail" data="fail.pdf"></object>
-<footer class="end">
-<hr>
-<p>2021 <br>
-Завхоз Инкорпарейтед <br>
-Сратов, РА СИ Я. <br>
-</p>
-</footer>
+          <th>Карма</th>
+        </tr>
+        <tr>
+          <td>Роман</td>
+          <td>Роман</td>
+          <td>Директор</td>
+          <td>@xgolodx</td>
+          <td class="g"></td>
+        </tr>
+        <tr>
+          <td>какой то инвалид</td>
+          <td>Никита</td>
+          <td>Завхоз</td>
+          <td>@NickSunrise</td>
+          <td class="y"></td>
+        </tr>
+        <tr>
+          <td>Просроченный Сон</td>
+          <td>Александр</td>
+          <td>Оболтус</td>
+          <td>@SaveTheDust</td>
+          <td class="y"></td>
+        </tr>
+        <tr>
+          <td>Мурм ~</td>
+          <td class="s"></td>
+          <td class="s"></td>
+          <td>@pycccckoe_paguo</td>
+          <td class="y"></td>
+        </tr>
+        <tr>
+          <td>User</td>
+          <td class="s"></td>
+          <td>Специалист ОР</td>
+          <td>@bibakhpriehalvgosti</td>
+          <td class="y"></td>
+        </tr>
+        <tr>
+          <td>Juicy Lucy</td>
+          <td>Анастасия</td>
+          <td>Специалист ОП</td>
+          <td>@damnthisphloem</td>
+          <td class="g"></td>
+        </tr>
+        <tr>
+          <td>Николай</td>
+          <td>Николай</td>
+          <td class="s"></td>
+          <td>@nicksadness</td>
+          <td class="y"></td>
+        </tr>
+        <tr>
+          <td>Данил</td>
+          <td>Данил</td>
+          <td class="s"></td>
+          <td class="s"></td>
+          <td class="y"></td>
+        </tr>
+        <tr>
+          <td>Ivan Foflin</td>
+          <td>?Иван?</td>
+          <td class="s"></td>
+          <td class="s"></td>
+          <td class="y"></td>
+        </tr>
+        <tr>
+          <td>Илья Факепиж</td>
+          <td>Илья</td>
+          <td>Дизайнер</td>
+          <td>@FakePig</td>
+          <td class="g"></td>
+        </tr>
+        <tr>
+          <td>Андрей Шкретов</td>
+          <td>Андрей</td>
+          <td>Руководитель IT</td>
+          <td>@prepezdak</td>
+          <td class="g"></td>
+        </tr>
+        <tr>
+          <td>Ехидный Блинчик</td>
+          <td class="s"></td>
+          <td>Специалист ЕБ</td>
+          <td class="s"></td>
+          <td class="y"></td>
+        </tr>
+        <tr>
+          <td>Эмблемы смерти</td>
+          <td class="s"></td>
+          <td>Офис-менеджер</td>
+          <td>@fallencomrade</td>
+          <td class="y"></td>
+        </tr>
+        <tr>
+          <td>Black Show</td>
+          <td class="s"></td>
+          <td class="s"></td>
+          <td>@Freedomordie</td>
+          <td class="y"></td>
+        </tr>
+        <tr>
+          <td>Олла4ка</td>
+          <td>не помню но знаю</td>
+          <td>Специалист ЛОЛИ</td>
+          <td>@oll4kanyan</td>
+          <td class="g"></td>
+        </tr>
+        <tr>
+          <td>рыба учится читать</td>
+          <td>рыба</td>
+          <td>Специалист РО</td>
+          <td class="s"></td>
+          <td class="y"></td>
+        </tr>
+        <tr>
+          <td>меня уже нет</td>
+          <td class="s"></td>
+          <td class="s"></td>
+          <td>@d9d9s</td>
+          <td class="y"></td>
+        </tr>
+        <tr>
+          <td>святой отец</td>
+          <td class="s"></td>
+          <td class="s"></td>
+          <td class="s"></td>
+          <td class="y"></td>
+        </tr>
+        <tr>
+          <td>Demid Shnukov</td>
+          <td class="s"></td>
+          <td class="s"></td>
+          <td>@Shnuuuk</td>
+          <td class="y"></td>
+        </tr>
+        <tr>
+          <td>Henri Lloyd</td>
+          <td class="s"></td>
+          <td class="s"></td>
+          <td class="s"></td>
+          <td class="y"></td>
+        </tr>
+        <tr>
+          <td>reidshadow</td>
+          <td class="s"></td>
+          <td class="s"></td>
+          <td>@reidshadow</td>
+          <td class="y"></td>
+        </tr>
+        <tr>
+          <td>X.gazon jopin.X</td>
+          <td class="s"></td>
+          <td class="s"></td>
+          <td class="s"></td>
+          <td class="y"></td>
+        </tr>
+        <tr>
+          <td>Ilya Govorukha</td>
+          <td>Илья</td>
+          <td class="s"></td>
+          <td>@badcompanion1</td>
+          <td class="y"></td>
+        </tr>
+        <tr>
+          <td>QbuK B KuBe</td>
+          <td class="s"></td>
+          <td>Соискатель</td>
+          <td>@QbuKx</td>
+          <td class="y"></td>
+        </tr>
+        <tr>
+          <td>IS KA</td>
+          <td class="s"></td>
+          <td class="s"></td>
+          <td>@CandyISIS</td>
+          <td class="y"></td>
+        </tr>
+        <tr>
+          <td>Мэш</td>
+          <td class="s"></td>
+          <td class="s"></td>
+          <td>@agusanar</td>
+          <td class="y"></td>
+        </tr>
+        <tr>
+          <td>Волжанин</td>
+          <td class="s"></td>
+          <td class="s"></td>
+          <td class="s"></td>
+          <td class="y"></td>
+        </tr>
+        <tr>
+          <td>Джимми 2 куртки</td>
+          <td class="s"></td>
+          <td class="s"></td>
+          <td>@HardbassUzbek228</td>
+          <td class="y"></td>
+        </tr>
+        <tr>
+          <td>Motja</td>
+          <td class="s"></td>
+          <td class="s"></td>
+          <td>@Motjja</td>
+          <td class="y"></td>
+        </tr>
+        <tr>
+          <td>Какая-то Тянучка</td>
+          <td class="s"></td>
+          <td class="s"></td>
+          <td>@heze_kto</td>
+          <td class="y"></td>
+        </tr>
+        <tr>
+          <td>Tamara_Willson Tamara_Willson</td>
+          <td class="s"></td>
+          <td>Специалист ПБ</td>
+          <td class="s"></td>
+          <td class="y"></td>
+        </tr>
+        <tr>
+          <td>
+            Эксизтенциональный мегаверс эрибральных трусцов Крыможанский
+            книненист миротворческий трупец
+          </td>
+          <td class="s"></td>
+          <td class="s"></td>
+          <td>@EvChoLnz</td>
+          <td class="y"></td>
+        </tr>
+        <tr>
+          <td>Bruh ...</td>
+          <td class="s"></td>
+          <td class="s"></td>
+          <td>@Gluttony_555</td>
+          <td class="y"></td>
+        </tr>
+        <tr>
+          <td>slampolice</td>
+          <td class="s"></td>
+          <td class="s"></td>
+          <td class="s"></td>
+          <td class="y"></td>
+        </tr>
+        <tr>
+          <td>🇷🇺</td>
+          <td class="s"></td>
+          <td class="s"></td>
+          <td>@ustricaaa</td>
+          <td class="y"></td>
+        </tr>
+        <tr>
+          <td>театр одного кадавра</td>
+          <td class="s"></td>
+          <td>Бухгалтер</td>
+          <td>@fitochai</td>
+          <td class="y"></td>
+        </tr>
+        <tr>
+          <td>Артём</td>
+          <td>Артём</td>
+          <td>HR-менеджер</td>
+          <td>@TemWithFrog</td>
+          <td class="y"></td>
+        </tr>
+        <tr>
+          <td>Omich Marlow</td>
+          <td class="s"></td>
+          <td>Специалист ОР</td>
+          <td>@marlowleo</td>
+          <td class="y"></td>
+        </tr>
+        <tr>
+          <td>rareretard</td>
+          <td class="s"></td>
+          <td class="s"></td>
+          <td>@shawtyslayer28</td>
+          <td class="y"></td>
+        </tr>
+        <tr>
+          <td>trash trashev</td>
+          <td class="s"></td>
+          <td class="s"></td>
+          <td>@trashtrashev</td>
+          <td class="y"></td>
+        </tr>
+        <tr>
+          <td>я не иван</td>
+          <td>не иван, возможно кирилл</td>
+          <td class="s"></td>
+          <td>@Kirillvoznya</td>
+          <td class="y"></td>
+        </tr>
+        <tr>
+          <td>Eronor Dagoth</td>
+          <td class="s"></td>
+          <td class="s"></td>
+          <td>@laaaain</td>
+          <td class="y"></td>
+        </tr>
+        <tr>
+          <td>🌚</td>
+          <td class="s"></td>
+          <td class="s"></td>
+          <td>@neinteresnyy33</td>
+          <td class="y"></td>
+        </tr>
+        <tr>
+          <td>Highness</td>
+          <td class="s"></td>
+          <td class="s"></td>
+          <td class="s"></td>
+          <td class="y"></td>
+        </tr>
+        <tr>
+          <td>Pёs</td>
+          <td class="s"></td>
+          <td class="s"></td>
+          <td>@Sobakaundead</td>
+          <td class="y"></td>
+        </tr>
+        <tr>
+          <td>Сервелат Домашний</td>
+          <td class="s"></td>
+          <td class="s"></td>
+          <td>@forme10q</td>
+          <td class="y"></td>
+        </tr>
+        <tr>
+          <td>Игорь</td>
+          <td>Игорь</td>
+          <td class="s"></td>
+          <td>@wasals</td>
+          <td class="y"></td>
+        </tr>
+        <tr>
+          <td>ddddddddddddddddddddddddddddddddddddddddddddd</td>
+          <td class="s"></td>
+          <td class="s"></td>
+          <td class="s"></td>
+          <td class="y"></td>
+        </tr>
+        <tr>
+          <td>end ray</td>
+          <td class="s"></td>
+          <td class="s"></td>
+          <td>@emowaltzz</td>
+          <td class="y"></td>
+        </tr>
+        <tr>
+          <td>Иван Вахрушев</td>
+          <td>Иван</td>
+          <td class="s"></td>
+          <td>@bezalkogolik</td>
+          <td class="y"></td>
+        </tr>
+        <tr>
+          <td>Дмитрий</td>
+          <td>Дмитрий</td>
+          <td>Сис. админ</td>
+          <td>@stevenlone</td>
+          <td class="y"></td>
+        </tr>
+        <tr>
+          <td>Tosti</td>
+          <td class="s"></td>
+          <td class="s"></td>
+          <td>@TosterYe</td>
+          <td class="y"></td>
+        </tr>
+        <tr>
+          <td>Every Night</td>
+          <td class="s"></td>
+          <td class="s"></td>
+          <td class="s"></td>
+          <td class="y"></td>
+        </tr>
+        <tr>
+          <td>Nikita</td>
+          <td>Никита</td>
+          <td class="s"></td>
+          <td>@nikitukich</td>
+          <td class="y"></td>
+        </tr>
+        <tr>
+          <td>ю ноу</td>
+          <td class="s"></td>
+          <td class="s"></td>
+          <td>@water_girl</td>
+          <td class="y"></td>
+        </tr>
+        <tr>
+          <td>Гришаня</td>
+          <td>Гриша</td>
+          <td class="s"></td>
+          <td>@seventhobject</td>
+          <td class="y"></td>
+        </tr>
+        <tr>
+          <td>Денис Бугульман</td>
+          <td>Денис</td>
+          <td class="s"></td>
+          <td>@ppsebnhi</td>
+          <td class="y"></td>
+        </tr>
+        <tr>
+          <td>Ole Lukoie</td>
+          <td class="s"></td>
+          <td class="s"></td>
+          <td>@OleeLukoie</td>
+          <td class="y"></td>
+        </tr>
+        <tr>
+          <td>spicyoep</td>
+          <td class="s"></td>
+          <td class="s"></td>
+          <td>@Spiceoep</td>
+          <td class="y"></td>
+        </tr>
+        <tr>
+          <td>??? ¿¿¿</td>
+          <td class="s"></td>
+          <td class="s"></td>
+          <td>@Kto_toKto_to</td>
+          <td class="y"></td>
+        </tr>
+        <tr>
+          <td>Konstantin Abvgdeyozh</td>
+          <td>?Константин?</td>
+          <td class="s"></td>
+          <td>@Peach_toad</td>
+          <td class="y"></td>
+        </tr>
+        <tr>
+          <td>₳₹₮€₹</td>
+          <td class="s"></td>
+          <td class="s"></td>
+          <td>@AR73R</td>
+          <td class="y"></td>
+        </tr>
+        <tr>
+          <td>Александр</td>
+          <td>Александр</td>
+          <td>Директор</td>
+          <td>@SelenZzz</td>
+          <td class="y"></td>
+        </tr>
+        <tr>
+          <td>ZAEBAL XOCHY_KYRIT'</td>
+          <td class="s"></td>
+          <td class="s"></td>
+          <td>@yablevanul</td>
+          <td class="y"></td>
+        </tr>
+        <tr>
+          <td>Егор</td>
+          <td>Егор</td>
+          <td class="s"></td>
+          <td>@youthchoosespace</td>
+          <td class="y"></td>
+        </tr>
+        <tr>
+          <td>Егор</td>
+          <td>Егор</td>
+          <td class="s"></td>
+          <td>@Youyouyoyo</td>
+          <td class="y"></td>
+        </tr>
+        <tr>
+          <td>ilosky</td>
+          <td class="s"></td>
+          <td class="s"></td>
+          <td>@ktowhiplash</td>
+          <td class="y"></td>
+        </tr>
+        <tr>
+          <td>351</td>
+          <td class="s"></td>
+          <td class="s"></td>
+          <td>@p351q</td>
+          <td class="y"></td>
+        </tr>
+        <tr>
+          <td>Тимур Галеев</td>
+          <td>?Тимур?</td>
+          <td class="s"></td>
+          <td>@crystaltron</td>
+          <td class="y"></td>
+        </tr>
+        <tr>
+          <td>beaver</td>
+          <td class="s"></td>
+          <td class="s"></td>
+          <td>@bindingofAzimov</td>
+          <td class="y"></td>
+        </tr>
+        <tr>
+          <td>Саша Флорин</td>
+          <td>Саша</td>
+          <td>Руководитель ОМР</td>
+          <td>@florin6263</td>
+          <td class="y"></td>
+        </tr>
+        <tr>
+          <td>Oleksii Ustinov</td>
+          <td class="s"></td>
+          <td class="s"></td>
+          <td>@cookiemonsterleet</td>
+          <td class="y"></td>
+        </tr>
+        <tr>
+          <td>Глеб мельников</td>
+          <td>Глеб</td>
+          <td class="s"></td>
+          <td>@Anime_boy16</td>
+          <td class="y"></td>
+        </tr>
+      </table>
 
-
-</div>
-<script src="java.js"></script>
-    
-</body>
-
-
-
-</html> 
+      <iframe
+        class="videoyou"
+        src="https://www.youtube.com/embed/H2vu_Gl4Y1k"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+      <object class="fail" data="fail.pdf"></object>
+      <footer class="end">
+        <hr />
+        <p>
+          2021 <br />
+          Завхоз Инкорпарейтед <br />
+          Сратов, РА СИ Я. <br />
+        </p>
+      </footer>
+    </div>
+    <script src="java.js"></script>
+  </body>
+</html>
