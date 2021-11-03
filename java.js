@@ -71,3 +71,13 @@ btnNext.addEventListener("click", function () {
   audio.src = playlist[mp3];
   audio.play();
 });
+
+let video = document.getElementById("video");
+let btnPlayvid = document.querySelector(".playv");
+let btnPausevid = document.querySelector(".pausev");
+btnPlayvid.addEventListener("click", function () {
+  video.play();
+});
+btnPausevid.addEventListener("click", function () {
+  video.pause();
+});
