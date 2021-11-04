@@ -271,7 +271,7 @@ table {
   border-spacing: 0px 0px;
   border: 0.25vh solid black;
   font-family: "Ubuntu";
-  font-size: 0.9vmax;
+  font-size: 12px;
   background-color: rgb(197, 197, 197);
   padding: 5px;
 }
@@ -283,7 +283,7 @@ th {
   background-color: rgb(145, 145, 175);
   border-collapse: collapse;
   font-family: inherit;
-  font-size: 0.9cm;
+  font-size: 12px;
   font-weight: normal;
   color: black;
   padding: 3px;
