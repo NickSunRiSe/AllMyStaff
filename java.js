@@ -81,3 +81,4 @@ btnPlayvid.addEventListener("click", function () {
 btnPausevid.addEventListener("click", function () {
   video.pause();
 });
+window.alert("Анимация, доделать плеер, улучшить видео");
