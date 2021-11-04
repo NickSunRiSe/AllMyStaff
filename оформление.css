@@ -21,7 +21,7 @@ body {
 
 .con {
   max-width: 1000px;
-  margin: 0 auto;
+  margin: 0 auto 0;
   padding: 0px 15px;
   background-color: rgb(187, 187, 187);
 }
@@ -180,7 +180,7 @@ body {
   box-shadow: 3px 3px 5px rgba(122, 122, 122, 0.5);
   padding: 5px;
 }
- 
+
 .butass {
   min-width: 35px;
   min-height: 35px;
@@ -240,7 +240,7 @@ button {
   z-index: inherit;
 }
 .playv {
-  opacity: .5;
+  opacity: 0.5;
   height: 8%;
   width: 5%;
   z-index: 3;
@@ -249,10 +249,10 @@ button {
   margin-top: 17%;
   margin-right: 10%;
   background-image: url(assets/images/плей.png);
-  border-radius:50%;
+  border-radius: 50%;
 }
 .pausev {
-  opacity: .5;
+  opacity: 0.5;
   height: 8%;
   width: 5%;
   z-index: 3;
@@ -325,7 +325,7 @@ td {
 
 .fail {
   margin-top: 5vh;
-  
+
   width: 100%;
   height: 80vh;
 }
