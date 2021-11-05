@@ -51,7 +51,6 @@ body {
 }
 
 @keyframes preloader-bounce {
-
   0%,
   100% {
     transform: scale(0);
@@ -70,9 +69,6 @@ body {
 .loaded .preloader {
   display: none;
 }
-
-
-
 
 .fonts {
   font-family: "Gothic A1", sans-serif;
@@ -237,7 +233,6 @@ body {
   padding: 10px;
   height: 35%;
   margin-top: 7vh;
-  animation: other 2s;
 }
 .slid {
   margin-right: 0;
@@ -245,17 +240,49 @@ body {
   margin-top: 7vh;
 }
 .right {
+  width: 390px;
+  height: 390px;
+  position: relative;
+  overflow: hidden;
   right: 0;
-  background-color: #000000;
+  border: 0.2vw solid black;
   box-shadow: 5px 5px;
   box-shadow: 3px 3px 5px rgba(122, 122, 122, 0.5);
-  padding: 5px;
-  
-  animation: other 2s;
   
 }
-@keyframes other {
+.foto {
+  width: 100%;
+  height: 100%;
+  
+  position: relative;
+  top: 0;
+  left: 0;
+  
+}
+.lh .foto {
+  animation: slide 2s linear;
+}
+@keyframes slide {
+  from {
+    top: 0;
+    left: 0;
+  }
+  0% {
+    transform: translate(0px, 0px);
+  }
+  50% {
+    transform: translate(-400px, 0);
+  }
+  100% {
+    transform: translate(-900px, 0);
+  }
+}
 
+.lh .right {
+  animation: slide 2s linear;
+}
+
+@keyframes other {
   0% {
     opacity: 1;
   }
@@ -263,7 +290,7 @@ body {
   50% {
     opacity: 0.5;
   }
-  100%{
+  100% {
     opacity: 0;
   }
 }
@@ -281,7 +308,6 @@ body {
   background-position: center;
   border-collapse: collapse;
   border: black 0.1vw solid;
-  
 }
 .butass1 {
   min-width: 35px;
@@ -296,7 +322,6 @@ body {
   background-position: center;
   border-collapse: collapse;
   border: black 0.1vw solid;
-  
 }
 button {
   background-position: center;
@@ -319,7 +344,6 @@ button {
   box-shadow: 0 0 3px 3px #000000;
   z-index: 2;
   justify-content: center;
-  
 }
 .video {
   justify-content: center;
@@ -364,7 +388,6 @@ table {
   font-size: 12px;
   background-color: rgb(197, 197, 197);
   padding: 5px;
-  
 }
 
 th {
