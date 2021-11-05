@@ -12,6 +12,7 @@ function nextfoto() {
   }
   foto.src = images[num];
 }
+
 function prevfoto() {
   var foto = document.getElementById("foto");
   num--;
@@ -82,3 +83,10 @@ btnPausevid.addEventListener("click", function () {
   video.pause();
 });
 window.alert("Анимация, доделать плеер, улучшить видео");
+window.onload = function () {
+  document.body.classList.add("loaded_hiding");
+  window.setTimeout(function () {
+    document.body.classList.add("loaded");
+    document.body.classList.remove("loaded_hiding");
+  }, 500);
+};
