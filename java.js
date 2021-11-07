@@ -4,38 +4,33 @@ var images = [
   "assets/images/РНП3.jpg",
 ];
 var num = 0;
-let bas1 = document.getElementById("butass");
-function smenav(){
-  var foto = document.getElementById("foto");
-  bas1.smenav();
-  document.body.classList.add("lh");
-  window.setTimeout(function () {
-    
-    document.body.classList.remove("lh");
-  }, 500);
-}
 function nextfoto(){
+  
   
   var foto = document.getElementById("foto");
   num++;
-  
   if (num >= images.length) {
-    num = 0;
-
+  num = 0;
+  }
+  foto.src = images[num];
   }
   
-  foto.src = images[num];
-}
-
-function prevfoto() {
+  function prevfoto() {
   var foto = document.getElementById("foto");
   num--;
   if (num < 0) {
-    num = images.length - 1;
+  num = images.length - 1;
+  }
+  foto.src = images[num];
   }
   
-  foto.src = images[num];
-}
+
+
+
+ 
+
+
+
 let audio = document.getElementById("audio");
 let tits = document.getElementById("tits");
 let time = document.querySelector(".time");
