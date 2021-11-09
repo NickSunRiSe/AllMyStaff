@@ -4,32 +4,30 @@ var images = [
   "assets/images/РНП3.jpg",
 ];
 var num = 0;
-function nextfoto(){
-  
-  
+
+function nextfoto() {
   var foto = document.getElementById("foto");
   num++;
   if (num >= images.length) {
-  num = 0;
+    num = 0;
   }
   foto.src = images[num];
-  }
+  document.querySelector(".foto").className = "slide";
   
-  function prevfoto() {
+}
+  
+
+
+function prevfoto() {
   var foto = document.getElementById("foto");
   num--;
   if (num < 0) {
-  num = images.length - 1;
+    num = images.length - 1;
   }
   foto.src = images[num];
-  }
+  document.querySelector(".foto").className = "slide";
   
-
-
-
- 
-
-
+}
 
 let audio = document.getElementById("audio");
 let tits = document.getElementById("tits");
@@ -92,7 +90,7 @@ btnPlayvid.addEventListener("click", function () {
 btnPausevid.addEventListener("click", function () {
   video.pause();
 });
-window.alert("Анимация, доделать плеер, улучшить видео");
+window.alert("Анимация слайдер, доделать плеер");
 window.onload = function () {
   document.body.classList.add("loaded_hiding");
   window.setTimeout(function () {
