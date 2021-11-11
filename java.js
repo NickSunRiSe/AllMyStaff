@@ -1,33 +1,10 @@
-var images = [
-  "assets/images/РНП1.jpg",
-  "assets/images/РНП2.jpg",
-  "assets/images/РНП3.jpg",
-];
-var num = 0;
-
-function nextfoto() {
-  var foto = document.getElementById("foto");
-  num++;
-  if (num >= images.length) {
-    num = 0;
-  }
-  foto.src = images[num];
-  document.querySelector(".foto").className = "slide";
-  
-}
-  
 
 
-function prevfoto() {
-  var foto = document.getElementById("foto");
-  num--;
-  if (num < 0) {
-    num = images.length - 1;
-  }
-  foto.src = images[num];
-  document.querySelector(".foto").className = "slide";
-  
-}
+document.addEventListener('DOMContentLoaded', function () {
+  const slider = new ChiefSlider('.slider', {
+    loop: true
+  });
+});
 
 let audio = document.getElementById("audio");
 let tits = document.getElementById("tits");

@@ -3,6 +3,7 @@ body {
   font-size: 15px;
   color: #000000;
   background-color: rgba(202, 202, 206, 0.932);
+  display: flex;
 }
 .preloader {
   position: fixed;
@@ -234,51 +235,52 @@ body {
   height: 35%;
   margin-top: 7vh;
 }
-.slid {
-  margin-right: 0;
-  margin-left: 20%;
-  margin-top: 7vh;
-}
-.right {
+
+.container {
   width: 390px;
   height: 390px;
   position: relative;
   overflow: hidden;
   right: 0;
+  top: 7;
   border: 0.2vw solid black;
   box-shadow: 5px 5px;
   box-shadow: 3px 3px 5px rgba(122, 122, 122, 0.5);
-  
+  margin-right: 0;
+  margin-left: 20%;
+  margin-top: 7vh;
 }
-.foto {
-  width: 100%;
+
+.slider__container {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.slider__items {
+  counter-reset: slide;
+}
+
+.slider__item {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+  counter-increment: slide;
   height: 100%;
   position: relative;
-  top: 0;
-  left: 0;
-  
-}
-.slide{
-  animation: slide 1s linear;
 }
 
-@keyframes slide {
-  from {
-    top: 0;
-    left: 0;
-  }
-  0% {
-    transform: translate(0px, 0px);
-  }
-  50% {
-    transform: translate(-250px, 0);
-  }
-  100% {
-    transform: translate(-500px, 0);
-  }
+.slider__item:nth-child(1) {
+  background-image: "assets/images/РНП1.jpg";
 }
 
+.slider__item:nth-child(2) {
+  background-image: "assets/images/РНП2.jpg";
+}
 
+.slider__item:nth-child(3) {
+  background-image: "assets/images/РНП3.jpg";
+}
 
 @keyframes other {
   0% {
