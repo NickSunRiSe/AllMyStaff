@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="оформление.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="stylesheet" href="/examples/libs/chief-slider/chief-slider-with-prefixes.min.css">
+  <script defer src="/examples/libs/chief-slider/chief-slider.min.js"></script>
     <link
       href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap"
       rel="stylesheet"
@@ -59,7 +61,13 @@
             А главное, очень любит свою страну, настоящий патриот!<br />
           </p>
         </div>
-        
+        <script>
+          document.addEventListener('DOMContentLoaded', function () {
+            const slider = new ChiefSlider('.slider', {
+              loop: true
+            });
+          });
+        </script>
         <div class="container">
           <div class="slider">
             <div class="slider__container">
@@ -82,7 +90,7 @@
             <a href="#" class="slider__control" data-slide="next"></a>
           </div>
       
-
+          
         
         
         

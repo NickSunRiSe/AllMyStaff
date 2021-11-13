@@ -1,10 +1,5 @@
 
 
-document.addEventListener('DOMContentLoaded', function () {
-  const slider = new ChiefSlider('.slider', {
-    loop: true
-  });
-});
 
 let audio = document.getElementById("audio");
 let tits = document.getElementById("tits");

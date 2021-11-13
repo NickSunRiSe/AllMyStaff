@@ -237,8 +237,8 @@ body {
 }
 
 .container {
-  width: 390px;
-  height: 390px;
+  width: 430px;
+  height: 350px;
   position: relative;
   overflow: hidden;
   right: 0;
