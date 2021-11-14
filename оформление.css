@@ -87,6 +87,7 @@ body {
 }
 
 .con {
+  overflow: hidden;
   max-width: 1000px;
   margin: 0 auto 0;
   padding: 0px 15px;
@@ -127,6 +128,7 @@ body {
 }
 
 .fs {
+  overflow: hidden;
   display: flex;
 }
 
@@ -236,50 +238,79 @@ body {
   margin-top: 7vh;
 }
 
-.container {
-  width: 430px;
-  height: 350px;
+.kno {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: inherit;
+  overflow: hidden;
+}
+.slider {
+  max-width: 35%;
+  max-height: 55vh;
+  right: 0;
   position: relative;
   overflow: hidden;
-  right: 0;
-  top: 7;
   border: 0.2vw solid black;
   box-shadow: 5px 5px;
   box-shadow: 3px 3px 5px rgba(122, 122, 122, 0.5);
   margin-right: 0;
-  margin-left: 20%;
+  margin-left: 10%;
   margin-top: 7vh;
 }
-
-.slider__container {
-  padding-left: 0;
-  padding-right: 0;
-}
-
-.slider__items {
-  counter-reset: slide;
-}
-
-.slider__item {
-  -webkit-box-flex: 0;
-  -ms-flex: 0 0 100%;
-  flex: 0 0 100%;
-  max-width: 100%;
-  counter-increment: slide;
+.slider .item img {
+  object-fit: cover;
+  width: 100%;
   height: 100%;
-  position: relative;
 }
 
-.slider__item:nth-child(1) {
-  background-image: "assets/images/РНП1.jpg";
+.slider .pr{
+  cursor: pointer;
+  position: absolute;
+  top: 45%;
+  z-index: 10;
+  width: auto;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+.slider .ne {
+  cursor: pointer;
+  position: absolute;
+  top: 45%;
+  right: 0;
+  z-index: 10;
+  width: auto;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  
+  border-radius: 3px 0 0 3px;
+}
+.slider .pr:hover,
+.slider .ne:hover {
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
-.slider__item:nth-child(2) {
-  background-image: "assets/images/РНП2.jpg";
+.slider .item {
+  animation-name: fade;
+  animation-duration: 1.5s;
 }
-
-.slider__item:nth-child(3) {
-  background-image: "assets/images/РНП3.jpg";
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 @keyframes other {
@@ -295,34 +326,7 @@ body {
   }
 }
 
-.butass {
-  min-width: 35px;
-  min-height: 35px;
-  max-width: 35px;
-  max-height: 35px;
-  z-index: 1;
-  position: relative;
-  bottom: 10%;
-  left: 4.5%;
-  background-image: url(assets/images/назад.bmp);
-  background-position: center;
-  border-collapse: collapse;
-  border: black 0.1vw solid;
-}
-.butass1 {
-  min-width: 35px;
-  min-height: 35px;
-  max-width: 35px;
-  max-height: 35px;
-  z-index: 1;
-  position: relative;
-  bottom: 10%;
-  left: 79.5%;
-  background-image: url(assets/images/вперде.bmp);
-  background-position: center;
-  border-collapse: collapse;
-  border: black 0.1vw solid;
-}
+
 button {
   background-position: center;
   background-repeat: no-repeat;
@@ -362,8 +366,7 @@ button {
   position: absolute;
   margin-top: 17%;
   margin-right: 10%;
-  background-image: url(assets/images/плей.png);
-  border-radius: 50%;
+  border-collapse: collapse;
 }
 .pausev {
   opacity: 0.5;
