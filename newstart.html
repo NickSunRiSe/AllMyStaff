@@ -39,10 +39,10 @@
         <source src="sounds/222.mp3" />
         <source src="sounds/333.mp3" />
       </audio>
-      <button class="play" type="button"></button>
-      <button class="pause" type="button"></button>
-      <button class="prev" type="button"></button>
-      <button class="next" type="button"></button>
+      <a class="play" onclick="playy()">&#9655;</a>
+      <a class="pause" onclick="pauses()">&#9723;</a>
+      <a class="prev" onclick="prevmp3()">&#8810;</a>
+      <a class="next" onclick="nextmp3()">&#8811;</a>
       <div class="audio-track"><div class="time"></div></div>
     </header>
     <div class="con">
@@ -90,9 +90,8 @@
       
 
       <div class="vdcon">
-        <button class="playv">&#5125;
-        </button>
-        <button class="pausev"></button>
+        <a class="playv">&#9655;</a>
+        <a class="pausev">&#9723;</a>
         <video class="vid" id="video">
           <source src="video.mp4" type="video/mp4" />
         </video>

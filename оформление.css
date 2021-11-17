@@ -142,17 +142,22 @@ body {
   top: 0;
   margin: 0 auto;
   z-index: 100;
-  opacity: 0.8;
+  opacity: 0.9;
+}
+.mfi{
+  position: absolute;
+  margin: 0 auto;
 }
 .te {
   left: 8%;
   font-size: 1.5vmax;
-  color: white;
+  color: black;
   font-family: "Ubuntu";
   position: fixed;
   top: 1%;
 }
 .play {
+  cursor: pointer;
   top: 0.2%;
   left: 74%;
   position: fixed;
@@ -161,11 +166,11 @@ body {
   max-width: 35px;
   max-height: 35px;
   z-index: 101;
-  background-image: url(assets/images/плей.bmp);
+  font-size: 30px;
   border-collapse: collapse;
-  border: black 0.1vw solid;
 }
 .pause {
+  cursor: pointer;
   top: 0.2%;
   left: 78%;
   position: fixed;
@@ -174,11 +179,11 @@ body {
   max-width: 35px;
   max-height: 35px;
   z-index: 101;
-  background-image: url(assets/images/пауза.bmp);
+  font-size: 30px;
   border-collapse: collapse;
-  border: black 0.1vw solid;
 }
 .prev {
+  cursor: pointer;
   top: 0.2%;
   left: 82%;
   position: fixed;
@@ -187,11 +192,11 @@ body {
   max-width: 35px;
   max-height: 35px;
   z-index: 101;
-  background-image: url(assets/images/назад.bmp);
+  font-size: 30px;
   border-collapse: collapse;
-  border: black 0.1vw solid;
 }
 .next {
+  cursor: pointer;
   top: 0.2%;
   left: 86%;
   position: fixed;
@@ -200,9 +205,8 @@ body {
   max-width: 35px;
   max-height: 35px;
   z-index: 101;
-  background-image: url(assets/images/вперде.bmp);
+  font-size: 30px;
   border-collapse: collapse;
-  border: black 0.1vw solid;
 }
 .audio-track {
   width: 100%;
@@ -248,8 +252,8 @@ body {
   overflow: hidden;
 }
 .slider {
-  max-width: 35%;
-  max-height: 55vh;
+  max-width: 40%;
+  max-height: 60vh;
   right: 0;
   position: relative;
   overflow: hidden;
@@ -259,11 +263,14 @@ body {
   margin-right: 0;
   margin-left: 10%;
   margin-top: 7vh;
+  background-color: black;
 }
 .slider .item img {
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
+  object-fit: contain;
+  width: 100;
+  height: 100;
+  align-items: center;
+  
 }
 
 .slider .pr{
@@ -292,7 +299,6 @@ body {
   font-size: 16px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
-  
   border-radius: 3px 0 0 3px;
 }
 .slider .pr:hover,
@@ -301,12 +307,12 @@ body {
 }
 
 .slider .item {
-  animation-name: fade;
-  animation-duration: 1.5s;
+  animation-name: other;
+  animation-duration: 1.2s;
 }
 @keyframes fade {
   from {
-    opacity: 0.4;
+    opacity: 0.5;
   }
   to {
     opacity: 1;
@@ -314,15 +320,11 @@ body {
 }
 
 @keyframes other {
-  0% {
-    opacity: 1;
-  }
-
-  50% {
+  0%  {
     opacity: 0.5;
   }
   100% {
-    opacity: 0;
+    opacity: 1;
   }
 }
 
@@ -358,18 +360,24 @@ button {
   z-index: inherit;
 }
 .playv {
-  opacity: 0.5;
+  cursor: pointer;
+  opacity: 0.7;
   height: 8%;
   width: 5%;
   z-index: 3;
+  font-size: 40px;
   align-items: center;
   position: absolute;
   margin-top: 17%;
   margin-right: 10%;
   border-collapse: collapse;
+  width: auto;
+  border-radius: 0 3px 3px 0;
+  border-radius: 3px 0 0 3px;
 }
 .pausev {
-  opacity: 0.5;
+  cursor: pointer;
+  opacity: 0.7;
   height: 8%;
   width: 5%;
   z-index: 3;
@@ -377,8 +385,11 @@ button {
   position: absolute;
   margin-top: 17%;
   margin-left: 10%;
-  background-image: url(assets/images/пауза.bmp);
-  border-radius: 50%;
+  font-size: 45px;
+  width: auto;
+  border-collapse: collapse;
+  border-radius: 0 3px 3px 0;
+  border-radius: 3px 0 0 3px;
 }
 
 table {

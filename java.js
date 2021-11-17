@@ -1,17 +1,13 @@
 let audio = document.getElementById("audio");
-let tits = document.getElementById("tits");
 let time = document.querySelector(".time");
-let btnPlay = document.querySelector(".play");
-let btnPause = document.querySelector(".pause");
-let btnPrev = document.querySelector(".prev");
-let btnNext = document.querySelector(".next");
 let lp = document.querySelector(".lp");
 var playlist = ["sounds/111.mp3", "sounds/222.mp3", "sounds/333.mp3"];
 let mp3;
 window.onload = function () {
   mp3 = 0;
 };
-btnPlay.addEventListener("click", function () {
+
+function playy() {
   audio.play();
   audioPlay = setInterval(function () {
     let audioTime = Math.round(audio.currentTime);
@@ -28,27 +24,28 @@ btnPlay.addEventListener("click", function () {
       audio.play();
     }
   }, 10);
-});
-btnPause.addEventListener("click", function () {
+}
+function pauses() {
   audio.pause();
   clearInterval(audioPlay);
-});
-btnPrev.addEventListener("click", function () {
+}
+
+function prevmp3() {
   mp3--;
   if (mp3 < 0) {
     mp3 = 2;
   }
   audio.src = playlist[mp3];
   audio.play();
-});
-btnNext.addEventListener("click", function () {
+}
+function nextmp3() {
   mp3++;
   if (mp3 >= playlist.length) {
     mp3 = 0;
   }
   audio.src = playlist[mp3];
   audio.play();
-});
+}
 
 let video = document.getElementById("video");
 let btnPlayvid = document.querySelector(".playv");
