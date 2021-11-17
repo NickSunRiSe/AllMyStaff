@@ -1,13 +1,17 @@
 let audio = document.getElementById("audio");
+let tits = document.getElementById("tits");
 let time = document.querySelector(".time");
+let btnPlay = document.querySelector(".play");
+let btnPause = document.querySelector(".pause");
+let btnPrev = document.querySelector(".prev");
+let btnNext = document.querySelector(".next");
 let lp = document.querySelector(".lp");
 var playlist = ["sounds/111.mp3", "sounds/222.mp3", "sounds/333.mp3"];
 let mp3;
 window.onload = function () {
   mp3 = 0;
 };
-
-function playy() {
+btnPlay.addEventListener("click", function () {
   audio.play();
   audioPlay = setInterval(function () {
     let audioTime = Math.round(audio.currentTime);
@@ -24,28 +28,29 @@ function playy() {
       audio.play();
     }
   }, 10);
-}
-function pauses() {
+});
+btnPause.addEventListener("click", function () {
   audio.pause();
   clearInterval(audioPlay);
-}
-
-function prevmp3() {
+});
+btnPrev.addEventListener("click", function () {
   mp3--;
   if (mp3 < 0) {
     mp3 = 2;
   }
-  audio.src = playlist[mp3];
   audio.play();
-}
-function nextmp3() {
+  audio.src = playlist[mp3];
+  
+});
+btnNext.addEventListener("click", function () {
   mp3++;
   if (mp3 >= playlist.length) {
     mp3 = 0;
   }
-  audio.src = playlist[mp3];
   audio.play();
-}
+  audio.src = playlist[mp3];
+  
+});
 
 let video = document.getElementById("video");
 let btnPlayvid = document.querySelector(".playv");
@@ -56,7 +61,7 @@ btnPlayvid.addEventListener("click", function () {
 btnPausevid.addEventListener("click", function () {
   video.pause();
 });
-window.alert("Докрасить слайдер, доделать плеер");
+window.alert("Доделать плеер");
 window.onload = function () {
   document.body.classList.add("loaded_hiding");
   window.setTimeout(function () {
