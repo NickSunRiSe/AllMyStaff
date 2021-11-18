@@ -3,8 +3,6 @@ let tits = document.getElementById("tits");
 let time = document.querySelector(".time");
 let btnPlay = document.querySelector(".play");
 let btnPause = document.querySelector(".pause");
-let btnPrev = document.querySelector(".prev");
-let btnNext = document.querySelector(".next");
 let lp = document.querySelector(".lp");
 var playlist = ["sounds/111.mp3", "sounds/222.mp3", "sounds/333.mp3"];
 let mp3;
@@ -33,24 +31,31 @@ btnPause.addEventListener("click", function () {
   audio.pause();
   clearInterval(audioPlay);
 });
-btnPrev.addEventListener("click", function () {
-  mp3--;
-  if (mp3 < 0) {
-    mp3 = 2;
-  }
-  audio.play();
-  audio.src = playlist[mp3];
-  
-});
-btnNext.addEventListener("click", function () {
-  mp3++;
-  if (mp3 >= playlist.length) {
-    mp3 = 0;
-  }
-  audio.play();
-  audio.src = playlist[mp3];
-  
-});
+function nextmp() {
+  audio.currentTime = 0;
+    mp3++; 
+    audio.play();
+    audio.src = playlist[mp3];
+if (mp3 = 3){ 
+    mp3 = 0; 
+    audio.play();
+    audio.src = playlist[mp3];
+}
+}
+
+function prevmp() {
+  audio.currentTime = 0;
+  if (mp3 > 0) {
+    mp3--; 
+    audio.play();
+    audio.src = playlist[mp3];
+} else { 
+    mp3 = 3; 
+    audio.play();
+    audio.src = playlist[mp3];
+}
+}
+
 
 let video = document.getElementById("video");
 let btnPlayvid = document.querySelector(".playv");
