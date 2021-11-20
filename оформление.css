@@ -144,6 +144,20 @@ body {
   z-index: 100;
   opacity: 0.9;
 }
+.track {
+  height: 50%;
+  width: 20%;
+  position: absolute;
+  right: 35%;
+  top: 2%;
+  overflow: hidden;
+}
+.track_item{
+  font-family: "Ubuntu";
+  font-size: 15px;
+  color: white;
+  position: absolute;
+}
 .mfi{
   position: absolute;
   margin: 0 auto;
