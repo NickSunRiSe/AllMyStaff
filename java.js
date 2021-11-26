@@ -1,58 +1,28 @@
-let audio = document.getElementById("audio");
-let time = document.querySelector(".time");
-let btnPlay = document.querySelector(".play");
-let btnPause = document.querySelector(".pause");
-let btnPrev = document.querySelector(".prev");
-let btnNext = document.querySelector(".next");
-let lp = document.querySelector(".lp");
-var playlist = ["sounds/111.mp3", "sounds/222.mp3", "sounds/333.mp3"];
-let mp3;
+const audio = document.querySelector(".audio"),
+ time = document.querySelector(".time"),
+ btnPlay = document.querySelector(".play"),
+ btnPause = document.querySelector(".pause"),
+ btnPrev = document.querySelector(".prev"),
+ btnNext = document.querySelector(".next"),
+ lp = document.querySelector(".lp"),
+ title = document.querySelector(".title")
+
+
+const songs = ["sounds/111.mp3", "sounds/222.mp3", "sounds/333.mp3"]
+
+let songNum = 0
+
+function loadsong(song) {
+  title.innerHTML = title
+  audio.src = songs[songNum]
+}
 
 
 
-window.onload = function () {
-  mp3 = 0;
-};
-btnPlay.addEventListener("click", function () {
-  audio.play();
-  audioPlay = setInterval(function () {
-    let audioTime = Math.round(audio.currentTime);
-    let audioLength = Math.round(audio.duration);
-    time.style.width = (audioTime * 100) / audioLength + "%";
-    if (audioTime == audioLength && mp3 < 2) {
-      //колличество треков ручное, длинна не срабатывает
-      mp3++;
-      audio.src = playlist[mp3];
-      audio.play();
-    } else if (audioTime == audioLength) {
-      mp3 = 0;
-      audio.src = playlist[mp3];
-      audio.play();
-    }
-  }, 10);
-});
-btnPause.addEventListener("click", function () {
-  audio.pause();
-  clearInterval(audioPlay);
-});
-function prevtrack(){
-  if (mp3 > 0) {
-    mp3--;
-  } else {
-    mp3 = 2;
-  }
-  audio.src = playlist[mp3];
-  audio.play();
-};
-function nexttrack() {
-  if (mp3 < 2) {
-    mp3++;
-  } else {
-    mp3 = 0;
-  }
-  audio.src = playlist[mp3];
-  audio.play();
-};
+
+
+
+
 
 let video = document.getElementById("video");
 let btnPlayvid = document.querySelector(".playv");
