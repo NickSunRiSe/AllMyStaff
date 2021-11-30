@@ -1,22 +1,58 @@
-const audio = document.querySelector(".audio"),
- time = document.querySelector(".time"),
- btnPlay = document.querySelector(".play"),
- btnPause = document.querySelector(".pause"),
- btnPrev = document.querySelector(".prev"),
- btnNext = document.querySelector(".next"),
- lp = document.querySelector(".lp"),
- title = document.querySelector(".title")
-
-
-const songs = ["sounds/111.mp3", "sounds/222.mp3", "sounds/333.mp3"]
-
-let songNum = 0
-
-function loadsong(song) {
-  title.innerHTML = title
-  audio.src = songs[songNum]
-}
-
+let time = document.querySelector(".time");
+let btnPlay = document.querySelector(".play");
+let btnPause = document.querySelector(".pause");
+let btnPrev = document.querySelector(".prev");
+let btnNext = document.querySelector(".next");
+let lp = document.querySelector(".lp");
+let track = document.getElementById("track_item");
+var playlist = ["sounds/111.mp3", "sounds/222.mp3", "sounds/333.mp3"];
+let songNum;
+window.onload = function () {
+  songNum = 0;
+  };
+  btnPlay.addEventListener("click", function () {
+  audio.play();
+  audioPlay = setInterval(function () {
+  let audioTime = Math.round(audio.currentTime);
+  let audioLength = Math.round(audio.duration);
+  time.style.width = (audioTime * 100) / audioLength + "%";
+  if (audioTime == audioLength && songNum < 2) {
+  //колличество треков ручное, длинна не срабатывает
+  songNum++;
+  audio.src = playlist[songNum];
+  audio.play();
+  } else if (audioTime == audioLength) {
+    songNum = 0;
+  audio.src = playlist[songNum];
+  audio.play();
+  }
+  }, 10);
+  });
+  btnPause.addEventListener("click", function () {
+  audio.pause();
+  clearInterval(audioPlay);
+  });
+  function nexttrack() {
+    audio.pause();
+  if (songNum < 2) {
+    songNum++;
+  } else {
+    songNum = 0;
+  }
+  audio.src = playlist[songNum];
+  audio.play();
+  };
+  function prevtrack(){
+    audio.pause();
+  if (songNum > 0) {
+    songNum--;
+  } else {
+    songNum = 2;
+  }
+  audio.src = playlist[songNum];
+  audio.play();
+  };
+  
 
 
 
@@ -73,5 +109,5 @@ function showSlides(n) {
   }
   slides[slideIndex - 1].style.display = "block";
 }
-
+  
 
