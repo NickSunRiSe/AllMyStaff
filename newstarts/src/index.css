@@ -1,0 +1,29 @@
+body {
+    font-family: "Ubuntu";
+    font-size: 15px;
+    color: #000000;
+    background-color: rgba(202, 202, 206, 0.932);
+    display: flex;
+  }
+  .left {
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.425);
+    border: 0.2vw solid black;
+    border-collapse: collapse;
+    padding-top: 5px;
+    box-shadow: 5px 5px;
+    box-shadow: 3px 3px 5px rgba(122, 122, 122, 0.5);
+    font-size: 1.2vmax;
+    font-family: "Ubuntu";
+    padding: 10px;
+    height: 35%;
+    margin-top: 7vh;
+  }
+  .end {
+    
+    position: absolute;
+    left: 10vw;
+    width: 80vw;
+    text-align: right;
+    font-family: "Raleway", sans-serif;
+  }
