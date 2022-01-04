@@ -2,8 +2,176 @@ body {
     font-family: "Ubuntu";
     font-size: 15px;
     color: #000000;
-    background-color: rgba(202, 202, 206, 0.932);
+    background-color: rgba(117, 117, 172, 0.932);
     display: flex;
+  }
+  .preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(202, 202, 206, 0.932);
+    opacity: 100%;
+    z-index: 1001;
+  }
+  
+  .preloader__row {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    width: 70px;
+    height: 70px;
+    margin-top: -35px;
+    margin-left: -35px;
+    text-align: center;
+    animation: preloader-rotate 2s infinite linear;
+  }
+  
+  .preloader__item {
+    position: absolute;
+    display: inline-block;
+    top: 0;
+    background-color: #9a9a9b;
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+    animation: preloader-bounce 2s infinite ease-in-out;
+  }
+  
+  .preloader__item:last-child {
+    top: auto;
+    bottom: 0;
+    animation-delay: -1s;
+  }
+  
+  @keyframes preloader-rotate {
+    100% {
+      transform: rotate(1080deg);
+    }
+  }
+  
+  @keyframes preloader-bounce {
+    0%,
+    100% {
+      transform: scale(0);
+    }
+  
+    50% {
+      transform: scale(1);
+    }
+  }
+  
+  .loaded_hiding .preloader {
+    transition: 0.5s opacity;
+    opacity: 0;
+  }
+  
+  .loaded .preloader {
+    display: none;
+  }
+  .con {
+    overflow: hidden;
+    max-width: 1000px;
+    margin: 0 auto 0;
+    padding: 0px 15px;
+    background-color: rgb(187, 187, 187);
+  }
+  .up {
+    position: fixed;
+    height: 5%;
+    width: 100%;
+    left: 0;
+    right: 0;
+    background-color: #7f7d86;
+    top: 0;
+    margin: 0 auto;
+    z-index: 100;
+    opacity: 0.9;
+  }
+  .track {
+    height: 50%;
+    width: 20%;
+    position: absolute;
+    right: 35%;
+    top: 2%;
+    overflow: hidden;
+  }
+  .track_item{
+    font-family: "Ubuntu";
+    font-size: 15px;
+    color: white;
+    position: absolute;
+  }
+  .play {
+    cursor: pointer;
+    top: 0.2%;
+    left: 74%;
+    position: fixed;
+    min-width: 2.3%;
+    min-height: 4.5%;
+    max-width: 35px;
+    max-height: 35px;
+    z-index: 101;
+    font-size: 30px;
+    border-collapse: collapse;
+  }
+  .pause {
+    cursor: pointer;
+    top: 0.2%;
+    left: 78%;
+    position: fixed;
+    min-width: 2.3%;
+    min-height: 4.5%;
+    max-width: 35px;
+    max-height: 35px;
+    z-index: 101;
+    font-size: 30px;
+    border-collapse: collapse;
+  }
+  .prev {
+    cursor: pointer;
+    top: 0.2%;
+    left: 82%;
+    position: fixed;
+    min-width: 2.3%;
+    min-height: 4.5%;
+    max-width: 35px;
+    max-height: 35px;
+    z-index: 101;
+    font-size: 30px;
+    border-collapse: collapse;
+  }
+  .next {
+    cursor: pointer;
+    top: 0.2%;
+    left: 86%;
+    position: fixed;
+    min-width: 2.3%;
+    min-height: 4.5%;
+    max-width: 35px;
+    max-height: 35px;
+    z-index: 101;
+    font-size: 30px;
+    border-collapse: collapse;
+  }
+  .audio-track {
+    width: 100%;
+    height: 1%;
+    background-color: #000000;
+    left: 0;
+    top: 5%;
+    position: fixed;
+    z-index: 1;
+  }
+  .time {
+    width: 0;
+    height: 1%;
+    background-color: white;
+    left: 0;
+    top: 5%;
+    position: fixed;
+    z-index: 1;
   }
   .left {
     left: 0;
