@@ -2,82 +2,20 @@ body {
     font-family: "Ubuntu";
     font-size: 15px;
     color: #000000;
-    background-color: rgba(117, 117, 172, 0.932);
+    background-color: rgba(145, 145, 238, 0.932);
     display: flex;
-  }
-  .preloader {
-    position: fixed;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(202, 202, 206, 0.932);
-    opacity: 100%;
-    z-index: 1001;
-  }
-  
-  .preloader__row {
-    position: relative;
-    top: 50%;
-    left: 50%;
-    width: 70px;
-    height: 70px;
-    margin-top: -35px;
-    margin-left: -35px;
-    text-align: center;
-    animation: preloader-rotate 2s infinite linear;
-  }
-  
-  .preloader__item {
-    position: absolute;
-    display: inline-block;
-    top: 0;
-    background-color: #9a9a9b;
-    border-radius: 100%;
-    width: 35px;
-    height: 35px;
-    animation: preloader-bounce 2s infinite ease-in-out;
-  }
-  
-  .preloader__item:last-child {
-    top: auto;
-    bottom: 0;
-    animation-delay: -1s;
-  }
-  
-  @keyframes preloader-rotate {
-    100% {
-      transform: rotate(1080deg);
-    }
-  }
-  
-  @keyframes preloader-bounce {
-    0%,
-    100% {
-      transform: scale(0);
-    }
-  
-    50% {
-      transform: scale(1);
-    }
-  }
-  
-  .loaded_hiding .preloader {
-    transition: 0.5s opacity;
-    opacity: 0;
-  }
-  
-  .loaded .preloader {
-    display: none;
   }
   .con {
     overflow: hidden;
     max-width: 1000px;
-    margin: 0 auto 0;
+    width: 80%;
+    margin: 10%;
     padding: 0px 15px;
     background-color: rgb(187, 187, 187);
   }
-  .up {
+  .up{
+    font-size: 20px;
+    font-family: "Ubuntu";
     position: fixed;
     height: 5%;
     width: 100%;
@@ -188,10 +126,7 @@ body {
     margin-top: 7vh;
   }
   .end {
-    
-    position: absolute;
-    left: 10vw;
-    width: 80vw;
+    width: 100%;
     text-align: right;
-    font-family: "Raleway", sans-serif;
+    font-family: "Ubuntu";
   }
