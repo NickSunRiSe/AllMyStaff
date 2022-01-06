@@ -125,6 +125,24 @@ body {
     height: 35%;
     margin-top: 7vh;
   }
+  .text2{
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.425);
+    border: 0.2vw solid black;
+    border-collapse: collapse;
+    padding-top: 5px;
+    box-shadow: 5px 5px;
+    box-shadow: 3px 3px 5px rgba(122, 122, 122, 0.5);
+    font-size: 18px;
+    font-family: "Ubuntu";
+    padding: 10px;
+    height: 35%;
+    margin-top: 5vh;
+  }
+
+
+
+
   .end {
     width: 100%;
     text-align: right;
