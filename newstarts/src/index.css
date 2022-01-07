@@ -7,9 +7,9 @@ body {
   }
   .con {
     overflow: hidden;
-    max-width: 1000px;
-    width: 80%;
-    margin: 10%;
+    max-width: 100%;
+    margin: 3% 5%;
+    align-items: center;
     padding: 0px 15px;
     background-color: rgb(187, 187, 187);
   }
@@ -145,6 +145,7 @@ body {
 
   .end {
     width: 100%;
+    margin: 0 auto;
     text-align: right;
     font-family: "Ubuntu";
   }
