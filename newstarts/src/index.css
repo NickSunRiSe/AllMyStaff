@@ -139,7 +139,13 @@ body {
     height: 35%;
     margin-top: 5vh;
   }
-
+  .foto{
+    display: flex;
+    width: 400px;
+    height: 400px;
+    margin-left: 55%;
+    overflow: hidden;
+  }
 
 
 
