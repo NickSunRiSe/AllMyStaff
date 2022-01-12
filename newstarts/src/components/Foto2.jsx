@@ -4,7 +4,7 @@ import Picture2 from './Picture2.jpg'
 const Foto2 = () => {
     return (
         <div>
-            <img src={Picture2} className='foto1'></img>
+            <img src={Picture2} className='foto'></img>
         </div>
     );
 };
