@@ -1,8 +1,8 @@
 import React from 'react';
-import Fotochka from './Fotochka.jpg'
+import Foto0 from './Fotochka.jpg'
 const Foto = () => {
     return (
-        <img src={Fotochka} className='foto'></img>
+        <img src={Foto0} className='foto'></img>
     );
 };
 
