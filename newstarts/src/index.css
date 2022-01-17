@@ -3,12 +3,12 @@ body {
     font-size: 15px;
     color: #000000;
     background-color: rgba(145, 145, 238, 0.932);
-    display: flex;
+    align-items: center;
   }
   .con {
     overflow: hidden;
     max-width: 100%;
-    margin: 3% 5%;
+    margin: 3% 10%;
     align-items: center;
     padding: 0px 15px;
     background-color: rgb(187, 187, 187);
@@ -136,14 +136,23 @@ body {
     font-size: 18px;
     font-family: "Ubuntu";
     padding: 10px;
+    
     height: 35%;
     margin-top: 5vh;
+  }
+  .post.body{
+    left: 0;
+    width: 1vw;
+    position: relative;
+    overflow: hidden;
+    height: 100%;
   }
   .foto{
     display: flex;
     width: 400px;
     height: 400px;
-    margin-left: 55%;
+    position: relative;
+    margin-left: 60%;
     overflow: hidden;
   }
   

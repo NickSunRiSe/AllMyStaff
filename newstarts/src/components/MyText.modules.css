@@ -1,0 +1,7 @@
+.body{
+    left: 0;
+    width: 1vw;
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+  }
