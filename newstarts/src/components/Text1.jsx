@@ -2,7 +2,7 @@ import React from 'react';
 
 const Text1 = () => {
     return (
-            <div class="left">
+            <div class="text">
         <p>
           Это сайт посвещён творчеству исполнителя Истень. <br />
           Моё имя Никита Рассветов и я Истень. <br />
