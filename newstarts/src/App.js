@@ -60,7 +60,6 @@ function App() {
 
   return (
     <div className="con">
-      <Start />
       <Text1 />
       <h1 style={{ textAlign: "center" }}>Список альбомов</h1>
       {posts.map((post) => (

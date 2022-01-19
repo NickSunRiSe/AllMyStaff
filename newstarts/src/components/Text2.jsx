@@ -4,6 +4,7 @@ import Spotify from "./svg/SpotL";
 import Vk from "./svg/Vk";
 import Yan from "./svg/Yan";
 
+
 const Text2 = (props) => {
   return (
     <div className="text">
@@ -11,8 +12,6 @@ const Text2 = (props) => {
         {props.post.id} . {props.post.title}
       </div>
       {props.post.body}
-      {props.post.picture}
-      Дата выхода: {props.post.date}
       <div className="logos">
         <a href={props.post.spotify} target={"_blank"}>
           <Spotify />
@@ -27,6 +26,8 @@ const Text2 = (props) => {
           <Apple />
         </a>
       </div>
+      {props.post.picture}
+      Дата выхода: {props.post.date}
     </div>
   );
 };

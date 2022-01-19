@@ -8,7 +8,7 @@ body {
   .con {
     overflow: hidden;
     max-width: 100%;
-    margin: 3% 10%;
+    margin: -2% 10%;
     align-items: center;
     padding: 0px 15px;
     background-color: rgb(187, 187, 187);
@@ -155,7 +155,6 @@ body {
     overflow: hidden;
   }
   .logo{
-    display: flex;
     width: 10%;
     height: 5%;
     position: relative;
