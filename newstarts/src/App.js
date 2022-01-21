@@ -4,7 +4,6 @@ import End from "./components/End";
 import Image1 from "./components/images/Picture1";
 import Image2 from "./components/images/Picture2";
 import Image3 from "./components/images/Picture3";
-import Start from "./components/Start";
 import Text1 from "./components/Text1";
 import Text2 from "./components/Text2";
 
