@@ -51,8 +51,16 @@ function App() {
   ]);
   const [singles, setSingles] = useState([
     {
-      Name: "Страшный сон",
+      id: 1,
+      title: "Страшный сон",
       body: "Трек который потом вышел как альбом",
+      date: "2022-01-20",
+      spotify:
+        "https://open.spotify.com/album/2I3rLbkC1KTlHzSWrYJkXG?si=183vuUoATYuyOVaAdAnf8w",
+      Vk: "https://vk.com/music/album/-2000092909_12092909_f2d1bec14a31843b32",
+      Yandex: "https://music.yandex.ru/album/16513805",
+      Apple:
+        "https://music.apple.com/us/album/%D0%BF%D1%80%D0%B8%D1%87%D0%B8%D0%BD%D1%8B-%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%B0/1574058350",
       picture: <Image1 />,
     },
   ]);
