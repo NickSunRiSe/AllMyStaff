@@ -14,16 +14,16 @@ const Text2 = (props) => {
       {props.post.body}
       <div className="logos">
         <a href={props.post.spotify} target={"_blank"}>
-          <Spotify />
+          <Spotify/>
         </a>
         <a href={props.post.Vk} target={"_blank"}>
-          <Vk />
+          <Vk/>
         </a>
         <a href={props.post.Yandex} target={"_blank"}>
-          <Yan />
+          <Yan/>
         </a>
         <a href={props.post.Apple} target={"_blank"}>
-          <Apple />
+          <Apple/>
         </a>
       </div>
       {props.post.picture}
