@@ -4,6 +4,7 @@ import End from "./components/End";
 import Image1 from "./components/images/Picture1";
 import Image2 from "./components/images/Picture2";
 import Image3 from "./components/images/Picture3";
+import Singlee from "./components/Singlee";
 import Text1 from "./components/Text1";
 import Text2 from "./components/Text2";
 
@@ -49,7 +50,7 @@ function App() {
       picture: <Image3 />,
     },
   ]);
-  const [singles, setSingles] = useState([
+  const [single, setSingle] = useState([
     {
       id: 1,
       title: "Страшный сон",
@@ -71,6 +72,10 @@ function App() {
       <h1 style={{ textAlign: "center" }}>Список альбомов</h1>
       {posts.map((post) => (
         <Text2 post={post} key={post.id} />
+      ))}
+      <h1 style={{ textAlign: "center" }}>Список синглов</h1>
+      {single.map((post) => (
+        <Text2 post={post} key={single.id} />
       ))}
       <End />
     </div>
