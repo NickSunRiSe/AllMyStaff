@@ -50,7 +50,7 @@ function App() {
       picture: <Image3 />,
     },
   ]);
-  const [single, setSingle] = useState([
+  const [singles, setSingle] = useState([
     {
       id: 1,
       title: "Страшный сон",
@@ -70,13 +70,14 @@ function App() {
     <div className="con">
       <Text1 />
       <h1 style={{ textAlign: "center" }}>Список альбомов</h1>
-      {posts.map((post) => (
+      {posts.map((post) => 
         <Text2 post={post} key={post.id} />
-      ))}
-      <h1 style={{ textAlign: "center" }}>Список синглов</h1>
-      {single.map((post) => (
-        <Text2 post={post} key={single.id} />
-      ))}
+      )}
+      <h1 style={{ textAlign: "center" }}>Список синглов*</h1>
+      <div>* В данном списке используются официальные даты релизов синглов</div>
+      {singles.map((single) => 
+        <Singlee single={single} key={single.id} />
+      )}
       <End />
     </div>
   );

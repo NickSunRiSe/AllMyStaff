@@ -1,0 +1,14 @@
+.teht{
+  left: 0;
+  background: transparent;
+  border: 0.2vw solid black;
+  border-collapse: collapse;
+  padding-top: 5px;
+  box-shadow: 5px 5px;
+  box-shadow: 3px 3px 5px rgba(122, 122, 122, 0.5);
+  font-size: 18px;
+  font-family: "Ubuntu";
+  padding: 10px;
+  height: 35%;
+  margin-top: 5vh;
+  }

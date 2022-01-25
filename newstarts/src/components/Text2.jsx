@@ -3,11 +3,12 @@ import Apple from "./svg/Apple";
 import Spotify from "./svg/SpotL";
 import Vk from "./svg/Vk";
 import Yan from "./svg/Yan";
+import classes from './Text2.module.css'
 
 
 const Text2 = (props) => {
   return (
-    <div className="text">
+    <div className={classes.teht}>
       <div className="post__content">
         {props.post.id} . {props.post.title}
       </div>
