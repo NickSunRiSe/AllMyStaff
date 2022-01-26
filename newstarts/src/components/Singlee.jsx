@@ -12,16 +12,16 @@ const Singles = (props) => {
         </div>
         {props.single.body}
         <div className="logos">
-          <a href={props.single.spotify} target={"_blank"}>
+          <a href={props.single.spotify} target={"_blank"} className="links">
             <Spotify/>
           </a>
-          <a href={props.single.Vk} target={"_blank"}>
+          <a href={props.single.Vk} target={"_blank"} className="links">
             <Vk/>
           </a>
-          <a href={props.single.Yandex} target={"_blank"}>
+          <a href={props.single.Yandex} target={"_blank"} className="links">
             <Yan/>
           </a>
-          <a href={props.single.Apple} target={"_blank"}>
+          <a href={props.single.Apple} target={"_blank"} className="links">
             <Apple/>
           </a>
         </div>

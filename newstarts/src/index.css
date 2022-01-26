@@ -2,7 +2,7 @@ body {
     font-family: "Ubuntu";
     font-size: 15px;
     color: #000000;
-    background-color: rgba(145, 145, 238, 0.932);
+    background-color: rgba(179, 179, 179, 0.932);
     align-items: center;
   }
   .con {
@@ -11,7 +11,7 @@ body {
     margin: -2% 10%;
     align-items: center;
     padding: 0px 15px;
-    background-color: rgb(187, 187, 187);
+    background-color: rgb(211, 210, 210);
   }
   .up{
     font-size: 20px;
@@ -147,21 +147,24 @@ body {
     height: 100%;
   }
   .foto{
-    display: flex;
     width: 35%;
     height: 25%;
-    position: relative;
     margin-left: 60%;
     overflow: hidden;
+  }
+  .logos{
+    width: auto;
+    height: auto;
   }
   .logo{
     width: 10%;
     height: 5%;
-    position: relative;
+    display: grid;
   }
-  .logos{
-    display: flexbox;
-    position: relative;
+  .links{
+    display: flex;
+    padding: 1vh;
+    overflow: hidden;
   }
   .end {
     width: 100%;
