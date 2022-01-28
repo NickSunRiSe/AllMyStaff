@@ -1,6 +1,14 @@
 import React from "react";
 
 const player = () => {
+  let time = document.querySelector(".time");
+  let btnPlay = document.querySelector(".play");
+  let btnPause = document.querySelector(".pause");
+  let btnPrev = document.querySelector(".prev");
+  let btnNext = document.querySelector(".next");
+  let track = document.getElementById("track_item");
+  var playlist = ["sounds/111.mp3", "sounds/222.mp3", "sounds/333.mp3"];
+  let songNum = 0;
   btnPlay.addEventListener("click", function () {
     audio.play();
     audioPlay = setInterval(function () {

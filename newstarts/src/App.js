@@ -74,7 +74,7 @@ function App() {
         <Text2 post={post} key={post.id} />
       )}
       <h1 style={{ textAlign: "center" }}>Список синглов*</h1>
-      <div>* В данном списке используются официальные даты релизов синглов</div>
+      <center className="minitext">* В данном списке используются официальные даты релизов синглов</center>
       {singles.map((single) => 
         <Singlee single={single} key={single.id} />
       )}

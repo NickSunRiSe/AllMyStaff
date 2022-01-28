@@ -3,8 +3,7 @@ import Apple from "./svg/Apple";
 import Spotify from "./svg/SpotL";
 import Vk from "./svg/Vk";
 import Yan from "./svg/Yan";
-import classes from './Text2.module.css'
-
+import classes from "./Text2.module.css";
 
 const Text2 = (props) => {
   return (
@@ -13,22 +12,24 @@ const Text2 = (props) => {
         {props.post.id} . {props.post.title}
       </div>
       {props.post.body}
+      <div className="logosfoto">
       <div className="logos">
         <a href={props.post.spotify} target={"_blank"} className="links">
-          <Spotify/>
+          <Spotify />
         </a>
         <a href={props.post.Vk} target={"_blank"} className="links">
-          <Vk/>
+          <Vk />
         </a>
         <a href={props.post.Yandex} target={"_blank"} className="links">
-          <Yan/>
+          <Yan />
         </a>
         <a href={props.post.Apple} target={"_blank"} className="links">
-          <Apple/>
+          <Apple />
         </a>
       </div>
       {props.post.picture}
-      Дата выхода: {props.post.date}
+      </div>
+      <div className="dataa">Дата выхода: {props.post.date}</div>
     </div>
   );
 };
