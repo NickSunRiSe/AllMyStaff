@@ -7,9 +7,7 @@ import Yan from "./svg/Yan";
 const Singles = (props) => {
     return (
         <div className="text">
-        <div className="post__content">
           {props.single.id} . {props.single.title}
-        </div>
         {props.single.body}
         <div className="logosfoto">
         <div className="logos">
