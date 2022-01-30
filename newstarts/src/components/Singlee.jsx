@@ -3,10 +3,11 @@ import Apple from "./svg/Apple";
 import Spotify from "./svg/SpotL";
 import Vk from "./svg/Vk";
 import Yan from "./svg/Yan";
+import classes from "./Text2.module.css";
 
 const Singles = (props) => {
     return (
-        <div className="text">
+      <div className={classes.teht}>
           {props.single.id} . {props.single.title}
         {props.single.body}
         <div className="logosfoto">

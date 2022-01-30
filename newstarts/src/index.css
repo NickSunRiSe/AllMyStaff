@@ -169,9 +169,11 @@ body {
   .logosfoto{
     overflow: hidden;
     display: flex;
+    padding: 1vh;
   }
   .links{
     display: flex;
+    flex-wrap: wrap;
     padding: 1vh;
     overflow: hidden;
     width: auto;
