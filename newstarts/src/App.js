@@ -7,13 +7,15 @@ import Image3 from "./components/images/Picture3";
 import Singlee from "./components/Singlee";
 import Text1 from "./components/Text1";
 import Text2 from "./components/Text2";
+import Image4 from "./components/images/Vuga";
+import Image5 from "./components/images/We";
 
 function App() {
   const [posts, setPosts] = useState([
     {
       id: 1,
       title: "Сборник 1: Сломанный телефон",
-      body: " Первый полноценный альбом, который является по сути всего лишь сборником вышедших на тот момент песен",
+      body: "Первый полноценный альбом, который является по сути всего лишь сборником вышедших на тот момент песен",
       date: "2020-01-18",
       spotify:
         "https://open.spotify.com/album/71qVPxVAsNKGMSJZr9tFTr?si=Ib87m1M9TliUIOyFyu-C7Q",
@@ -26,7 +28,7 @@ function App() {
     {
       id: 2,
       title: "Причины искусства",
-      body: " Второй полноформатный альбом вышедший через полтора года после первого и также вместивший много песен вышедших ранее",
+      body: "Второй полноформатный альбом вышедший через полтора года после первого и также вместивший много песен вышедших ранее",
       date: "2021-06-26",
       spotify:
         "https://open.spotify.com/album/2I3rLbkC1KTlHzSWrYJkXG?si=183vuUoATYuyOVaAdAnf8w",
@@ -39,7 +41,7 @@ function App() {
     {
       id: 3,
       title: "Грустные песни о успехах моей жизни",
-      body: " Альбом который на данный момент является самым большим во всей дискрографии Истень по количеству треков, а так же первый альбом который почти полностью состоял из не изданных ранее песен",
+      body: "Альбом который на данный момент является самым большим во всей дискрографии Истень по количеству треков, а так же первый альбом который почти полностью состоял из не изданных ранее песен",
       date: "2022-01-20",
       spotify:
         "https://open.spotify.com/album/3nxORQNKqPjc1ek2DKHyzF?si=ll-3oRp_SBe7CYdiCcv2Gw",
@@ -53,8 +55,34 @@ function App() {
   const [singles, setSingle] = useState([
     {
       id: 1,
+      title: "Вьюга",
+      body: "Трек который потом вышел как часть альбома Грустные песни о успехах моей жизни",
+      date: "2020-02-05",
+      spotify:
+        "https://open.spotify.com/album/4dPZvHZslBHYOYjk2AiKW9?si=1wad1c6bRmS21LjqhYYClA",
+      Vk: "https://vk.com/music/album/-2000484574_7484574_2c6a87c785875f1241",
+      Yandex: "https://music.yandex.ru/album/10697685",
+      Apple:
+        "https://music.apple.com/ru/album/%D0%B2%D1%8C%D1%8E%D0%B3%D0%B0-live-single/1512717310",
+      picture: <Image4 />,
+    },
+    {
+      id: 2,
+      title: "Мы",
+      body: "Трек который потом вышел как часть альбома Грустные песни о успехах моей жизни",
+      date: "2022-01-20",
+      spotify:
+        "https://open.spotify.com/album/1EHbwx01f4IzJPbPfLJHTh?si=yEA-U4WcRZ-lUT5fv_6_2g",
+      Vk: "https://vk.com/music/album/-2000773300_6773300_451bbc67ca36f0b64e",
+      Yandex: "https://music.yandex.ru/album/9969550",
+      Apple:
+        "https://music.apple.com/ru/album/%D0%BC%D1%8B-live-single/1499823924",
+      picture: <Image5/>,
+    },
+    {
+      id: 3,
       title: "Страшный сон",
-      body: " Трек который потом вышел как часть альбома Грустные песни о успехах моей жизни",
+      body: "Трек который потом вышел как часть альбома Грустные песни о успехах моей жизни",
       date: "2022-01-20",
       spotify:
         "https://open.spotify.com/album/2I3rLbkC1KTlHzSWrYJkXG?si=183vuUoATYuyOVaAdAnf8w",
