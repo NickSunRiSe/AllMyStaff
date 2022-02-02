@@ -9,6 +9,9 @@ import Text1 from "./components/Text1";
 import Text2 from "./components/Text2";
 import Image4 from "./components/images/Vuga";
 import Image5 from "./components/images/We";
+import Image6 from "./components/images/Td";
+import Image7 from "./components/images/Td2";
+import Image8 from "./components/images/Light";
 
 function App() {
   const [posts, setPosts] = useState([
@@ -69,8 +72,8 @@ function App() {
     {
       id: 2,
       title: "Мы",
-      body: "Трек который потом вышел как часть альбома Грустные песни о успехах моей жизни",
-      date: "2022-01-20",
+      body: "Сингл вышедший ко дню всех влюблённых, единственный сингл Истень, который вышел к какому либо празднику",
+      date: "2020-02-14",
       spotify:
         "https://open.spotify.com/album/1EHbwx01f4IzJPbPfLJHTh?si=yEA-U4WcRZ-lUT5fv_6_2g",
       Vk: "https://vk.com/music/album/-2000773300_6773300_451bbc67ca36f0b64e",
@@ -81,42 +84,42 @@ function App() {
     },
     {
       id: 3,
-      title: "Страшный сон",
-      body: "Трек который потом вышел как часть альбома Грустные песни о успехах моей жизни",
-      date: "2022-01-20",
+      title: "Этот день 24",
+      body: "ЕР на укулеле состоящий из трёх песен, которые составляют одну целую историю",
+      date: "2020-02-24",
       spotify:
-        "https://open.spotify.com/album/2I3rLbkC1KTlHzSWrYJkXG?si=183vuUoATYuyOVaAdAnf8w",
-      Vk: "https://vk.com/music/album/-2000092909_12092909_f2d1bec14a31843b32",
-      Yandex: "https://music.yandex.ru/album/16513805",
+        "https://open.spotify.com/album/0om9wxRlwabDGQj8lA82Nk?si=WG-Tych8Q5SeSeBOVPx5KQ",
+      Vk: "https://vk.com/music/album/-2000834406_6834406_5d0f8ea7ee8a3202b0",
+      Yandex: "https://music.yandex.ru/album/10043905",
       Apple:
-        "https://music.apple.com/us/album/%D0%BF%D1%80%D0%B8%D1%87%D0%B8%D0%BD%D1%8B-%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%B0/1574058350",
-      picture: <Image1 />,
+        "https://music.apple.com/ru/album/%D1%8D%D1%82%D0%BE%D1%82-%D0%B4%D0%B5%D0%BD%D1%8C-24-live-single/1501031273",
+      picture: <Image6 />,
     },
     {
       id: 4,
-      title: "Страшный сон",
-      body: "Трек который потом вышел как часть альбома Грустные песни о успехах моей жизни",
-      date: "2022-01-20",
+      title: "Этот день (Гитара)",
+      body: "Тот же Этот день 24, только на гитаре",
+      date: "2020-03-07",
       spotify:
-        "https://open.spotify.com/album/2I3rLbkC1KTlHzSWrYJkXG?si=183vuUoATYuyOVaAdAnf8w",
-      Vk: "https://vk.com/music/album/-2000092909_12092909_f2d1bec14a31843b32",
-      Yandex: "https://music.yandex.ru/album/16513805",
+        "https://open.spotify.com/album/3lZzvMcX80Heyu6fCZgMLO?si=IdKXfIDSTPq1rMCS5qJN_Q",
+      Vk: "https://vk.com/music/album/-2000887293_6887293_f70f3773483d08e2b2",
+      Yandex: "https://music.yandex.ru/album/10105803",
       Apple:
-        "https://music.apple.com/us/album/%D0%BF%D1%80%D0%B8%D1%87%D0%B8%D0%BD%D1%8B-%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%B0/1574058350",
-      picture: <Image1 />,
+        "https://music.apple.com/ru/album/%D1%8D%D1%82%D0%BE%D1%82-%D0%B4%D0%B5%D0%BD%D1%8C-%D0%B3%D0%B8%D1%82%D0%B0%D1%80%D0%B0-live-single/1502012740",
+      picture: <Image7 />,
     },
     {
       id: 5,
-      title: "Страшный сон",
-      body: "Трек который потом вышел как часть альбома Грустные песни о успехах моей жизни",
-      date: "2022-01-20",
+      title: "Свет",
+      body: "Один из первых полноценных синглов",
+      date: "2020-04-04",
       spotify:
-        "https://open.spotify.com/album/2I3rLbkC1KTlHzSWrYJkXG?si=183vuUoATYuyOVaAdAnf8w",
-      Vk: "https://vk.com/music/album/-2000092909_12092909_f2d1bec14a31843b32",
-      Yandex: "https://music.yandex.ru/album/16513805",
+        "https://open.spotify.com/album/4FCwu470TBXDjFeHKljhBZ?si=-7LKu5jNS1WeYUkcqLDkiA",
+      Vk: "https://vk.com/music/album/-2000205778_7205778_bde069d2b2680bdc07",
+      Yandex: "https://music.yandex.ru/album/10432056",
       Apple:
-        "https://music.apple.com/us/album/%D0%BF%D1%80%D0%B8%D1%87%D0%B8%D0%BD%D1%8B-%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%B0/1574058350",
-      picture: <Image1 />,
+        "https://music.apple.com/ru/album/%D1%81%D0%B2%D0%B5%D1%82-live-single/1507980438",
+      picture: <Image8 />,
     },
   ]);
 
@@ -127,8 +130,7 @@ function App() {
       {posts.map((post) => 
         <Text2 post={post} key={post.id} />
       )}
-      <h1 style={{ textAlign: "center" }}>Список синглов*</h1>
-      <center className="minitext">* В данном списке используются официальные даты релизов синглов</center>
+      <h1 style={{ textAlign: "center" }}>Список синглов и ЕР*</h1>
       {singles.map((single) => 
         <Singlee single={single} key={single.id} />
       )}
