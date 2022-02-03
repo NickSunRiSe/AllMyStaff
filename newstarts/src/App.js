@@ -12,6 +12,9 @@ import Image5 from "./components/images/We";
 import Image6 from "./components/images/Td";
 import Image7 from "./components/images/Td2";
 import Image8 from "./components/images/Light";
+import Image9 from "./components/images/Mig";
+import Image10 from "./components/images/Rain";
+import Image11 from "./components/images/Sundisc";
 
 function App() {
   const [posts, setPosts] = useState([
@@ -59,7 +62,7 @@ function App() {
     {
       id: 1,
       title: "Вьюга",
-      body: "Трек который потом вышел как часть альбома Грустные песни о успехах моей жизни",
+      body: "Одна из ранних песен, которая долгое время была только в ВК, позже была добавлена на все площадки",
       date: "2020-02-05",
       spotify:
         "https://open.spotify.com/album/4dPZvHZslBHYOYjk2AiKW9?si=1wad1c6bRmS21LjqhYYClA",
@@ -121,6 +124,45 @@ function App() {
         "https://music.apple.com/ru/album/%D1%81%D0%B2%D0%B5%D1%82-live-single/1507980438",
       picture: <Image8 />,
     },
+    {
+      id: 6,
+      title: "Миг",
+      body: "Песня написанная за один день и записанная сразу, так же в самом конце есть небольшой эмбиент, очень особенная песня",
+      date: "2020-04-28",
+      spotify:
+        "https://open.spotify.com/album/3FpFnjv2blmpokSrdjqSH1?si=FkUJrcCGQfG_-cyhY7OaVg",
+      Vk: "https://vk.com/music/album/-2000354095_7354095_bc188442a4005f1610",
+      Yandex: "https://music.yandex.ru/album/10574071",
+      Apple:
+        "https://music.apple.com/ru/album/%D0%BC%D0%B8%D0%B3-single/1510549707",
+      picture: <Image9 />,
+    },
+    {
+      id: 7,
+      title: "Дождь",
+      body: "Песня в двух вариантах, на гитаре и укулеле, которая долгое время на многих площадках является самой прослушиваемой из всех",
+      date: "2020-05-16",
+      spotify:
+        "https://open.spotify.com/album/2i2DjqgnXZnUMn1AI0vsxc?si=EzYOx3rfQRqpGC028N0KiQ",
+      Vk: "https://vk.com/music/album/-2000551582_7551582_5750aa43f3bcb35f50",
+      Yandex: "https://music.yandex.ru/album/10765729",
+      Apple:
+        "https://music.apple.com/ru/album/%D0%B4%D0%BE%D0%B6%D0%B4%D1%8C-live-single/1513786182",
+      picture: <Image10 />,
+    },
+    {
+      id: 8,
+      title: "Солнечный диск",
+      body: "ЕР из трёх треков, является одним из самых популярных ЕР во всей дискографии",
+      date: "2020-06-13",
+      spotify:
+        "https://open.spotify.com/album/13yv1wTJJsmGiwHoTxixo6?si=CgSSAcqqRdi2sv__ewQ2yw",
+      Vk: "https://vk.com/music/album/-2000802901_7802901_e66147b73bfeeb6230",
+      Yandex: "https://music.yandex.ru/album/11064391",
+      Apple:
+        "https://music.apple.com/ru/album/%D1%81%D0%BE%D0%BB%D0%BD%D0%B5%D1%87%D0%BD%D1%8B%D0%B9-%D0%B4%D0%B8%D1%81%D0%BA-live-single/1518276215",
+      picture: <Image11 />,
+    },
   ]);
 
   return (
@@ -130,7 +172,7 @@ function App() {
       {posts.map((post) => 
         <Text2 post={post} key={post.id} />
       )}
-      <h1 style={{ textAlign: "center" }}>Список синглов и ЕР*</h1>
+      <h1 style={{ textAlign: "center" }}>Список синглов и ЕР</h1>
       {singles.map((single) => 
         <Singlee single={single} key={single.id} />
       )}
