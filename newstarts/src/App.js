@@ -83,7 +83,7 @@ function App() {
       Yandex: "https://music.yandex.ru/album/9969550",
       Apple:
         "https://music.apple.com/ru/album/%D0%BC%D1%8B-live-single/1499823924",
-      picture: <Image5/>,
+      picture: <Image5 />,
     },
     {
       id: 3,
@@ -169,13 +169,13 @@ function App() {
     <div className="con">
       <Text1 />
       <h1 style={{ textAlign: "center" }}>Список альбомов</h1>
-      {posts.map((post) => 
+      {posts.map((post) => (
         <Text2 post={post} key={post.id} />
-      )}
+      ))}
       <h1 style={{ textAlign: "center" }}>Список синглов и ЕР</h1>
-      {singles.map((single) => 
+      {singles.map((single) => (
         <Singlee single={single} key={single.id} />
-      )}
+      ))}
       <End />
     </div>
   );

@@ -1,190 +1,190 @@
 body {
-    font-family: "Ubuntu";
-    font-size: 15px;
-    color: #000000;
-    background-color: rgba(179, 179, 179, 0.932);
-    align-items: center;
-  }
-  .con {
-    overflow: hidden;
-    max-width: 100%;
-    margin: -2% 10%;
-    align-items: center;
-    padding: 0px 15px;
-    background-color: rgb(211, 210, 210);
-  }
-  .up{
-    font-size: 20px;
-    font-family: "Ubuntu";
-    position: fixed;
-    height: 5%;
-    width: 100%;
-    left: 0;
-    right: 0;
-    background-color: #7f7d86;
-    top: 0;
-    margin: 0 auto;
-    z-index: 100;
-    opacity: 0.9;
-  }
-  .track {
-    height: 50%;
-    width: 20%;
-    position: absolute;
-    right: 35%;
-    top: 2%;
-    overflow: hidden;
-  }
-  .track_item{
-    font-family: "Ubuntu";
-    font-size: 15px;
-    color: white;
-    position: absolute;
-  }
-  .play {
-    cursor: pointer;
-    top: 0.2%;
-    left: 74%;
-    position: fixed;
-    min-width: 2.3%;
-    min-height: 4.5%;
-    max-width: 35px;
-    max-height: 35px;
-    z-index: 101;
-    font-size: 30px;
-    border-collapse: collapse;
-  }
-  .pause {
-    cursor: pointer;
-    top: 0.2%;
-    left: 78%;
-    position: fixed;
-    min-width: 2.3%;
-    min-height: 4.5%;
-    max-width: 35px;
-    max-height: 35px;
-    z-index: 101;
-    font-size: 30px;
-    border-collapse: collapse;
-  }
-  .prev {
-    cursor: pointer;
-    top: 0.2%;
-    left: 82%;
-    position: fixed;
-    min-width: 2.3%;
-    min-height: 4.5%;
-    max-width: 35px;
-    max-height: 35px;
-    z-index: 101;
-    font-size: 30px;
-    border-collapse: collapse;
-  }
-  .next {
-    cursor: pointer;
-    top: 0.2%;
-    left: 86%;
-    position: fixed;
-    min-width: 2.3%;
-    min-height: 4.5%;
-    max-width: 35px;
-    max-height: 35px;
-    z-index: 101;
-    font-size: 30px;
-    border-collapse: collapse;
-  }
-  .audio-track {
-    width: 100%;
-    height: 1%;
-    background-color: #000000;
-    left: 0;
-    top: 5%;
-    position: fixed;
-    z-index: 1;
-  }
-  .time {
-    width: 0;
-    height: 1%;
-    background-color: white;
-    left: 0;
-    top: 5%;
-    position: fixed;
-    z-index: 1;
-  }
-  .left {
-    left: 0;
-    background-color: rgba(255, 255, 255, 0.425);
-    border: 0.2vw solid black;
-    border-collapse: collapse;
-    padding-top: 5px;
-    box-shadow: 5px 5px;
-    box-shadow: 3px 3px 5px rgba(122, 122, 122, 0.5);
-    font-size: 1.2vmax;
-    font-family: "Ubuntu";
-    padding: 10px;
-    height: 35%;
-    margin-top: 7vh;
-  }
-  .text{
-    left: 0;
-    background-color: transparent;
-    border: 0.2vw solid black;
-    border-collapse: collapse;
-    padding-top: 5px;
-    box-shadow: 5px 5px;
-    box-shadow: 3px 3px 5px rgba(122, 122, 122, 0.5);
-    font-size: 18px;
-    font-family: "Ubuntu";
-    padding: 10px;
-    height: 35%;
-    margin-top: 5vh;
-  }
-  .minitext{
-    font-size: 14px;
-    font-family: "Ubuntu";
-  }
-  .post.body{
-    left: 0;
-    width: 1vw;
-    position: relative;
-    overflow: hidden;
-    height: 100%;
-  }
-  .foto{
-    max-width: 35%;
-    height: 25%;
-    overflow: hidden;
-    z-index: 2;
-  }
-  .logos{
-    width: auto;
-    height: auto;
-  }
-  .logo{
-    width: 10%;
-    height: 5%;
-    display: grid;
-  }
-  .logosfoto{
-    overflow: hidden;
-    display: flex;
-    padding: 1vh;
-  }
-  .links{
-    display: flex;
-    flex-wrap: wrap;
-    padding: 1vh;
-    overflow: hidden;
-    width: auto;
-  }
-  .dataa{
-    right: 0;
-    font-size: 18px;
-    font-family: "Ubuntu";
-  }
-  .end {
-    width: 100%;
-    margin: 0 auto;
-    text-align: right;
-    font-family: "Ubuntu";
-  }
+  font-family: "Ubuntu";
+  font-size: 15px;
+  color: #000000;
+  background-color: rgba(179, 179, 179, 0.932);
+  align-items: center;
+}
+.con {
+  overflow: hidden;
+  max-width: 100%;
+  margin: -2% 10%;
+  align-items: center;
+  padding: 0px 15px;
+  background-color: rgb(211, 210, 210);
+}
+.up {
+  font-size: 20px;
+  font-family: "Ubuntu";
+  position: fixed;
+  height: 5%;
+  width: 100%;
+  left: 0;
+  right: 0;
+  background-color: #7f7d86;
+  top: 0;
+  margin: 0 auto;
+  z-index: 100;
+  opacity: 0.9;
+}
+.track {
+  height: 50%;
+  width: 20%;
+  position: absolute;
+  right: 35%;
+  top: 2%;
+  overflow: hidden;
+}
+.track_item {
+  font-family: "Ubuntu";
+  font-size: 15px;
+  color: white;
+  position: absolute;
+}
+.play {
+  cursor: pointer;
+  top: 0.2%;
+  left: 74%;
+  position: fixed;
+  min-width: 2.3%;
+  min-height: 4.5%;
+  max-width: 35px;
+  max-height: 35px;
+  z-index: 101;
+  font-size: 30px;
+  border-collapse: collapse;
+}
+.pause {
+  cursor: pointer;
+  top: 0.2%;
+  left: 78%;
+  position: fixed;
+  min-width: 2.3%;
+  min-height: 4.5%;
+  max-width: 35px;
+  max-height: 35px;
+  z-index: 101;
+  font-size: 30px;
+  border-collapse: collapse;
+}
+.prev {
+  cursor: pointer;
+  top: 0.2%;
+  left: 82%;
+  position: fixed;
+  min-width: 2.3%;
+  min-height: 4.5%;
+  max-width: 35px;
+  max-height: 35px;
+  z-index: 101;
+  font-size: 30px;
+  border-collapse: collapse;
+}
+.next {
+  cursor: pointer;
+  top: 0.2%;
+  left: 86%;
+  position: fixed;
+  min-width: 2.3%;
+  min-height: 4.5%;
+  max-width: 35px;
+  max-height: 35px;
+  z-index: 101;
+  font-size: 30px;
+  border-collapse: collapse;
+}
+.audio-track {
+  width: 100%;
+  height: 1%;
+  background-color: #000000;
+  left: 0;
+  top: 5%;
+  position: fixed;
+  z-index: 1;
+}
+.time {
+  width: 0;
+  height: 1%;
+  background-color: white;
+  left: 0;
+  top: 5%;
+  position: fixed;
+  z-index: 1;
+}
+.left {
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.425);
+  border: 0.2vw solid black;
+  border-collapse: collapse;
+  padding-top: 5px;
+  box-shadow: 5px 5px;
+  box-shadow: 3px 3px 5px rgba(122, 122, 122, 0.5);
+  font-size: 1.2vmax;
+  font-family: "Ubuntu";
+  padding: 10px;
+  height: 35%;
+  margin-top: 7vh;
+}
+.text {
+  left: 0;
+  background-color: transparent;
+  border: 0.2vw solid black;
+  border-collapse: collapse;
+  padding-top: 5px;
+  box-shadow: 5px 5px;
+  box-shadow: 3px 3px 5px rgba(122, 122, 122, 0.5);
+  font-size: 18px;
+  font-family: "Ubuntu";
+  padding: 10px;
+  height: 35%;
+  margin-top: 5vh;
+}
+.minitext {
+  font-size: 14px;
+  font-family: "Ubuntu";
+}
+.post.body {
+  left: 0;
+  width: 1vw;
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+}
+.foto {
+  max-width: 35%;
+  height: 25%;
+  overflow: hidden;
+  z-index: 2;
+}
+.logos {
+  width: auto;
+  height: auto;
+}
+.logo {
+  width: 10%;
+  height: 5%;
+  display: grid;
+}
+.logosfoto {
+  overflow: hidden;
+  display: flex;
+  padding: 1vh;
+}
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1vh;
+  overflow: hidden;
+  width: auto;
+}
+.dataa {
+  right: 0;
+  font-size: 18px;
+  font-family: "Ubuntu";
+}
+.end {
+  width: 100%;
+  margin: 0 auto;
+  text-align: right;
+  font-family: "Ubuntu";
+}
