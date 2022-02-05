@@ -15,6 +15,12 @@ import Image8 from "./components/images/Light";
 import Image9 from "./components/images/Mig";
 import Image10 from "./components/images/Rain";
 import Image11 from "./components/images/Sundisc";
+import Image12 from "./components/images/Sky";
+import Image13 from "./components/images/Eyes";
+import Image14 from "./components/images/PlaceU";
+import Image15 from "./components/images/PlaceG";
+import Image16 from "./components/images/When";
+import Image17 from "./components/images/Nightmare";
 
 function App() {
   const [posts, setPosts] = useState([
@@ -153,7 +159,7 @@ function App() {
     {
       id: 8,
       title: "Солнечный диск",
-      body: "ЕР из трёх треков, является одним из самых популярных ЕР во всей дискографии",
+      body: "ЕР из трёх треков, являлся одним из самых популярных ЕР во всей дискографии на протяжении долгого времени",
       date: "2020-06-13",
       spotify:
         "https://open.spotify.com/album/13yv1wTJJsmGiwHoTxixo6?si=CgSSAcqqRdi2sv__ewQ2yw",
@@ -162,6 +168,84 @@ function App() {
       Apple:
         "https://music.apple.com/ru/album/%D1%81%D0%BE%D0%BB%D0%BD%D0%B5%D1%87%D0%BD%D1%8B%D0%B9-%D0%B4%D0%B8%D1%81%D0%BA-live-single/1518276215",
       picture: <Image11 />,
+    },
+    {
+      id: 9,
+      title: "Небо",
+      body: "Песня эксперимент, который удался",
+      date: "2020-06-27",
+      spotify:
+        "https://open.spotify.com/album/1nYRYiMzGG0M0Qp00HdShT?si=SEdYZ-FLSV-qiqKk_qr6ZQ",
+      Vk: "https://vk.com/music/album/-2000929736_7929736_3e565cc26c43c17741",
+      Yandex: "https://music.yandex.ru/album/11232883",
+      Apple:
+        "https://music.apple.com/ru/album/%D0%BD%D0%B5%D0%B1%D0%BE-live-single/1520925582",
+      picture: <Image12 />,
+    },
+    {
+      id: 10,
+      title: "Глаза",
+      body: "Одна из моих любимых песен моего производства, доказательство самому себе, что я могу сделать что-то хорошее",
+      date: "2020-07-16",
+      spotify:
+        "https://open.spotify.com/album/3neP7w26CkizfwL4QDt2jK?si=_IkgZELBTdO4xFBT_-b2sg",
+      Vk: "https://vk.com/music/album/-2000105156_8105156_749f9480d17e47938b",
+      Yandex: "https://music.yandex.ru/album/11433024",
+      Apple:
+        "https://music.apple.com/ru/album/%D0%B3%D0%BB%D0%B0%D0%B7%D0%B0-live-single/1523625671",
+      picture: <Image13 />,
+    },
+    {
+      id: 11,
+      title: "Место (Укулеле)",
+      body: "ЕР из четырёх треков, ставший последней работой на укулеле в моём творчестве и по совместительству, самой популярной моей работой в Вконтакте по количеству прослушиваний",
+      date: "2020-08-06",
+      spotify:
+        "https://open.spotify.com/album/4ZFARLrzwnO6VUiDhWuyAq?si=WIqXLDL2Q2ejVUf8OQ5LvQ",
+      Vk: "https://vk.com/music/album/-2000309725_8309725_e28937fe6be49659eb",
+      Yandex: "https://music.yandex.ru/album/11684590",
+      Apple:
+        "https://music.apple.com/ru/album/%D0%BC%D0%B5%D1%81%D1%82%D0%BE-%D1%83%D0%BA%D1%83%D0%BB%D0%B5%D0%BB%D0%B5-live-ep/1526423961",
+      picture: <Image14 />,
+    },
+    {
+      id: 12,
+      title: "Место (Гитара)",
+      body: "Гитарная версия самого популярного ЕР в моём творчестве",
+      date: "2020-08-06",
+      spotify:
+        "https://open.spotify.com/album/0xWGO6GkFbI3anHZH9qCBY?si=pYWvutfNQlCSZfjQNikICA",
+      Vk: "https://vk.com/music/album/-2000309733_8309733_44cacd16c65c2eec43",
+      Yandex: "https://music.yandex.ru/album/11684587",
+      Apple:
+        "https://music.apple.com/ru/album/%D0%BC%D0%B5%D1%81%D1%82%D0%BE-%D0%B3%D0%B8%D1%82%D0%B0%D1%80%D0%B0-live-ep/1526424187",
+      picture: <Image15 />,
+    },
+    {
+      id: 13,
+      title: "Когда",
+      body: "Первый и последний ЕР вышедший в 21 году, написанные за одну ночь две песни, которые стали чем то особенным",
+      date: "2021-10-04",
+      spotify:
+        "https://open.spotify.com/album/1RLA1ZXQL874FSEfJjy1by?si=i0u2vn7dSnCpo9c-xH7OKg",
+      Vk: "https://vk.com/music/album/-2000209785_13209785_696e8cd3d868d5e8d8",
+      Yandex: "https://music.yandex.ru/album/18531933",
+      Apple:
+        "https://music.apple.com/ru/album/%D0%BA%D0%BE%D0%B3%D0%B4%D0%B0-single/1588795714",
+      picture: <Image16 />,
+    },
+    {
+      id: 14,
+      title: "Страшный сон",
+      body: "Песня, которая позже, стала частью альбома Грустные песни о успехах моей жизни",
+      date: "2021-10-31",
+      spotify:
+        "https://open.spotify.com/album/1jPDXUyJtMDBBUN6knga77?si=XdWlBQowQRWuKEnZmmYmwg",
+      Vk: "https://vk.com/music/album/-2000517944_13517944_3d9e20b0f9e0e9afe9",
+      Yandex: "https://music.yandex.ru/album/19093753",
+      Apple:
+        "https://music.apple.com/ru/album/%D1%81%D1%82%D1%80%D0%B0%D1%88%D0%BD%D1%8B%D0%B9-%D1%81%D0%BE%D0%BD-single/1592952461",
+      picture: <Image17 />,
     },
   ]);
 
