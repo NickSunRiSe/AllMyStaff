@@ -76,7 +76,7 @@ function App() {
       Yandex: "https://music.yandex.ru/album/10697685",
       Apple:
         "https://music.apple.com/ru/album/%D0%B2%D1%8C%D1%8E%D0%B3%D0%B0-live-single/1512717310",
-      picture: <Image4 />,
+      picture: <Image4/>,
     },
     {
       id: 2,
@@ -89,7 +89,7 @@ function App() {
       Yandex: "https://music.yandex.ru/album/9969550",
       Apple:
         "https://music.apple.com/ru/album/%D0%BC%D1%8B-live-single/1499823924",
-      picture: <Image5 />,
+      picture: <Image5/>,
     },
     {
       id: 3,
@@ -102,7 +102,7 @@ function App() {
       Yandex: "https://music.yandex.ru/album/10043905",
       Apple:
         "https://music.apple.com/ru/album/%D1%8D%D1%82%D0%BE%D1%82-%D0%B4%D0%B5%D0%BD%D1%8C-24-live-single/1501031273",
-      picture: <Image6 />,
+      picture: <Image6/>,
     },
     {
       id: 4,
@@ -115,7 +115,7 @@ function App() {
       Yandex: "https://music.yandex.ru/album/10105803",
       Apple:
         "https://music.apple.com/ru/album/%D1%8D%D1%82%D0%BE%D1%82-%D0%B4%D0%B5%D0%BD%D1%8C-%D0%B3%D0%B8%D1%82%D0%B0%D1%80%D0%B0-live-single/1502012740",
-      picture: <Image7 />,
+      picture: <Image7/>,
     },
     {
       id: 5,
@@ -128,7 +128,7 @@ function App() {
       Yandex: "https://music.yandex.ru/album/10432056",
       Apple:
         "https://music.apple.com/ru/album/%D1%81%D0%B2%D0%B5%D1%82-live-single/1507980438",
-      picture: <Image8 />,
+      picture: <Image8/>,
     },
     {
       id: 6,
@@ -141,7 +141,7 @@ function App() {
       Yandex: "https://music.yandex.ru/album/10574071",
       Apple:
         "https://music.apple.com/ru/album/%D0%BC%D0%B8%D0%B3-single/1510549707",
-      picture: <Image9 />,
+      picture: <Image9/>,
     },
     {
       id: 7,
@@ -154,7 +154,7 @@ function App() {
       Yandex: "https://music.yandex.ru/album/10765729",
       Apple:
         "https://music.apple.com/ru/album/%D0%B4%D0%BE%D0%B6%D0%B4%D1%8C-live-single/1513786182",
-      picture: <Image10 />,
+      picture: <Image10/>,
     },
     {
       id: 8,
@@ -167,7 +167,7 @@ function App() {
       Yandex: "https://music.yandex.ru/album/11064391",
       Apple:
         "https://music.apple.com/ru/album/%D1%81%D0%BE%D0%BB%D0%BD%D0%B5%D1%87%D0%BD%D1%8B%D0%B9-%D0%B4%D0%B8%D1%81%D0%BA-live-single/1518276215",
-      picture: <Image11 />,
+      picture: <Image11/>,
     },
     {
       id: 9,
@@ -180,7 +180,7 @@ function App() {
       Yandex: "https://music.yandex.ru/album/11232883",
       Apple:
         "https://music.apple.com/ru/album/%D0%BD%D0%B5%D0%B1%D0%BE-live-single/1520925582",
-      picture: <Image12 />,
+      picture: <Image12/>,
     },
     {
       id: 10,
@@ -193,7 +193,7 @@ function App() {
       Yandex: "https://music.yandex.ru/album/11433024",
       Apple:
         "https://music.apple.com/ru/album/%D0%B3%D0%BB%D0%B0%D0%B7%D0%B0-live-single/1523625671",
-      picture: <Image13 />,
+      picture: <Image13/>,
     },
     {
       id: 11,
@@ -206,7 +206,7 @@ function App() {
       Yandex: "https://music.yandex.ru/album/11684590",
       Apple:
         "https://music.apple.com/ru/album/%D0%BC%D0%B5%D1%81%D1%82%D0%BE-%D1%83%D0%BA%D1%83%D0%BB%D0%B5%D0%BB%D0%B5-live-ep/1526423961",
-      picture: <Image14 />,
+      picture: <Image14/>,
     },
     {
       id: 12,
@@ -219,7 +219,7 @@ function App() {
       Yandex: "https://music.yandex.ru/album/11684587",
       Apple:
         "https://music.apple.com/ru/album/%D0%BC%D0%B5%D1%81%D1%82%D0%BE-%D0%B3%D0%B8%D1%82%D0%B0%D1%80%D0%B0-live-ep/1526424187",
-      picture: <Image15 />,
+      picture: <Image15/>,
     },
     {
       id: 13,
@@ -232,7 +232,7 @@ function App() {
       Yandex: "https://music.yandex.ru/album/18531933",
       Apple:
         "https://music.apple.com/ru/album/%D0%BA%D0%BE%D0%B3%D0%B4%D0%B0-single/1588795714",
-      picture: <Image16 />,
+      picture: <Image16/>,
     },
     {
       id: 14,
@@ -245,7 +245,7 @@ function App() {
       Yandex: "https://music.yandex.ru/album/19093753",
       Apple:
         "https://music.apple.com/ru/album/%D1%81%D1%82%D1%80%D0%B0%D1%88%D0%BD%D1%8B%D0%B9-%D1%81%D0%BE%D0%BD-single/1592952461",
-      picture: <Image17 />,
+      picture: <Image17/>,
     },
   ]);
 

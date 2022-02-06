@@ -8,7 +8,7 @@ import classes from "./Text2.module.css";
 const Text2 = (props) => {
   return (
     <div className={classes.teht}>
-      {props.post.id} . {props.post.title} <br />
+      {props.post.id} . {props.post.title} <br/>
       {props.post.body}
       <div className="logosfoto">
         <div className="logos">
