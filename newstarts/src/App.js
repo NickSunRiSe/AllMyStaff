@@ -4,9 +4,7 @@ import Allinfo from "./components/Allinfo";
 
 function App() {
   return (
-    <div>
     <Allinfo/>
-    </div>
   );
 }
 

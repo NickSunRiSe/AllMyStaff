@@ -27,7 +27,7 @@ const Singles = (props) => {
           </div>
       {props.single.picture}
       </div>
-      <div className="dataa">Дата выхода: {props.single.date}</div>
+      <div className="dataa">Дата релиза: {props.single.date}</div>
     </div>
     );
 };
