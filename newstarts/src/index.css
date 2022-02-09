@@ -188,3 +188,18 @@ body {
   text-align: right;
   font-family: "Ubuntu";
 }
+.text3{
+  overflow: hidden;
+  display: flex;
+  left: 0;
+  background: transparent;
+  border: 0.2vw solid black;
+  border-collapse: collapse;
+  box-shadow: 5px 5px 7px rgba(122, 122, 122, 0.5);
+  font-size: 18px;
+  font-family: "Ubuntu";
+  padding: 1vh;
+  height: 35%;
+  margin-top: 5vh;
+  width: auto;
+}
