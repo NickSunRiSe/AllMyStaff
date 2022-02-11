@@ -151,7 +151,7 @@ body {
   height: 100%;
 }
 .foto {
-  max-width: 35%;
+  max-width: 43.7%;
   height: 25%;
   overflow: hidden;
   z-index: 2;
@@ -169,6 +169,10 @@ body {
   overflow: hidden;
   display: flex;
   padding: 1vh;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: stretch;
+  justify-content: space-between;
 }
 .links {
   display: flex;
@@ -188,7 +192,7 @@ body {
   text-align: right;
   font-family: "Ubuntu";
 }
-.text3{
+.text3 {
   overflow: hidden;
   display: flex;
   left: 0;
@@ -201,5 +205,14 @@ body {
   padding: 1vh;
   height: 35%;
   margin-top: 5vh;
-  width: auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: stretch;
+  justify-content: space-between;
+}
+.Isten{
+  width: 25%;
+  height: 25%;
+  overflow: hidden;
+  z-index: 2;
 }

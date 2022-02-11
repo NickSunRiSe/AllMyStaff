@@ -253,7 +253,7 @@ const Allinfo = () => {
   return (
     <div className="con">
       <Text1 />
-      <Text3/>
+      <Text3 />
       <h1 style={{ textAlign: "center" }}>Список альбомов</h1>
       {posts.map((post) => (
         <Text2 post={post} key={post.id} />
