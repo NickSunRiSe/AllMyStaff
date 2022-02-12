@@ -151,7 +151,7 @@ body {
   height: 100%;
 }
 .foto {
-  max-width: 43.7%;
+  max-width: 35%;
   height: 25%;
   overflow: hidden;
   z-index: 2;
@@ -210,7 +210,7 @@ body {
   align-content: stretch;
   justify-content: space-between;
 }
-.Isten{
+.Isten {
   width: 25%;
   height: 25%;
   overflow: hidden;
