@@ -5,6 +5,11 @@ body {
   background-color: rgba(179, 179, 179, 0.932);
   align-items: center;
 }
+#root {
+  display: flex;
+  justify-content: column;
+  align-items: center;
+}
 .con {
   overflow: hidden;
   max-width: 100%;
@@ -240,4 +245,15 @@ body {
   height: 25%;
   overflow: hidden;
   z-index: 2;
+}
+.navbar {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  width: 100vw;
+  padding: 0 15px;
+  background-color: #000000;
+}
+.navbar_links {
+  margin-left: auto;
 }
