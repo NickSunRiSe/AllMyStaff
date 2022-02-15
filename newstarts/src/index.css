@@ -180,6 +180,31 @@ body {
   padding: 1vh;
   overflow: hidden;
   width: auto;
+  color: #1dd75f;
+}
+.links2 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1vh;
+  overflow: hidden;
+  width: auto;
+  color: #0278ff;
+}
+.links3 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1vh;
+  overflow: hidden;
+  width: auto;
+  color: #ffcf00;
+}
+.links4 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1vh;
+  overflow: hidden;
+  width: auto;
+  color: white;
 }
 .dataa {
   right: 0;

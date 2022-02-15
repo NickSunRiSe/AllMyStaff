@@ -27,7 +27,7 @@ const Singles = (props) => {
           </a>
           <a
             href={props.single.Vk}
-            className="links"
+            className="links2"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -35,7 +35,7 @@ const Singles = (props) => {
           </a>
           <a
             href={props.single.Yandex}
-            className="links"
+            className="links3"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -43,7 +43,7 @@ const Singles = (props) => {
           </a>
           <a
             href={props.single.Apple}
-            className="links"
+            className="links4"
             target="_blank"
             rel="noopener noreferrer"
           >

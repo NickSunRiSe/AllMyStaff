@@ -28,7 +28,7 @@ const Text2 = (props) => {
           </a>
           <a
             href={props.post.Vk}
-            className="links"
+            className="links2"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -36,7 +36,7 @@ const Text2 = (props) => {
           </a>
           <a
             href={props.post.Yandex}
-            className="links"
+            className="links3"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -44,7 +44,7 @@ const Text2 = (props) => {
           </a>
           <a
             href={props.post.Apple}
-            className="links"
+            className="links4"
             target="_blank"
             rel="noopener noreferrer"
           >
