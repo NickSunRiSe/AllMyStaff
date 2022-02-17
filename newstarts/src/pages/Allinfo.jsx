@@ -5,7 +5,6 @@ import Image1 from "../components/images/Picture1";
 import Image2 from "../components/images/Picture2";
 import Image3 from "../components/images/Picture3";
 import Singlee from "../components/Singlee";
-import Text1 from "../components/Text1";
 import Text2 from "../components/Text2";
 import Image4 from "../components/images/Vuga";
 import Image5 from "../components/images/We";
@@ -21,7 +20,7 @@ import Image14 from "../components/images/PlaceU";
 import Image15 from "../components/images/PlaceG";
 import Image16 from "../components/images/When";
 import Image17 from "../components/images/Nightmare";
-import Text3 from "../components/Text3";
+import Text4 from "../components/Text4";
 
 const Allinfo = () => {
   const [posts, setPosts] = useState([
@@ -252,8 +251,7 @@ const Allinfo = () => {
 
   return (
     <div className="con">
-      <Text1 />
-      <Text3 />
+      <Text4 />
       <h1 style={{ textAlign: "center" }}>Список альбомов</h1>
       {posts.map((post) => (
         <Text2 post={post} key={post.id} />
