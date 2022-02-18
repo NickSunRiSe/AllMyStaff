@@ -5,6 +5,116 @@ body {
   background-color: rgba(179, 179, 179, 0.932);
   align-items: center;
 }
+@media (max-width: 1000px) {
+  .con {
+    max-width: 870px;
+  }
+  .left {
+    margin-right: 0;
+  }
+  .right {
+    margin-left: 0;
+  }
+}
+@media (max-width: 800px) {
+  .con {
+    max-width: 750px;
+  }
+  .left {
+    margin-right: 0;
+  }
+  .right {
+    margin-left: 0;
+  }
+}
+@media (max-width: 600px) {
+  .con {
+    max-width: none;
+  }
+  .left {
+    margin-right: 0;
+  }
+  .right {
+    margin-left: 0;
+  }
+}
+
+
+
+
+.preloader {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(202, 202, 206, 0.932);
+  opacity: 100%;
+  z-index: 1001;
+}
+
+.preloader__row {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  width: 70px;
+  height: 70px;
+  margin-top: -35px;
+  margin-left: -35px;
+  text-align: center;
+  animation: preloader-rotate 2s infinite linear;
+}
+
+.preloader__item {
+  position: absolute;
+  display: inline-block;
+  top: 0;
+  background-color: #9a9a9b;
+  border-radius: 100%;
+  width: 35px;
+  height: 35px;
+  animation: preloader-bounce 2s infinite ease-in-out;
+}
+
+.preloader__item:last-child {
+  top: auto;
+  bottom: 0;
+  animation-delay: -1s;
+}
+
+@keyframes preloader-rotate {
+  100% {
+    transform: rotate(1080deg);
+  }
+}
+
+@keyframes preloader-bounce {
+  0%,
+  100% {
+    transform: scale(0);
+  }
+
+  50% {
+    transform: scale(1);
+  }
+}
+
+.loaded_hiding .preloader {
+  transition: 0.5s opacity;
+  opacity: 0;
+}
+
+.loaded .preloader {
+  display: none;
+}
+
+
+
+
+
+
+
+
 #root {
   display: flex;
   justify-content: column;
@@ -246,43 +356,16 @@ body {
   overflow: hidden;
   z-index: 2;
 }
-.navbar {
-  display: flex;
-  height: 100vh;
-  align-items: center;
-  width: 100vw;
-  padding: 0 15px;
-  background-color: #000000;
-}
-.navbar_links {
-  margin-left: auto;
-}
-
-
-
-
-.slider {
-  position: relative;
-  width: 80%;
-  height: 500px;
-  margin: auto;
-  box-sizing: border-box;
-  display: flex;
-  align-items: center;
-  overflow: hidden;
-}
-
-.slider-img {
-  position: absolute;
+.header {
+  position: fixed;
+  height: 5%;
   width: 100%;
-  height: 500px;
-  transition: all 0.2s;
-}
-
-.slider-img-prev {
-  transform: translateX(-100%);
-}
-
-.slider-img-next {
-  transform: translateX(100%);
+  left: 0;
+  right: 0;
+  background-color: transparent;
+  top: 0;
+  margin: 0 auto;
+  z-index: 100;
+  opacity: 0.9;
+ 
 }

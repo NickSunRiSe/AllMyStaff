@@ -5,7 +5,9 @@ import Fs from "./pages/Fs";
 
 function App() {
   return (
-          <Fs />
+    <div> 
+  <Allinfo />
+  </div>      
   );
 }
 

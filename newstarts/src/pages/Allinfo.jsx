@@ -21,6 +21,7 @@ import Image15 from "../components/images/PlaceG";
 import Image16 from "../components/images/When";
 import Image17 from "../components/images/Nightmare";
 import Text4 from "../components/Text4";
+import Header from "../components/UI/Header";
 
 const Allinfo = () => {
   const [posts, setPosts] = useState([
@@ -251,6 +252,7 @@ const Allinfo = () => {
 
   return (
     <div className="con">
+      <Header/>
       <Text4 />
       <h1 style={{ textAlign: "center" }}>Список альбомов</h1>
       {posts.map((post) => (
