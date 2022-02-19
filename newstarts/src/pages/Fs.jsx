@@ -7,7 +7,6 @@ import Header from '../components/UI/Header';
 
 const FirstPage = () => {
     return (
-        
         <div className="con">
         <Header/>
         <Text1 />
