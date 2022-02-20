@@ -39,9 +39,6 @@ body {
   }
 }
 
-
-
-
 .preloader {
   position: fixed;
   left: 0;
@@ -107,13 +104,6 @@ body {
 .loaded .preloader {
   display: none;
 }
-
-
-
-
-
-
-
 
 #root {
   display: flex;
@@ -367,5 +357,4 @@ body {
   margin: 0 auto;
   z-index: 100;
   opacity: 0.9;
- 
 }
