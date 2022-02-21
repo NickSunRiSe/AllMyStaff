@@ -4,7 +4,7 @@ import { BrowserRouter, Link, Route } from "react-router-dom";
 const Header = () => {
     return (
         <header className="header">
-        Это верхушка страницы - header
+        Это верхушка страницы - header тут меню
       </header>
     );
 };
