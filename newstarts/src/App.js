@@ -1,13 +1,28 @@
-import React, { useState } from "react";
+import React from "react";
 import "../src/index";
 import Allinfo from "./pages/Allinfo";
 import Fs from "./pages/Fs";
+import {
+  BrowserRouter as Router,
+  Route,
+  Link
+} from "react-router-dom";
+import Header from "./components/UI/Header";
 
 function App() {
   return (
-    <div>
+    <Router>
+      <div>
+        <Header/>
+        <Fs/>
+      </div>
+      <Route path="/about">
       <Allinfo/>
-    </div>
+      </Route>
+      <Route path="/users">
+      <Fs/>
+      </Route>
+    </Router>
   );
 }
 
