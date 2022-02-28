@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "./images/Isten";
+import Logo from "../images/Isten";
 
 const Text3 = () => {
   return (

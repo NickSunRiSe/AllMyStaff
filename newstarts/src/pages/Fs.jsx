@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import Text1 from "../components/Text1";
-import Text3 from "../components/Text3";
+import Text1 from "../components/Text/Text1";
+import Text3 from "../components/Text/Text3";
 import End from "../components/End";
 import Header from "../components/UI/Header";
 

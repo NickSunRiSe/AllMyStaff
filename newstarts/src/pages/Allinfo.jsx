@@ -4,8 +4,8 @@ import End from "../components/End";
 import Image1 from "../components/images/Picture1";
 import Image2 from "../components/images/Picture2";
 import Image3 from "../components/images/Picture3";
-import Singlee from "../components/Singlee";
-import Text2 from "../components/Text2";
+import Singlee from "../components/Text/Singlee";
+import Text2 from "../components/Text/Text2";
 import Image4 from "../components/images/Vuga";
 import Image5 from "../components/images/We";
 import Image6 from "../components/images/Td";
@@ -20,7 +20,7 @@ import Image14 from "../components/images/PlaceU";
 import Image15 from "../components/images/PlaceG";
 import Image16 from "../components/images/When";
 import Image17 from "../components/images/Nightmare";
-import Text4 from "../components/Text4";
+import Text4 from "../components/Text/Text4";
 import Header from "../components/UI/Header";
 
 const Allinfo = () => {

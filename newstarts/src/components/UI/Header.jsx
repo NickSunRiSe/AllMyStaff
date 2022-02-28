@@ -4,8 +4,8 @@ import { BrowserRouter, Link, Route } from "react-router-dom";
 const Header = () => {
     return (
         <header className="header">
-              <Link to="/about">About</Link>
-              <Link to="/users">Users</Link>
+              <Link to="/about">Главная</Link>
+              <Link to="/audio">Дискография</Link>
       </header>
     );
 };
