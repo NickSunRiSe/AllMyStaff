@@ -1,5 +1,4 @@
 import React from "react";
-import classes from "./Text2.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import {
@@ -13,7 +12,7 @@ const Text2 = (props) => {
   library.add(faSpotify, faVk, faYandex, faApple);
 
   return (
-    <div className={classes.teht}>
+    <div className="text">
       {props.post.id} . {props.post.title} <br />
       {props.post.body}
       <div className="logosfoto">

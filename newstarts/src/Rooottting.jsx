@@ -8,6 +8,7 @@ const Rooottting = () => {
     <div>
         <Routes>
       <Route path="/about" element={<Fs/>}/>
+      <Route path="*" element={<Fs/>}/>
       <Route path="/audio" element={<Allinfo/>}/>
       </Routes>
     </div>
