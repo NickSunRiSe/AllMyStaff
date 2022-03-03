@@ -387,3 +387,7 @@ body {
   text-align: center;
   position: relative;
 }
+.nothing{
+  padding-top: 25vh;
+  text-align: center;
+}
