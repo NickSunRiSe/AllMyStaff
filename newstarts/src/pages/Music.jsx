@@ -22,6 +22,7 @@ import Image16 from "../components/images/When";
 import Image17 from "../components/images/Nightmare";
 import Text4 from "../components/Text/Text4";
 import Header from "../components/UI/Header";
+import LogoMain from "../components/images/LogoMain";
 
 const Allinfo = () => {
   const [posts, setPosts] = useState([
@@ -252,6 +253,9 @@ const Allinfo = () => {
 
   return (
     <div className="con">
+      <div className="LogoMainDiv">
+        <LogoMain />
+        </div>
       <Header />
       <Text4 />
       <h1 style={{ textAlign: "center" }}>Список альбомов</h1>
