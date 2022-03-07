@@ -7,7 +7,6 @@ const Header = () => {
       <Link to="/main" className="HeaderMain">Главная</Link>
       <Link to="/history" className="HeaderHistory">История</Link>
       <Link to="/audio" className="HeaderMusic">Дискография</Link>
-      <hr />
     </header>
   );
 };
