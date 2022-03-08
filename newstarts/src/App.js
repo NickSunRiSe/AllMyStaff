@@ -4,7 +4,6 @@ import {
   BrowserRouter as Router,
 } from "react-router-dom";
 import Roter from "./Rooottting"
-import Header from "./components/UI/Header";
 
 function App() {
   return (
