@@ -307,6 +307,12 @@ body {
   width: auto;
   color: white;
 }
+.endlink{
+    padding: 1vh;
+    overflow: hidden;
+    width: auto;
+    color: black;
+}
 .dataa {
   right: 0;
   font-size: 18px;
@@ -314,10 +320,41 @@ body {
 }
 .end {
   width: 100%;
-  margin: 0 auto;
+  padding-top: 5vh;
+  font-family: "Ubuntu";
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  position: relative;
+}
+.endtext1 {
+  position: relative;
+  width: 20%;
+  height: auto;
+  padding: 1vh;
+  left: 0;
+  font-family: "Ubuntu";
+}
+.endtext2 {
+  position: relative;
+  width:20%;
+  height: auto;
+  padding:1vh;
+  left: 20%;
+  text-align: center;
+  font-family: "Ubuntu";
+}
+.endtext3 {
+  position: relative;
+  width: 20%;
+  height: auto;
+  padding: 1vh;
+  left: 38%;
   text-align: right;
   font-family: "Ubuntu";
 }
+
 .text2 {
   overflow: hidden;
   display: flex;
@@ -355,7 +392,7 @@ body {
   opacity: 0.9;
   text-align: center;
 }
-.HeaderMain{
+.HeaderMain {
   height: 5%;
   font-family: "Ubuntu";
   font-weight: bolder;
@@ -365,7 +402,7 @@ body {
   padding-top: 35vh;
   font-size: x-large;
 }
-.HeaderHistory{
+.HeaderHistory {
   height: 5%;
   font-family: "Ubuntu";
   font-weight: bolder;
@@ -375,7 +412,7 @@ body {
   padding-top: 35vh;
   font-size: x-large;
 }
-.HeaderMusic{
+.HeaderMusic {
   color: white;
   height: 5%;
   text-decoration: overline;
@@ -385,7 +422,7 @@ body {
   padding-top: 35vh;
   font-size: x-large;
 }
-.LogoMain{
+.LogoMain {
   overflow: hidden;
   height: 250px;
   width: 250px;
@@ -393,15 +430,15 @@ body {
   padding-top: 5vh;
   position: relative;
 }
-.LogoMainDiv{
+.LogoMainDiv {
   text-align: center;
   position: relative;
 }
-.nothing{
+.nothing {
   padding-top: 15vh;
   text-align: center;
 }
-.text0{
+.text0 {
   text-align: center;
   border: 0.2vw solid black;
   border-collapse: collapse;

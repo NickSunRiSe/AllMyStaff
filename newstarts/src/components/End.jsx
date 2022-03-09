@@ -1,16 +1,24 @@
-import React from 'react';
+import React from "react";
+import Endlinks from "./Endlinks";
 
 const End = () => {
-    return (
-     <footer class="end">
-      <hr />
-      <p>
-        2022 <br />
+  return (
+    <footer class="end">
+      <div className="endtext1">
+        istenoff@gmail.com
+      </div>
+        <div className="endtext2">
+         <Endlinks/>
+         <br/>
+          istenoff@gmail.com
+          </div>
+          <div className="endtext3"> 
+          2022 <br />
         Завхоз Инкорпарейтед <br />
         Сратов, РА СИ Я. <br />
-      </p>
+          </div>
     </footer>
-    );
+  );
 };
 
 export default End;
