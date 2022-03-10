@@ -2,7 +2,7 @@ body {
   font-family: "Ubuntu";
   font-size: 15px;
   color: #000000;
-  background-color: rgba(179, 179, 179, 0.932);
+  background-color: rgba(165, 165, 165, 0.932);
   align-items: center;
 }
 @media (max-width: 1000px) {
@@ -307,11 +307,11 @@ body {
   width: auto;
   color: white;
 }
-.endlink{
-    padding: 1vh;
-    overflow: hidden;
-    width: auto;
-    color: black;
+.endlink {
+  padding: 1vh;
+  overflow: hidden;
+  width: auto;
+  color: black;
 }
 .dataa {
   right: 0;
@@ -338,9 +338,9 @@ body {
 }
 .endtext2 {
   position: relative;
-  width:20%;
+  width: 20%;
   height: auto;
-  padding:1vh;
+  padding: 1vh;
   left: 20%;
   text-align: center;
   font-family: "Ubuntu";
