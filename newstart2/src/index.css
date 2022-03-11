@@ -1,0 +1,33 @@
+body {
+  font-family: "Ubuntu";
+  font-size: 15px;
+  color: #000000;
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+}
+
+.con {
+  overflow: hidden;
+  max-width: 100%;
+  margin-top: 0;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 0px 15px;
+  background-color: rgb(211, 210, 210);
+}
+.endlink {
+  padding: 1vh;
+  overflow: hidden;
+  width: auto;
+  color: black;
+}
+.end {
+  width: 100%;
+  padding-top: 5vh;
+  font-family: "Ubuntu";
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  position: relative;
+}
