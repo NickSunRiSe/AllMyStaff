@@ -10,7 +10,6 @@ const End = () => {
         <div className="endtext2">
          <Endlinks/>
          <br/>
-          istenoff@gmail.com
           </div>
           <div className="endtext3"> 
           2022 <br />

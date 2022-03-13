@@ -58,7 +58,8 @@ body {
   font-family: "Ubuntu";
 }
 .nothing {
-  padding-top: 15vh;
+  padding-top: 40vh;
+  padding-bottom: 35vh;
   text-align: center;
 }
 .header {
@@ -80,6 +81,27 @@ body {
   padding: 1.5vw;
   text-decoration: overline;
   color: white;
+  padding-top: 35vh;
+  font-size: x-large;
+}
+.HeaderMainLogo {
+  height: 5%;
+  margin-left: 0;
+  font-family: "Ubuntu";
+  font-weight: bolder;
+  padding: 1.5vw;
+  text-decoration: overline;
+  color: white;
+  padding-top: 35vh;
+  font-size: x-large;
+}
+.HeaderMusic {
+  color: white;
+  height: 5%;
+  text-decoration: overline;
+  font-family: "Ubuntu";
+  font-weight: bolder;
+  padding: 1.5vw;
   padding-top: 35vh;
   font-size: x-large;
 }
