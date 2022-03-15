@@ -13,13 +13,13 @@ body {
   margin-left: 10%;
   margin-right: 10%;
   padding: 0px 15px;
-  background-color: rgb(211, 210, 210);
+  background-color: rgba(175, 175, 175, 0.973);
 }
 .endlink {
   padding: 1vh;
   overflow: hidden;
   width: auto;
-  color: black;
+  color: rgb(0, 0, 0);
 }
 .end {
   width: 100%;
@@ -84,6 +84,36 @@ body {
   padding-top: 35vh;
   font-size: x-large;
 }
+.HeaderContacts {
+  height: 5%;
+  font-family: "Ubuntu";
+  font-weight: bolder;
+  padding: 1.5vw;
+  text-decoration: overline;
+  color: white;
+  padding-top: 35vh;
+  font-size: x-large;
+}
+.HeaderBio {
+  height: 5%;
+  font-family: "Ubuntu";
+  font-weight: bolder;
+  padding: 1.5vw;
+  text-decoration: overline;
+  color: white;
+  padding-top: 35vh;
+  font-size: x-large;
+}
+.HeaderNews {
+  height: 5%;
+  font-family: "Ubuntu";
+  font-weight: bolder;
+  padding: 1.5vw;
+  text-decoration: overline;
+  color: white;
+  padding-top: 35vh;
+  font-size: x-large;
+}
 .HeaderMainLogo {
   height: 5%;
   margin-left: 0;
@@ -104,4 +134,53 @@ body {
   padding: 1.5vw;
   padding-top: 35vh;
   font-size: x-large;
+}
+.foto {
+  max-width: 35%;
+  height: 25%;
+  overflow: hidden;
+  z-index: 2;
+}
+.minitext {
+  font-size: 14px;
+  font-family: "Ubuntu";
+}
+.text2 {
+  overflow: hidden;
+  display: flex;
+  left: 0;
+  background: transparent;
+  border: 0.2vw solid black;
+  border-collapse: collapse;
+  box-shadow: 5px 5px 7px rgba(122, 122, 122, 0.5);
+  font-size: 18px;
+  font-family: "Ubuntu";
+  padding: 1vh;
+  margin-top: 5vh;
+  height: 35%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: stretch;
+  justify-content: space-between;
+}
+.text0 {
+  text-align: center;
+  border: 0.2vw solid black;
+  border-collapse: collapse;
+  box-shadow: 5px 5px 7px rgba(122, 122, 122, 0.5);
+  font-size: 18px;
+  font-family: "Ubuntu";
+  width: 50%;
+  padding: 1vh;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  margin-top: 5vh;
+  height: 35%;
+}
+.Isten {
+  width: 25%;
+  height: 25%;
+  overflow: hidden;
+  z-index: 2;
 }
