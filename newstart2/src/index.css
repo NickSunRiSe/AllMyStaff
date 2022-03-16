@@ -5,7 +5,6 @@ body {
   background-color: rgb(255, 255, 255);
   align-items: center;
 }
-
 .con {
   overflow: hidden;
   max-width: 100%;
@@ -37,7 +36,7 @@ body {
   height: auto;
   padding: 1vh;
   left: 0;
-  font-family: "Ubuntu";
+  font-family: "Source Code Pro", Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 .endtext2 {
   position: relative;
@@ -55,7 +54,7 @@ body {
   padding: 1vh;
   left: 38%;
   text-align: right;
-  font-family: "Ubuntu";
+  font-family: "Source Code Pro", Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 .nothing {
   padding-top: 40vh;
@@ -64,7 +63,7 @@ body {
 }
 .header {
   position: fixed;
-  height: 5%;
+  height: 7%;
   width: 100%;
   left: 0;
   background-color: gray;
@@ -74,45 +73,15 @@ body {
   opacity: 0.9;
   text-align: center;
 }
-.HeaderMain {
+.HeaderText {
   height: 5%;
-  font-family: "Ubuntu";
+  font-family: "Source Code Pro", Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   font-weight: bolder;
-  padding: 1.5vw;
+  padding: 2vw;
   text-decoration: overline;
   color: white;
-  padding-top: 35vh;
-  font-size: x-large;
-}
-.HeaderContacts {
-  height: 5%;
-  font-family: "Ubuntu";
-  font-weight: bolder;
-  padding: 1.5vw;
-  text-decoration: overline;
-  color: white;
-  padding-top: 35vh;
-  font-size: x-large;
-}
-.HeaderBio {
-  height: 5%;
-  font-family: "Ubuntu";
-  font-weight: bolder;
-  padding: 1.5vw;
-  text-decoration: overline;
-  color: white;
-  padding-top: 35vh;
-  font-size: x-large;
-}
-.HeaderNews {
-  height: 5%;
-  font-family: "Ubuntu";
-  font-weight: bolder;
-  padding: 1.5vw;
-  text-decoration: overline;
-  color: white;
-  padding-top: 35vh;
-  font-size: x-large;
+  font-size: 25px;
+  font-weight: 500;
 }
 .HeaderMainLogo {
   height: 5%;
@@ -122,16 +91,6 @@ body {
   padding: 1.5vw;
   text-decoration: overline;
   color: white;
-  padding-top: 35vh;
-  font-size: x-large;
-}
-.HeaderMusic {
-  color: white;
-  height: 5%;
-  text-decoration: overline;
-  font-family: "Ubuntu";
-  font-weight: bolder;
-  padding: 1.5vw;
   padding-top: 35vh;
   font-size: x-large;
 }
@@ -183,4 +142,17 @@ body {
   height: 25%;
   overflow: hidden;
   z-index: 2;
+}
+.conbio{
+  padding-top: 5vh;
+  margin: auto;
+  width: 65%;
+  font-family: "Source Code Pro", Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  text-align: center;
+}
+.conbiotext{
+  font-size: 14px;
+  font-weight: 300;
+  font-family: "Source Code Pro", Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  text-align: center;
 }
