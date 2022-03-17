@@ -6,7 +6,7 @@ const Mainpage = () => {
     return (
         <div className='con'>
             <Header/>
-            Главная
+            Мейн страница
             <End/>
         </div>
     );
