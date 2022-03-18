@@ -150,6 +150,13 @@ body {
   font-family: "Source Code Pro", Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   text-align: center;
 }
+.condd{
+  padding-top: 10vh;
+  margin: auto;
+  width: 65%;
+  font-family: "Source Code Pro", Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  text-align: center;
+}
 .conbiotext{
   font-size: 14px;
   font-weight: 300;
