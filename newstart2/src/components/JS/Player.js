@@ -1,6 +1,7 @@
-  let time = document.querySelector(".time");
-  let btnPlay = document.querySelector(".play");
-  let btnPause = document.querySelector(".pause");
+
+  const time = document.querySelector(".time");
+  const btnPlay = document.querySelector(".play");
+  const btnPause = document.querySelector(".pause");
   let btnPrev = document.querySelector(".prev");
   let btnNext = document.querySelector(".next");
   let track = document.getElementById("track_item");
@@ -46,4 +47,4 @@
     audio.src = playlist[songNum];
     audio.play();
   }
-
+  
