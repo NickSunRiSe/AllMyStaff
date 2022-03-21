@@ -9,8 +9,6 @@ const Music = () => {
       <Header />
       <Player/>
       Дискография
-     
-      
       <End />
     </div>
   );
