@@ -13,10 +13,6 @@ const PlayerReact = () => {
 <ReactAudioPlayer
   src={b}
   controls
-/>,
-<ReactAudioPlayer
-  src={c}
-  controls
 />
     );
 };
