@@ -6,10 +6,13 @@ import ReactAudioPlayer from 'react-audio-player';
 
 const PlayerReact = () => {
     return (
-        <ReactAudioPlayer
+        <div>
+             <ReactAudioPlayer
   src={a}
   controls
 />
+плеер
+        </div>
     );
 };
 
