@@ -2,5 +2,8 @@
   "dependencies": {
     "react-router-dom": "^6.2.1",
     "react-transition-group": "^4.4.2"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.3"
   }
 }
