@@ -4,18 +4,16 @@ import Endlinks from "./Endlinks";
 const End = () => {
   return (
     <footer class="end">
-      <div className="endtext1">
-        istenoff@gmail.com
+      <div className="endtext1">istenoff@gmail.com</div>
+      <div className="endtext2">
+        <Endlinks />
+        <br />
       </div>
-        <div className="endtext2">
-         <Endlinks/>
-         <br/>
-          </div>
-          <div className="endtext3"> 
-          2022 <br />
+      <div className="endtext3">
+        2022 <br />
         Завхоз Инкорпарейтед <br />
         Сратов, РА СИ Я. <br />
-          </div>
+      </div>
     </footer>
   );
 };
