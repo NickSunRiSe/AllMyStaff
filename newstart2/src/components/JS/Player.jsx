@@ -1,12 +1,49 @@
 import React, { useRef, useState } from "react";
-import ustal from "../sounds/Ustal.mp3";
+import Ustal from "../sounds/Ustal.mp3";
 
 export default function App() {
   const audioPlayer = useRef();
   const [currentTime, setCurrentTime] = useState(0);
   const [seekValue, setSeekValue] = useState(0);
+  let time = document.querySelector(".time");
+  var playlist = ["../sounds/Ustal.mp3" , "../sounds/Ustal.mp3" , "../sounds/Ustal.mp3"];
+let songNum = 0;
+
   const play = () => {
+    let audioTime = Math.round(audioPlayer.current.currentTime);
+    let audioLength = Math.round(audioPlayer.current.duration);
+    time.style.width = (audioTime * 100) / audioLength + "%";
+    if (audioTime == audioLength && songNum < 2) {
+      //колличество треков ручное, длинна не срабатывает
+      songNum++;
+      audioPlayer.current.src = playlist[songNum];
+      audioPlayer.current.play();
+    } else if (audioTime == audioLength) {
+      songNum = 0;
+      audioPlayer.current.src = playlist[songNum];
+      audioPlayer.current.play();
+    }
+  };
+
+  const [songs] = useState([
+    {
+      src:{Ustal},
+    },
+    {
+      src:{Ustal},
+    },
+    {
+      src:{Ustal},
+    },
+  ]);
+  const plan = () => {
     audioPlayer.current.play();
+  };
+  const prev = () => {
+    audioPlayer.current.prev();
+  };
+  const next = () => {
+    audioPlayer.current.next();
   };
   const pause = () => {
     audioPlayer.current.pause();
@@ -23,7 +60,8 @@ export default function App() {
   };
   return (
     <div className="App">
-      <audio src={ustal} ref={audioPlayer} onTimeUpdate={onPlaying}>
+      <audio src={songs.src} ref={audioPlayer} onTimeUpdate={onPlaying}>
+
         Your browser does not support the
         <code>audio</code> element.
       </audio>
@@ -44,10 +82,10 @@ export default function App() {
       <div>
         <button onClick={play}>&#9655;</button>
         <button onClick={pause}>&#9723;</button>
-        <button onclick="prevtrack()">&#8810;</button>
-        <button onclick="nexttrack()">&#8811;</button>
+        <button onclick={prev}>&#8810;</button>
+        <button onclick={next}>&#8811;</button>
         <button onClick={stop}>stop</button>
       </div>
     </div>
   );
-}
+      }
