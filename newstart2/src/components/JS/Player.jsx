@@ -1,42 +1,13 @@
 import React, { useRef, useState } from "react";
 import Ustal from "../sounds/Ustal.mp3";
 
-export default function App() {
+export default function App(props) {
   const audioPlayer = useRef();
   const [currentTime, setCurrentTime] = useState(0);
   const [seekValue, setSeekValue] = useState(0);
-  let time = document.querySelector(".time");
-  var playlist = ["../sounds/Ustal.mp3" , "../sounds/Ustal.mp3" , "../sounds/Ustal.mp3"];
-let songNum = 0;
+  const [songs] = useState({ src: "Ustal", src: "Ustal", src: "Ustal" });
 
   const play = () => {
-    let audioTime = Math.round(audioPlayer.current.currentTime);
-    let audioLength = Math.round(audioPlayer.current.duration);
-    time.style.width = (audioTime * 100) / audioLength + "%";
-    if (audioTime == audioLength && songNum < 2) {
-      //колличество треков ручное, длинна не срабатывает
-      songNum++;
-      audioPlayer.current.src = playlist[songNum];
-      audioPlayer.current.play();
-    } else if (audioTime == audioLength) {
-      songNum = 0;
-      audioPlayer.current.src = playlist[songNum];
-      audioPlayer.current.play();
-    }
-  };
-
-  const [songs] = useState([
-    {
-      src:{Ustal},
-    },
-    {
-      src:{Ustal},
-    },
-    {
-      src:{Ustal},
-    },
-  ]);
-  const plan = () => {
     audioPlayer.current.play();
   };
   const prev = () => {
@@ -60,8 +31,11 @@ let songNum = 0;
   };
   return (
     <div className="App">
-      <audio src={songs.src} ref={audioPlayer} onTimeUpdate={onPlaying}>
-
+      <audio
+        source={{ src: props.songs }}
+        ref={audioPlayer}
+        onTimeUpdate={onPlaying}
+      >
         Your browser does not support the
         <code>audio</code> element.
       </audio>
@@ -88,4 +62,4 @@ let songNum = 0;
       </div>
     </div>
   );
-      }
+}
