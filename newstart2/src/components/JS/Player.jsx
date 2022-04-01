@@ -1,11 +1,10 @@
 import React, { useRef, useState } from "react";
 import Ustal from "../sounds/Ustal.mp3";
 
-export default function App(props) {
+export default function App() {
   const audioPlayer = useRef();
   const [currentTime, setCurrentTime] = useState(0);
   const [seekValue, setSeekValue] = useState(0);
-  const [songs] = useState({ src: "Ustal", src: "Ustal", src: "Ustal" });
 
   const play = () => {
     audioPlayer.current.play();
@@ -31,11 +30,7 @@ export default function App(props) {
   };
   return (
     <div className="App">
-      <audio
-        source={{ src: props.songs }}
-        ref={audioPlayer}
-        onTimeUpdate={onPlaying}
-      >
+      <audio source={Ustal} ref={audioPlayer} onTimeUpdate={onPlaying}>
         Your browser does not support the
         <code>audio</code> element.
       </audio>
