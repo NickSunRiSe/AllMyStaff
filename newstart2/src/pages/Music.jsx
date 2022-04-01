@@ -8,7 +8,7 @@ const Music = () => {
     <div className="con">
       <Header />
       <Player/>
-      Дискография 
+      Дискография с музыкой
       <End />
     </div>
   );
