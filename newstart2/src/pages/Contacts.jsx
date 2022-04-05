@@ -6,22 +6,22 @@ const Contacts = () => {
   return (
     <div className="con">
       <Header />
-      <h1>Контакты</h1>
-      По вопросам сотрудничества и предложений пишите и обращайтесь на почту.
+      <div className="Zag1">КОНТАКТЫ</div>
+      <div className="te">По вопросам сотрудничества и предложений пишите и обращайтесь на почту.</div>
       <br />
       <div className="ContactsLine">
       <div className="contact1">
-        Все коммерческие предложения <br />
+        <div className="zag1">все коммерческие<br /> предложения</div> <br />
         istenoff@gmail.com <br />
         Рассветов Никита <br />
       </div>
       <div className="contact1">
-        Обращения с дополнительными вопросами <br />
+      <div className="zag1">обращения <br />с дополнительными<br /> вопросами</div> <br />
         istenoff@gmail.com <br />
         Рассветов Никита <br />
       </div>
       <div className="contact1">
-        Обращения напрямую к Истень <br />
+      <div className="zag1">обращения<br /> напрямую к Истень</div> <br />
         https://vk.com/nicksunrise <br />
         Рассветов Никита <br />
       </div>
