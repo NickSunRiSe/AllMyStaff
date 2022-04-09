@@ -4,7 +4,7 @@ import Header from '../Header';
 
 const Mainpage = () => {
     return (
-        <div className='con'>
+        <div className="con">
             <Header/>
             Истень 
             <End/>

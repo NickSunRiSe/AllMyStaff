@@ -1,9 +1,10 @@
 import React from 'react';
+import StartPic from './images/StartPic';
 
 const Start = () => {
     return (
         <div>
-            Карткинка во весь экран такая широкая прям как у крутых
+          <StartPic/>
         </div>
     );
 };
