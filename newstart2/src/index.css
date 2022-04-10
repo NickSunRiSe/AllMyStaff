@@ -20,7 +20,7 @@ body {
 }
 .end {
   max-width: 100%;
-  padding-top: 5vh;
+  padding-top: 10vh;
   font-family: "Ubuntu";
   flex-wrap: nowrap;
   display: flex;
@@ -73,13 +73,14 @@ body {
   font-family: "Source Code Pro", Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 .nothing {
-  padding-top: 40vh;
+  padding-top: 25vh;
   padding-bottom: 35vh;
   text-align: center;
 }
 .header {
   position: fixed;
   height: 7%;
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   width: 100%;
   left: 0;
   background-color: gray;
@@ -91,8 +92,7 @@ body {
 }
 .HeaderText {
   height: 5%;
-  font-family: "Source Code Pro", Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  font-weight: bolder;
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   padding: 2vw;
   text-decoration: overline;
   color: white;
@@ -103,7 +103,6 @@ body {
   height: 5%;
   margin-left: 0;
   font-family: "Ubuntu";
-  font-weight: bolder;
   padding: 1.5vw;
   text-decoration: overline;
   color: white;
@@ -231,4 +230,9 @@ body {
 .Iste{
   height: 150px;
   width: 150px;
+}
+.startPic{
+  width: 1440px;
+  height: 30vh;
+  margin-bottom: 5vh;
 }

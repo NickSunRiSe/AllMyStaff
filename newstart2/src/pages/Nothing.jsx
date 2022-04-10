@@ -4,7 +4,7 @@ import End from "../End";
 
 const Nothing = () => {
   return (
-    <div>
+    <div className="con">
       <Header />
       <div className="nothing">
         Данная страница не содержит какого либо контента.
