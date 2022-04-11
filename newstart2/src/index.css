@@ -174,9 +174,11 @@ body {
 }
 .conbiotext{
   font-size: 14px;
+  margin-left: 15%;
+  margin-right: 15%;
+  text-align: center;
   font-weight: 300;
   font-family: "Source Code Pro", Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  text-align: center;
 }
 .con1 {
   overflow: hidden;
