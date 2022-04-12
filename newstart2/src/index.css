@@ -1,5 +1,5 @@
 body {
-  font-family: "Ubuntu";
+  font-family: "Source Code Pro", Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   font-size: 15px;
   color: #000000;
   background-color: rgb(255, 255, 255);
@@ -21,7 +21,7 @@ body {
 .end {
   max-width: 100%;
   padding-top: 10vh;
-  font-family: "Ubuntu";
+  font-family: "Source Code Pro", Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   flex-wrap: nowrap;
   display: flex;
   position: relative;
