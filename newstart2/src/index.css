@@ -73,7 +73,7 @@ body {
   font-family: "Source Code Pro", Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 .nothing {
-  padding-top: 25vh;
+  padding-top: 20vh;
   padding-bottom: 35vh;
   text-align: center;
 }
@@ -177,6 +177,7 @@ body {
   margin-left: 15%;
   margin-right: 15%;
   text-align: center;
+  line-height: 1.71429;
   font-weight: 300;
   font-family: "Source Code Pro", Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
@@ -234,7 +235,8 @@ body {
   width: 150px;
 }
 .startPic{
-  width: 1440px;
+  width: 1100px;
   height: 30vh;
   margin-bottom: 5vh;
+  overflow: hidden;
 }
