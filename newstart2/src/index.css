@@ -1,6 +1,7 @@
 body {
   font-family: "Source Code Pro", Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  font-size: 15px;
+  font-size: 14px;
+  line-height: 1.71429;
   color: #000000;
   background-color: rgb(255, 255, 255);
   align-items: center;
@@ -83,8 +84,8 @@ body {
   font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   width: 100%;
   left: 0;
-  background-color: gray;
   top: 0;
+  background-color: white;
   margin: 0 auto;
   z-index: 100;
   opacity: 0.9;
@@ -94,10 +95,11 @@ body {
   height: 5%;
   font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   padding: 2vw;
-  text-decoration: overline;
-  color: white;
+  text-decoration: auto;
+  color: #000000;
   font-size: 25px;
   font-weight: 500;
+  
 }
 .HeaderMainLogo {
   height: 5%;
@@ -174,8 +176,8 @@ body {
 }
 .conbiotext{
   font-size: 14px;
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-left: 7%;
+  margin-right: 7%;
   text-align: center;
   line-height: 1.71429;
   font-weight: 300;
@@ -188,7 +190,6 @@ body {
   margin-left: 10%;
   margin-right: 10%;
   padding: 0px 15px;
-  background-color: rgba(175, 175, 175, 0.973);
 }
 .ContactsLine{
   margin-top: 5vh;

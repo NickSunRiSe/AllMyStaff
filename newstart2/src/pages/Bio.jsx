@@ -7,7 +7,6 @@ const Bio = () => {
     return (
         <div className="con">
             <Header/>
-            <Start/>
             <div className='bioZag'>Истень</div>
             <div className='conbiotext'>
             История проекта начинается в уже таком далёком 2019 году, именно летом того года были написаны первые две песни, которые позже выйдут под знамёнами Истень.
