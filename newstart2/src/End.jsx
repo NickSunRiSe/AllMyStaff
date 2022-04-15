@@ -6,7 +6,13 @@ const End = () => {
   return (
     <footer class="end">
       <img className="Iste" src={EyesF}></img>
-      <div className="endtext1">istenoff@gmail.com</div>
+      <div className="endtext1">
+        Контакты <br/>
+        <br/>
+        Рассветов Никита <br/>
+        https://vk.com/nicksunrise <br/>
+        istenoff@gmail.com<br/>
+        </div>
       <div className="endtext2">
         <Endlinks />
         <br />

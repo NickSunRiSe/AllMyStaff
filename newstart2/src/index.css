@@ -1,5 +1,6 @@
 body {
-  font-family: "Source Code Pro", Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: "Source Code Pro", Monaco, Consolas, "Liberation Mono",
+    "Courier New", monospace;
   font-size: 14px;
   line-height: 1.71429;
   color: #000000;
@@ -22,7 +23,8 @@ body {
 .end {
   max-width: 100%;
   padding-top: 10vh;
-  font-family: "Source Code Pro", Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: "Source Code Pro", Monaco, Consolas, "Liberation Mono",
+    "Courier New", monospace;
   flex-wrap: nowrap;
   display: flex;
   position: relative;
@@ -35,7 +37,8 @@ body {
   border-collapse: collapse;
   box-shadow: 5px 5px 7px rgba(122, 122, 122, 0.5);
   font-size: 18px;
-  font-family: "Source Code Pro", Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: "Source Code Pro", Monaco, Consolas, "Liberation Mono",
+    "Courier New", monospace;
   width: 50%;
   padding: 1vh;
   margin-left: auto;
@@ -46,32 +49,37 @@ body {
 }
 .text {
   text-align: center;
-  font-family: "Source Code Pro", Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: "Source Code Pro", Monaco, Consolas, "Liberation Mono",
+    "Courier New", monospace;
   width: auto;
   padding: 1vh;
 }
 .dataa {
   right: 0;
   font-size: 18px;
-  font-family: "Source Code Pro", Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: "Source Code Pro", Monaco, Consolas, "Liberation Mono",
+    "Courier New", monospace;
 }
 .endtext1 {
   position: relative;
   width: auto;
-  text-align: center;
-  font-family: "Source Code Pro", Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  text-align: left;
+  font-family: "Source Code Pro", Monaco, Consolas, "Liberation Mono",
+    "Courier New", monospace;
 }
 .endtext2 {
   position: relative;
   width: auto;
   text-align: center;
-  font-family: "Source Code Pro", Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: "Source Code Pro", Monaco, Consolas, "Liberation Mono",
+    "Courier New", monospace;
 }
 .endtext3 {
   position: relative;
   width: auto;
   text-align: right;
-  font-family: "Source Code Pro", Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: "Source Code Pro", Monaco, Consolas, "Liberation Mono",
+    "Courier New", monospace;
 }
 .nothing {
   padding-top: 20vh;
@@ -81,7 +89,8 @@ body {
 .header {
   position: fixed;
   height: 7%;
-  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif;
   width: 100%;
   left: 0;
   top: 0;
@@ -91,15 +100,54 @@ body {
   opacity: 0.9;
   text-align: center;
 }
+.headerleft {
+  left: 0;
+  position: fixed;
+}
+.headerright {
+  right: 0;
+  position: fixed;
+}
+.Vk {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1vh;
+  overflow: hidden;
+  width: auto;
+  color: #000000;
+}
+.minilogo {
+  height: 100%;
+  width: 25%;
+  height: auto;
+  max-width: 200px;
+  max-height: 200px;
+  vertical-align: middle;
+  border-style: none;
+}
+.headercenter {
+  position: fixed;
+  height: 7%;
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif;
+  width: 80%;
+  top: 0;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: white;
+  z-index: 100;
+  opacity: 0.9;
+  text-align: center;
+}
 .HeaderText {
   height: 5%;
-  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif;
   padding: 2vw;
   text-decoration: auto;
   color: #000000;
   font-size: 25px;
   font-weight: 500;
-  
 }
 .HeaderMainLogo {
   height: 5%;
@@ -160,28 +208,31 @@ body {
   overflow: hidden;
   z-index: 2;
 }
-.conbio{
+.conbio {
   padding-top: 5vh;
   margin: auto;
   width: 65%;
-  font-family: "Source Code Pro", Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: "Source Code Pro", Monaco, Consolas, "Liberation Mono",
+    "Courier New", monospace;
   text-align: center;
 }
-.condd{
+.condd {
   padding-top: 10vh;
   margin: auto;
   width: 65%;
-  font-family: "Source Code Pro", Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: "Source Code Pro", Monaco, Consolas, "Liberation Mono",
+    "Courier New", monospace;
   text-align: center;
 }
-.conbiotext{
+.conbiotext {
   font-size: 14px;
   margin-left: 7%;
   margin-right: 7%;
   text-align: center;
   line-height: 1.71429;
   font-weight: 300;
-  font-family: "Source Code Pro", Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: "Source Code Pro", Monaco, Consolas, "Liberation Mono",
+    "Courier New", monospace;
 }
 .con1 {
   overflow: hidden;
@@ -191,51 +242,56 @@ body {
   margin-right: 10%;
   padding: 0px 15px;
 }
-.ContactsLine{
+.ContactsLine {
   margin-top: 5vh;
-  margin-bottom:5vh;
+  margin-bottom: 5vh;
   display: flex;
   flex-wrap: wrap;
   position: relative;
   text-align: left;
   justify-content: space-between;
 }
-.contact1{
+.contact1 {
   font-size: 14px;
   padding: 2vw;
   font-weight: 300;
-  font-family: "Source Code Pro", Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: "Source Code Pro", Monaco, Consolas, "Liberation Mono",
+    "Courier New", monospace;
 }
-.Zag1{
+.Zag1 {
   font-size: 30px;
   padding-top: 2vh;
   padding-bottom: 2vh;
   font-weight: 700;
-  font-family: "Source Code Pro", Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: "Source Code Pro", Monaco, Consolas, "Liberation Mono",
+    "Courier New", monospace;
 }
-.zag1{
+.zag1 {
   font-size: 24px;
   padding-bottom: 1vh;
   font-weight: 700;
-  font-family: "Source Code Pro", Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: "Source Code Pro", Monaco, Consolas, "Liberation Mono",
+    "Courier New", monospace;
 }
-.bioZag{
+.bioZag {
   font-size: 24px;
   padding-bottom: 1vh;
   font-weight: 700;
   text-align: center;
-  font-family: "Source Code Pro", Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: "Source Code Pro", Monaco, Consolas, "Liberation Mono",
+    "Courier New", monospace;
 }
-.te{
-  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+.te {
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 14px;
   font-weight: 300;
 }
-.Iste{
+.Iste {
   height: 150px;
   width: 150px;
 }
-.startPic{
+.startPic {
   width: 1100px;
   height: 30vh;
   margin-bottom: 5vh;
