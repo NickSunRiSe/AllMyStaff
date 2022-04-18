@@ -16,7 +16,7 @@ const Contacts = () => {
           <div className="zag1">
             все коммерческие
             <br /> предложения
-          </div>{" "}
+          </div>
           <br />
           istenoff@gmail.com <br />
           Рассветов Никита <br />
@@ -25,7 +25,7 @@ const Contacts = () => {
           <div className="zag1">
             обращения <br />с дополнительными
             <br /> вопросами
-          </div>{" "}
+          </div>
           <br />
           istenoff@gmail.com <br />
           Рассветов Никита <br />
@@ -34,7 +34,7 @@ const Contacts = () => {
           <div className="zag1">
             обращения
             <br /> напрямую к Истень
-          </div>{" "}
+          </div>
           <br />
           https://vk.com/nicksunrise <br />
           Рассветов Никита <br />
