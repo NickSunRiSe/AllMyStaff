@@ -17,7 +17,7 @@ const Player = () => {
                     <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-1-8" data-toggle="tab">Солнечный диск</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-1-9" data-toggle="tab">Небо</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-1-10" data-toggle="tab">Глаза</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-1-11" data-toggle="tab">Место (Укулеле</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-1-11" data-toggle="tab">Место (Укулеле)</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-1-12" data-toggle="tab">Место (Гитара)</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-1-13" data-toggle="tab">Когда</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-1-14" data-toggle="tab">Страшный сон</a></li>
@@ -70,32 +70,32 @@ const Player = () => {
             </div>
             <div class="tab-pane fade show active" id="tabs-1-9">
             <ul class="jp-player-list">
-            <li class="jp-player-list-item" data-jp-title="Истень - Вьюга" data-jp-mp3="../sounds/Ustal.mp3"></li>
+            <li class="jp-player-list-item" data-jp-title="Истень - Небо" data-jp-mp3="../sounds/Ustal.mp3"></li>
             </ul>
             </div>
             <div class="tab-pane fade show active" id="tabs-1-10">
             <ul class="jp-player-list">
-            <li class="jp-player-list-item" data-jp-title="Истень - Вьюга" data-jp-mp3="../sounds/Ustal.mp3"></li>
+            <li class="jp-player-list-item" data-jp-title="Истень - Глаза" data-jp-mp3="../sounds/Ustal.mp3"></li>
             </ul>
             </div>
             <div class="tab-pane fade show active" id="tabs-1-11">
             <ul class="jp-player-list">
-            <li class="jp-player-list-item" data-jp-title="Истень - Вьюга" data-jp-mp3="../sounds/Ustal.mp3"></li>
+            <li class="jp-player-list-item" data-jp-title="Истень - Место (Укулеле)" data-jp-mp3="../sounds/Ustal.mp3"></li>
             </ul>
             </div>
             <div class="tab-pane fade show active" id="tabs-1-12">
             <ul class="jp-player-list">
-            <li class="jp-player-list-item" data-jp-title="Истень - Вьюга" data-jp-mp3="../sounds/Ustal.mp3"></li>
+            <li class="jp-player-list-item" data-jp-title="Истень - Место (Гитара)" data-jp-mp3="../sounds/Ustal.mp3"></li>
             </ul>
             </div> 
             <div class="tab-pane fade show active" id="tabs-1-13">
             <ul class="jp-player-list">
-            <li class="jp-player-list-item" data-jp-title="Истень - Вьюга" data-jp-mp3="../sounds/Ustal.mp3"></li>
+            <li class="jp-player-list-item" data-jp-title="Истень - Когда" data-jp-mp3="../sounds/Ustal.mp3"></li>
             </ul>
             </div> 
             <div class="tab-pane fade show active" id="tabs-1-14">
             <ul class="jp-player-list">
-            <li class="jp-player-list-item" data-jp-title="Истень - Вьюга" data-jp-mp3="../sounds/Ustal.mp3"></li>
+            <li class="jp-player-list-item" data-jp-title="Истень - Страшный сон" data-jp-mp3="../sounds/Ustal.mp3"></li>
             </ul>
             </div> 
             <div class="tab-pane fade show active" id="tabs-1-15">
