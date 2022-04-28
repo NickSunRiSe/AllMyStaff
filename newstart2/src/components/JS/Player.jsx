@@ -100,17 +100,17 @@ const Player = () => {
             </div> 
             <div class="tab-pane fade show active" id="tabs-1-15">
             <ul class="jp-player-list">
-            <li class="jp-player-list-item" data-jp-title="Истень - Вьюга" data-jp-mp3="../sounds/Ustal.mp3"></li>
+            <li class="jp-player-list-item" data-jp-title="Истень - Сломанный телефон" data-jp-mp3="../sounds/Ustal.mp3"></li>
             </ul>
             </div>
             <div class="tab-pane fade show active" id="tabs-1-16">
             <ul class="jp-player-list">
-            <li class="jp-player-list-item" data-jp-title="Истень - Вьюга" data-jp-mp3="../sounds/Ustal.mp3"></li>
+            <li class="jp-player-list-item" data-jp-title="Истень - Причины искусства" data-jp-mp3="../sounds/Ustal.mp3"></li>
             </ul>
             </div>
             <div class="tab-pane fade show active" id="tabs-1-17">
             <ul class="jp-player-list">
-            <li class="jp-player-list-item" data-jp-title="Истень - Вьюга" data-jp-mp3="../sounds/Ustal.mp3"></li>
+            <li class="jp-player-list-item" data-jp-title="Истень - Грустные песни о успехах моей жизни" data-jp-mp3="../sounds/Ustal.mp3"></li>
             </ul>
             </div>
 
