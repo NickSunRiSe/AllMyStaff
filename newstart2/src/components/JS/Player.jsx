@@ -6,7 +6,7 @@ const Player = () => {
     <div class="tabs-albums" id="tabs-1">
                 <div class="tabs-albums-select">
                   <div className='Albumschoose'>Выберите альбом</div>
-                  <ul class="nav nav-tabs">
+                  <ul class="nav-tabs">
                     <li class="nav-item" role="presentation"><a class="nav-link active" href="#tabs-1-1" data-toggle="tab">Вьюга</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-1-2" data-toggle="tab">Мы</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-1-3" data-toggle="tab">Этот день 24</a></li>
@@ -113,12 +113,6 @@ const Player = () => {
             <li class="jp-player-list-item" data-jp-title="Истень - Грустные песни о успехах моей жизни" data-jp-mp3="../sounds/Ustal.mp3"></li>
             </ul>
             </div>
-
-
-
-
-
-
 
             
 

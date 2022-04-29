@@ -304,3 +304,13 @@ body {
   margin-bottom: 5vh;
   overflow: hidden;
 }
+.nav-tabs{
+  display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
