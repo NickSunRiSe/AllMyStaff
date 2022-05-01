@@ -6,7 +6,7 @@ const Player = () => {
   return (
     <div class="tabs-albums" id="tabs-1">
                 <div class="tabs-albums-select">
-                  <div className='Albumschoose'>Выберите альбом</div>
+                  <div className='Albumschoose'>Альбом</div>
                   <ul class="nav-tabs">
                     <li class="nav-item" role="presentation"><a class="nav-link active" href="#tabs-1-1" data-toggle="tab">Вьюга</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-1-2" data-toggle="tab">Мы</a></li>
