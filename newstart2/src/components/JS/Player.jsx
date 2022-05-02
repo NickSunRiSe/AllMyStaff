@@ -186,10 +186,6 @@ const Player = () => {
             </ul>
             </div>
 
-            
-
-
-
 </div>
 </div>
 
