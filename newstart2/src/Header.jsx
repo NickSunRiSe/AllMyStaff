@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Link, Route } from "react-router-dom";
+import {Link } from "react-router-dom";
 import EyesF from "./components/images/ISten.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faVk } from "@fortawesome/free-brands-svg-icons";
