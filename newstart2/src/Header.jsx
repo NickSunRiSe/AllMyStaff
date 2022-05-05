@@ -1,6 +1,6 @@
 import React from "react";
 import {Link } from "react-router-dom";
-import EyesF from "./components/images/ISten.jpg";
+import Logo from "./components/images/ISten.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faVk } from "@fortawesome/free-brands-svg-icons";
 
@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <div className="header">
       <div className="headerleft">
-        <img className="minilogo" src={EyesF}></img>
+        <img className="minilogo" src={Logo}></img>
       </div>
       <div className="headercenter">
         <Link to="/main" className="HeaderText">
