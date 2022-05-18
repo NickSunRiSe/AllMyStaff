@@ -10,6 +10,7 @@ const Header = () => {
       <div className="headerleft">
         <img className="minilogo" src={Logo}></img>
       </div>
+      
       <div className="headercenter">
         <Link to="/main" className="HeaderText">
           Главная
