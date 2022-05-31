@@ -58,6 +58,11 @@ btnPausevid.addEventListener("click", function () {
   video.pause();
 });
 
+
+
+
+
+
 window.onload = function () {
   document.body.classList.add("loaded_hiding");
   window.setTimeout(function () {
@@ -65,6 +70,13 @@ window.onload = function () {
     document.body.classList.remove("loaded_hiding");
   }, 500);
 };
+
+
+
+
+
+
+
 
 let slideIndex = 1;
 showSlides(slideIndex);
