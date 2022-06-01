@@ -27,6 +27,9 @@ body {
     z-index: 100;
     opacity: 0.9;
   }
+
+  /*Аудиоплеер*/
+
   .track {
     height: 50%;
     width: 20%;
@@ -220,6 +223,59 @@ body {
     }
   }
   
+  /* Контейнер с видео*/
+
+.Con_video {
+  box-sizing: border-box;
+  margin: 5% auto;
+  display: flex;
+  overflow: hidden;
+  min-width: 25vmax;
+  min-height: 20vmax;
+  max-height: 25vmax;
+  max-width: 25vmax;
+  border-radius: 50%;
+  box-shadow: 0 0 3px 3px #000000;
+  z-index: 2;
+  justify-content: center;
+}
+.video {
+  justify-content: center;
+  align-items: center;
+  z-index: inherit;
+}
+.play_video {
+  cursor: pointer;
+  opacity: 0.7;
+  height: 8%;
+  width: 5%;
+  z-index: 3;
+  font-size: 40px;
+  align-items: center;
+  position: absolute;
+  margin-top: 17%;
+  margin-right: 10%;
+  border-collapse: collapse;
+  width: auto;
+  border-radius: 0 3px 3px 0;
+  border-radius: 3px 0 0 3px;
+}
+.pause_video {
+  cursor: pointer;
+  opacity: 0.7;
+  height: 8%;
+  width: 5%;
+  z-index: 3;
+  align-items: center;
+  position: absolute;
+  margin-top: 17%;
+  margin-left: 10%;
+  font-size: 40px;
+  width: auto;
+  border-collapse: collapse;
+  border-radius: 0 3px 3px 0;
+  border-radius: 3px 0 0 3px;
+}
   
   button {
     background-position: center;
