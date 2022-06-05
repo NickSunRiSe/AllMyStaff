@@ -61,71 +61,65 @@ body {
 
 /*Аудиоплеер*/
 
-.track {
-  height: 50%;
-  width: 20%;
-  position: absolute;
-  right: 35%;
-  top: 2%;
-  overflow: hidden;
-}
-.track_item {
+.audio__track {
   font-family: "Ubuntu";
   font-size: 15px;
   color: white;
   position: absolute;
 }
-.play {
+.audio__play {
   cursor: pointer;
   top: 0.2%;
-  left: 74%;
+  left: 67%;
   position: fixed;
   min-width: 2.3%;
   min-height: 4.5%;
   max-width: 5%;
   max-height: 5%;
   z-index: 101;
-  font-size: 25px;
+  font-size: 1.7vmax;
   border-collapse: collapse;
 }
-.pause {
+.audio__pause {
   cursor: pointer;
   top: 0.2%;
-  left: 78%;
+  left: 71%;
   position: fixed;
   min-width: 2.3%;
   min-height: 4.5%;
-  width: 35px;
-  height: 35px;
+  max-width: 5%;
+  max-height: 5%;
   z-index: 101;
-  font-size: 25px;
+  font-size: 1.7vmax;
   border-collapse: collapse;
 }
-.prev {
+.audio__prev {
   cursor: pointer;
-  left: 82%;
+  top: 0.2%;
+  left: 75%;
   position: fixed;
   min-width: 2.3%;
   min-height: 4.5%;
-  width: 5%;
-  height: 5%;
+  max-width: 5%;
+  max-height: 5%;
   z-index: 101;
-  font-size: 25px;
+  font-size: 1.7vmax;
   border-collapse: collapse;
 }
-.next {
+.audio__next {
   cursor: pointer;
-  left: 86%;
+  top: 0.2%;
+  left: 79%;
   position: fixed;
   min-width: 2.3%;
   min-height: 4.5%;
-  max-width: 35px;
-  max-height: 35px;
+  max-width: 5%;
+  max-height: 5%;
   z-index: 101;
-  font-size: 25px;
+  font-size: 1.7vmax;
   border-collapse: collapse;
 }
-.audio-track {
+.audio__line {
   width: 100%;
   height: 1%;
   background-color: #000000;
@@ -134,7 +128,7 @@ body {
   position: fixed;
   z-index: 1;
 }
-.time {
+.audio__time {
   width: 0;
   height: 1%;
   background-color: white;
@@ -149,9 +143,9 @@ body {
   padding: 10px;
   margin-top: 3%;
   left: 0;
-  font-size: x-large;
+  font-size: 1.2vmax;
 }
-.Con_start {
+.start__con {
   overflow: hidden;
     display: flex;
     flex-wrap: nowrap;
@@ -159,7 +153,7 @@ body {
     align-items: center;
     flex-direction: row;
 }
-.text_start {
+.start__text {
   left: 0;
   background-color: rgba(255, 255, 255, 0.425);
   border: 0.2vw solid rgb(0, 0, 0);
@@ -178,7 +172,6 @@ body {
   max-width: 40%;
   max-height: 60vh;
   min-width: 40%;
-  min-height: 20vh;
   right: 0;
   position: relative;
   overflow: hidden;
@@ -190,7 +183,7 @@ body {
   margin-top: 7vh;
   background-color: black;
 }
-.out_slider {
+.slider__out {
   justify-content: center;
   align-items: center;
   max-width: 100%;
@@ -199,46 +192,53 @@ body {
   z-index: inherit;
   overflow: hidden;
 }
-.slider .item_slider img {
+.slider .slider__item img {
   object-fit: contain;
   width: 100%;
   align-content: center;
 }
 
-.slider .prev_slider {
+.slider .slider__prev {
   cursor: pointer;
   position: absolute;
   top: 45%;
   z-index: 10;
   width: auto;
+  min-width: 2.3%;
+  min-height: 4.5%;
+  max-width: 5%;
+  max-height: 5%;
   padding: 16px;
   color: white;
   font-weight: bold;
-  font-size: 16px;
-  transition: 0.6s ease;
+  font-size: 1.5vmax;
+  transition: 0.3s ease;
   border-radius: 0 3px 3px 0;
 }
-.slider .next_slider {
+.slider .slider__next {
   cursor: pointer;
   position: absolute;
   top: 45%;
   right: 0;
   z-index: 10;
-  width: auto;
+  min-width: 2.3%;
+  min-height: 4.5%;
+  max-width: 5%;
+  max-height: 5%;
   padding: 16px;
   color: white;
   font-weight: bold;
-  font-size: 16px;
-  transition: 0.6s ease;
+  font-size: 1.5vmax;
+  transition: 0.3s ease;
   border-radius: 0 3px 3px 0;
   border-radius: 3px 0 0 3px;
 }
-.slider .prev_slider:hover,
-.slider .next_slider:hover {
+.slider .slider__prev:hover,
+.slider .slider__next:hover {
   background-color: rgba(0, 0, 0, 0.2);
 }
 
-.slider .item_slider {
+.slider .slider__item {
   animation-name: other;
   animation-duration: 1.2s;
 }
@@ -262,15 +262,13 @@ body {
 
 /* Контейнер с видео*/
 
-.Con_video {
+.video__main {
   box-sizing: border-box;
   margin: 5% auto;
   display: flex;
   overflow: hidden;
-  min-width: 25vmax;
-  min-height: 20vmax;
-  max-height: 25vmax;
-  max-width: 25vmax;
+  width: 50%;
+  height: 60vh;
   border-radius: 50%;
   box-shadow: 0 0 3px 3px #000000;
   z-index: 2;
@@ -281,13 +279,15 @@ body {
   align-items: center;
   z-index: inherit;
 }
-.play_video {
+.video__play {
   cursor: pointer;
   opacity: 0.7;
-  height: 8%;
-  width: 5%;
+  min-width: 2.3%;
+  min-height: 4.5%;
+  max-width: 5%;
+  max-height: 5%;
   z-index: 3;
-  font-size: 40px;
+  font-size: 2.7vmax;
   align-items: center;
   position: absolute;
   margin-top: 17%;
@@ -297,17 +297,19 @@ body {
   border-radius: 0 3px 3px 0;
   border-radius: 3px 0 0 3px;
 }
-.pause_video {
+.video__pause {
   cursor: pointer;
   opacity: 0.7;
-  height: 8%;
-  width: 5%;
+  min-width: 2.3%;
+  min-height: 4.5%;
+  max-width: 5%;
+  max-height: 5%;
   z-index: 3;
   align-items: center;
   position: absolute;
   margin-top: 17%;
   margin-left: 10%;
-  font-size: 40px;
+  font-size: 2.7vmax;
   width: auto;
   border-collapse: collapse;
   border-radius: 0 3px 3px 0;

@@ -1,11 +1,11 @@
 //Плеер
 
-let time = document.querySelector(".time");
-let btnPlay = document.querySelector(".play");
-let btnPause = document.querySelector(".pause");
-let btnPrev = document.querySelector(".prev");
-let btnNext = document.querySelector(".next");
-let track = document.getElementById("track_item");
+let time = document.querySelector(".audio__time");
+let btnPlay = document.querySelector(".audio__play");
+let btnPause = document.querySelector(".audio__pause");
+let btnPrev = document.querySelector(".audio__prev");
+let btnNext = document.querySelector(".audio__next");
+let track = document.getElementById("audio__track");
 var playlist = ["sounds/111.mp3" , "sounds/222.mp3" , "sounds/333.mp3"];
 let songNum = 0;
  
@@ -69,7 +69,7 @@ function currentSlide(n) {
 
 function showSlides(n) {
   let i;
-  let slides = document.getElementsByClassName("item_slider");
+  let slides = document.getElementsByClassName("slider__item");
 
   if (n > slides.length) {
     slideIndex = 1;
@@ -87,8 +87,8 @@ function showSlides(n) {
 //Видеоплеер
 
 let video = document.getElementById("video");
-let btnPlayvid = document.querySelector(".play_video");
-let btnPausevid = document.querySelector(".pause_video");
+let btnPlayvid = document.querySelector(".video__play");
+let btnPausevid = document.querySelector(".video__pause");
 btnPlayvid.addEventListener("click", function () {
   video.play();
 });
