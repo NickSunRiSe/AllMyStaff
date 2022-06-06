@@ -18,7 +18,7 @@ body {
   background-color: gray;
 }
 
-@media (min-width: 575.98px){
+@media (min-width: 575.98px) {
   .container {
     max-width: 540px;
     margin: auto;
@@ -26,9 +26,9 @@ body {
   }
 }
 
-@media (min-width: 767.98px){
+@media (min-width: 767.98px) {
   .container {
-    max-width: 720px;	
+    max-width: 720px;
   }
 }
 
@@ -38,7 +38,7 @@ body {
   }
 }
 
-@media (min-width: 1199.98px){
+@media (min-width: 1199.98px) {
   .container {
     max-width: 1140px;
   }
@@ -140,18 +140,18 @@ body {
 
 .Text {
   font-family: "Ubuntu";
-  padding: 10px;
+  padding: 30px;
   margin-top: 3%;
   left: 0;
   font-size: 1.2vmax;
 }
 .start__con {
   overflow: hidden;
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: row;
+  display: flex;
+  padding: 20px;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  flex-direction: row;
 }
 .start__text {
   left: 0;
@@ -180,7 +180,7 @@ body {
   box-shadow: 3px 3px 5px rgba(122, 122, 122, 0.5);
   margin-right: 0;
   margin-left: 10%;
-  margin-top: 7vh;
+  margin-top: 2vh;
   background-color: black;
 }
 .slider__out {
@@ -188,7 +188,6 @@ body {
   align-items: center;
   max-width: 100%;
   max-height: 100%;
-  object-fit: cover;
   z-index: inherit;
   overflow: hidden;
 }
@@ -203,12 +202,7 @@ body {
   position: absolute;
   top: 45%;
   z-index: 10;
-  width: auto;
-  min-width: 2.3%;
-  min-height: 4.5%;
-  max-width: 5%;
-  max-height: 5%;
-  padding: 16px;
+  padding: 8px;
   color: white;
   font-weight: bold;
   font-size: 1.5vmax;
@@ -221,11 +215,7 @@ body {
   top: 45%;
   right: 0;
   z-index: 10;
-  min-width: 2.3%;
-  min-height: 4.5%;
-  max-width: 5%;
-  max-height: 5%;
-  padding: 16px;
+  padding: 8px;
   color: white;
   font-weight: bold;
   font-size: 1.5vmax;
@@ -267,8 +257,8 @@ body {
   margin: 5% auto;
   display: flex;
   overflow: hidden;
-  width: 50%;
-  height: 60vh;
+  width: 40%;
+  height: 25vmax;
   border-radius: 50%;
   box-shadow: 0 0 3px 3px #000000;
   z-index: 2;
