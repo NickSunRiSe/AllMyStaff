@@ -18,7 +18,6 @@ const Slider = () => {
               <div class="slider__item">
               <Foto3/>
               </div>
-              
         </div>
         </div>
     );
