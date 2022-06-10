@@ -1,8 +1,8 @@
-import React from 'react';
+import React from "react";
 
 const End = () => {
-    return (
-        <footer class="end">
+  return (
+    <footer class="end">
       <hr />
       <p>
         2022 <br />
@@ -10,7 +10,7 @@ const End = () => {
         Сратов, РА СИ Я. <br />
       </p>
     </footer>
-    );
+  );
 };
 
 export default End;

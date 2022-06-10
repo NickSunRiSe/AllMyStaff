@@ -5,7 +5,6 @@ let btnPlay = document.querySelector(".audio__play");
 let btnPause = document.querySelector(".audio__pause");
 let btnPrev = document.querySelector(".audio__prev");
 let btnNext = document.querySelector(".audio__next");
-let track = document.getElementById("audio__track");
 var playlist = ["sounds/111.mp3" , "sounds/222.mp3" , "sounds/333.mp3"];
 let songNum = 0;
  

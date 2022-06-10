@@ -1,21 +1,64 @@
-import React from 'react';
+import React, { useRef, useState } from "react";
+import song1 from "./Sounds/111.mp3"
+import song2 from "./Sounds/222.mp3"
+import song3 from "./Sounds/333.mp3"
 
-const Header = () => {
-    return (
-        <header class="header">
-        <audio id="audio" type="audio/mpeg">
-          <source src="C:\Users\Некит\Desktop\hjvfy\САЙТ\Портфолио\Классика\Assets\sounds\111.mp3" />
-          <source src="C:\Users\Некит\Desktop\hjvfy\САЙТ\Портфолио\Классика\Assets\sounds\222.mp3" />
-          <source src="C:\Users\Некит\Desktop\hjvfy\САЙТ\Портфолио\Классика\Assets\sounds\333.mp3" />
-        </audio>
-        <div class="audio__track"> </div>
-        <a class="audio__play">&#9655;</a>
-        <a class="audio__pause">&#9723;</a>
-        <a class="audio__next" onclick="next_track()">&#8811;</a>
-        <a class="audio__prev" onclick="prev_track()">&#8810;</a>
-        <div class="audio__line"><div class="audio__time"></div></div>
-      </header>
+
+export default function Header() {
+  const audioPlayer = useRef();
+  const [currentTime, setCurrentTime] = useState(0);
+  const [seekValue, setSeekValue] = useState(0);
+
+const tracks = [{song1} , {song2} , {song3}];
+const [trackIndex, setTrackIndex] = useState(0);
+  const play = () => {
+    audioPlayer.current.play();
+  };
+
+  const pause = () => {
+    audioPlayer.current.pause();
+  };
+
+  const prev_track = () => {
+    if (trackIndex - 1 < 0) {
+      setTrackIndex(tracks.length - 1);
+    } else {
+      setTrackIndex(trackIndex - 1);
+    }
+  }
+  
+  const next_track = () => {
+    if (trackIndex < tracks.length - 1) {
+      setTrackIndex(trackIndex + 1);
+    } else {
+      setTrackIndex(0);
+    }
+  }
+
+  const onPlaying = () => {
+    setCurrentTime(audioPlayer.current.currentTime);
+    setSeekValue(
+      (audioPlayer.current.currentTime / audioPlayer.current.duration) * 100
     );
-};
+  };
 
-export default Header;
+  return (
+    <header class="header">
+        <audio
+        ref={audioPlayer}
+        onTimeUpdate={onPlaying}>
+           <source src={song1} />
+        <source src={song2} />
+        <source src={song3} />
+      </audio>
+        <div class="audio__track"></div>
+        <a class="audio__play" onClick={play}>&#9655;</a>
+        <a class="audio__pause" onClick={pause}>&#9723;</a>
+        <a class="audio__next" onclick={next_track}>&#8811;</a>
+        <a class="audio__prev" onclick={prev_track}>&#8810;</a>
+        <div class="audio__line"><div class="audio__time"></div></div>
+        <p>{currentTime}</p>
+      </header>
+  );
+}
+
