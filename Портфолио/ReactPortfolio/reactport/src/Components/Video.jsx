@@ -7,7 +7,7 @@ const Video = () => {
         <a class="video__play">&#9655;</a>
         <a class="video__pause">&#9723;</a>
         <video class="video" id="video">
-          <source src={vid} type="video/mp4" />
+        <source src={vid} type="video/mp4"/>
         </video>
       </div>
     );

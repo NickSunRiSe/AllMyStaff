@@ -105,3 +105,4 @@ window.onload = function () {
       document.body.classList.remove("loaded_hiding");
     }, 500);
   };
+  export default doit;
