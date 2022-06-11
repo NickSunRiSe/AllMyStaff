@@ -9,7 +9,7 @@ export default function Header() {
   const [currentTime, setCurrentTime] = useState(0);
   const [seekValue, setSeekValue] = useState(0);
 
-const tracks = [{song1} , {song2} , {song3}];
+const Tracks = [{src : {song1}} ,{src : {song2}} ,{src : {song3}}];
 const [trackIndex, setTrackIndex] = useState(0);
   const play = () => {
     audioPlayer.current.play();
@@ -21,14 +21,14 @@ const [trackIndex, setTrackIndex] = useState(0);
 
   const prev_track = () => {
     if (trackIndex - 1 < 0) {
-      setTrackIndex(tracks.length - 1);
+      setTrackIndex(Tracks.length - 1);
     } else {
       setTrackIndex(trackIndex - 1);
     }
   }
   
   const next_track = () => {
-    if (trackIndex < tracks.length - 1) {
+    if (trackIndex < Tracks.length - 1) {
       setTrackIndex(trackIndex + 1);
     } else {
       setTrackIndex(0);
@@ -45,11 +45,10 @@ const [trackIndex, setTrackIndex] = useState(0);
   return (
     <header class="header">
         <audio
+        src={song1}
         ref={audioPlayer}
         onTimeUpdate={onPlaying}>
-           <source src={song1} />
-        <source src={song2} />
-        <source src={song3} />
+         
       </audio>
         <div class="audio__track"></div>
         <a class="audio__play" onClick={play}>&#9655;</a>

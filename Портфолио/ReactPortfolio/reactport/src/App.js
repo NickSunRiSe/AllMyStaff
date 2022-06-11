@@ -15,7 +15,6 @@ function App() {
       <Text/>
       <div class="start__con">
       <Start/>
-      <Slider/>
       </div>
       <Video/>
       <End/>
