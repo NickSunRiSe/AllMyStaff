@@ -311,8 +311,42 @@ button {
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
-.end {
-  width: 100%;
+.End {
+  max-width: 100%;
+  padding-top: 10vh;
+  font-family: "Source Code Pro", Monaco, Consolas, "Liberation Mono",
+    "Courier New", monospace;
+  flex-wrap: nowrap;
+  display: flex;
+  position: relative;
+  font-weight: 700;
+  justify-content: space-between;
+}
+.End__Text1 {
+  position: relative;
+  width: auto;
+  text-align: left;
+  font-family: "Source Code Pro", Monaco, Consolas, "Liberation Mono",
+    "Courier New", monospace;
+}
+.End__Text2 {
+  position: relative;
+  width: auto;
+  text-align: center;
+  font-family: "Source Code Pro", Monaco, Consolas, "Liberation Mono",
+    "Courier New", monospace;
+}
+.End__Text3 {
+  position: relative;
+  width: auto;
   text-align: right;
-  font-family: "Ubuntu";
+  font-family: "Source Code Pro", Monaco, Consolas, "Liberation Mono",
+    "Courier New", monospace;
+}
+.Vk {
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+  width: auto;
+  color: #000000;
 }

@@ -1,14 +1,34 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faVk,
+} from "@fortawesome/free-brands-svg-icons";
 
 const End = () => {
   return (
-    <footer class="end">
-      <hr />
-      <p>
+    <footer class="End">
+      <div className="End__Text1">
+      Контакты <br/>
+        <br/>
+        Рассветов Никита <br/>
+        https://vk.com/nicksunrise <br/>
+        istenoff@gmail.com<br/>
+        </div>
+        <div className="End__Text2">
+        <a
+            href={"https://vk.com/nicksunrise"}
+            className="Vk"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FontAwesomeIcon icon={faVk} size="5x" />
+          </a>
+          </div>
+      <div className="End__Text3">
         2022 <br />
         Завхоз Инкорпарейтед <br />
         Сратов, РА СИ Я. <br />
-      </p>
+      </div>
     </footer>
   );
 };
