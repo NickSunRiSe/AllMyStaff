@@ -5,21 +5,22 @@ import song3 from "./Sounds/333.mp3"
 
 
 export default function Header() {
-  const audioPlayer = useRef();
+  const audio = useRef();
   const [currentTime, setCurrentTime] = useState(0);
   const [seekValue, setSeekValue] = useState(0);
-
-  const playlist = ({
-    files: [song1, song2, song3]
+  const tracks = ({
+    audioSrc: [song1, song2, song3]
   })
+  const { audioSrc } = tracks[trackIndex];
+  
 const trackIndex = 0;
 
   const play = () => {
-    playlist.play()
+    audio.play()
   };
 
   const pause = () => {
-    audioPlayer.current.pause();
+    audio.current.pause();
   };
 
   const prev_track = () => {
@@ -28,26 +29,25 @@ const trackIndex = 0;
       } else {
         trackIndex = 2;
       }
-      audioPlayer.src = playlist[trackIndex];
-      audioPlayer.current.play();
+      audio.src = tracks[trackIndex];
+      audio.current.play();
   }
-  
   const next_track = () => {
-    playlist.next()
+    audio.next()
   }
 
   const onPlaying = () => {
-    setCurrentTime(audioPlayer.current.currentTime);
+    setCurrentTime(audio.current.currentTime);
     setSeekValue(
-      (audioPlayer.current.currentTime / audioPlayer.current.duration) * 100
+      (audio.current.currentTime / audio.current.duration) * 100
     );
   };
 
   return (
     <header class="header">
         <audio
-        
-        ref={audioPlayer}
+        src={tracks[trackIndex]}
+        ref={audio}
         onTimeUpdate={onPlaying}>
       </audio>
         <div class="audio__track"></div>
