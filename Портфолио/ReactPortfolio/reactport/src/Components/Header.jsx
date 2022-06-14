@@ -1,5 +1,5 @@
 import React from 'react';
-import Player from "./Player.js"
+import Player from "./Player"
 
 const Header = () => {
   return (
