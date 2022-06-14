@@ -16,6 +16,7 @@ export default function Player() {
     ];
   const [trackIndex, setTrackIndex] = useState(0);
 
+
   const handleClickPrevious = () => {
     setTrackIndex((currentTrack) =>
       currentTrack === 0 ? musicTracks.length - 1 : currentTrack - 1
@@ -30,7 +31,7 @@ export default function Player() {
 
   return (
     <div className="header">
-      <AudioPlayer
+       <AudioPlayer
         src={musicTracks[trackIndex].src}
         onPlay={(e) => console.log("onPlay")}
         showSkipControls={true}
