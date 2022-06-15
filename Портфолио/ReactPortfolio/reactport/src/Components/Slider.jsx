@@ -36,10 +36,8 @@ const Slider = () => {
       <div class="slider__out">
         <a class="slider__prev" onclick={prev__slide}>&#10094; </a>
         <a class="slider__next" onclick={next__slide}>&#10095; </a>
-        <div class="slider__item"
-         src={slides[slideIndex].src}
-        >
-          
+        <div class="slider__item">
+          <source src={slides[slideIndex].src}></source>
         </div>
       </div>
     </div>

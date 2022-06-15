@@ -102,12 +102,16 @@ body {
 .rhap_controls-section {
   display: flex;
   flex: 1 1 auto;
+  top: 0.2%;
+  left: 67%;
   justify-content: space-between;
   align-items: center;
 }
 
 .rhap_additional-controls {
   display: flex;
+  top: 0.2%;
+  left: 67%;
   flex: 1 0 auto;
   align-items: center;
 }
@@ -129,22 +133,14 @@ body {
 .rhap_main-controls {
   flex: 0 1 auto;
   display: flex;
-  margin-left: 5%;
-  top: 0.2%;
-  left: 50%;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
 .rhap_main-controls-button {
   cursor: pointer;
   top: 0.2%;
-  left: 50%;
-  position: fixed;
-  min-width: 2.3%;
-  min-height: 4.5%;
-  max-width: 5%;
-  max-height: 5%;
+  left: 60%;
   z-index: 101;
   font-size: 1.7vmax;
   border-collapse: collapse;
@@ -153,7 +149,7 @@ body {
 .rhap_play-pause-button {
   cursor: pointer;
   top: 0.2%;
-  left: 67%;
+  left: 65%;
   position: fixed;
   min-width: 2.3%;
   min-height: 4.5%;
@@ -187,8 +183,6 @@ body {
 
 .rhap_volume-container {
   display: flex;
-  top: 0.2%;
-  left: 77%;
   align-items: center;
   flex: 0 1 100px;
   user-select: none;
@@ -197,8 +191,6 @@ body {
 
 .rhap_volume-bar-area {
   display: flex;
-  top: 0.2%;
-  left: 77%;
   align-items: center;
   width: 100%;
   height: 14px;
@@ -224,7 +216,7 @@ body {
   height: 12px;
   margin-left: -6px;
   top: 0.2%;
-  top: -4px;
+  left: 75%;
   background: #868686;
   opacity: 0.9;
   border-radius: 50px;
