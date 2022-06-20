@@ -5,7 +5,7 @@ import Start from "./Components/Start";
 import Text from "./Components/Text";
 import Video from "./Components/Video";
 import Header from "./Components/Header"
-import Slider from "./Components/Slider";
+import SliderAudio from "./Components/SlyderAudio";
 
 function App() {
   return (
@@ -15,6 +15,7 @@ function App() {
       <Text/>
       <div class="start__con">
       <Start/>
+      <SliderAudio/>
       </div>
       <Video/>
       <End/>

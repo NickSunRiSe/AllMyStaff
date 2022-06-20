@@ -2,6 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faVk,
+  faGithub
 } from "@fortawesome/free-brands-svg-icons";
 
 const End = () => {
@@ -22,6 +23,14 @@ const End = () => {
             rel="noopener noreferrer"
           >
             <FontAwesomeIcon icon={faVk} size="5x" />
+           </a>
+            <a
+            href={"https://github.com/NickSunRiSe"}
+            className="Vk"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+          <FontAwesomeIcon icon={faGithub} size="5x" />
           </a>
           </div>
       <div className="End__Text3">

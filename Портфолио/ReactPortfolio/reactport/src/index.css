@@ -505,6 +505,7 @@ button {
 .End__Text2 {
   position: relative;
   width: auto;
+  display: flex;
   text-align: center;
   font-family: "Source Code Pro", Monaco, Consolas, "Liberation Mono",
     "Courier New", monospace;

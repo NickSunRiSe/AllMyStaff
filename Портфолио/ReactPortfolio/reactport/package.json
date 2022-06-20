@@ -9,10 +9,13 @@
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
     "font-awesome": "^4.7.0",
+    "image-slider-react": "^1.0.6",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-h5-audio-player": "^3.8.4",
     "react-scripts": "5.0.1",
+    "react-simple-image-slider": "^2.4.1",
+    "react-slideshow-image": "^3.7.5",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
