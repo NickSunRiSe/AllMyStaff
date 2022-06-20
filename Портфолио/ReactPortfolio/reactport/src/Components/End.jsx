@@ -4,7 +4,7 @@ import {
   faVk,
   faGithub
 } from "@fortawesome/free-brands-svg-icons";
-
+//sdasd
 const End = () => {
   return (
     <footer class="End">
@@ -33,6 +33,7 @@ const End = () => {
           <FontAwesomeIcon icon={faGithub} size="5x" />
           </a>
           </div>
+          
       <div className="End__Text3">
         2022 <br />
         Завхоз Инкорпарейтед <br />
