@@ -6,7 +6,7 @@ import slide3 from "./Images/foto3.jpg"
 
 const SlyderAudio = () => {
     const images = [slide1 ,  slide2 ,  slide3]
-  
+   
         return (
             <SimpleImageSlider
             width = {400}
