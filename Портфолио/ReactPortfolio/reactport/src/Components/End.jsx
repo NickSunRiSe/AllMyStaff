@@ -4,7 +4,7 @@ import {
   faVk,
   faGithub
 } from "@fortawesome/free-brands-svg-icons";
-//sdasd
+
 const End = () => {
   return (
     <footer class="End">

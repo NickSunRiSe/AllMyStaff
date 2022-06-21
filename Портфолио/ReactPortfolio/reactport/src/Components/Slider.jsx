@@ -3,7 +3,7 @@ import { useState } from "react";
 import slide1 from "./Images/foto1.jpg"
 import slide2 from "./Images/foto2.jpg"
 import slide3 from "./Images/foto3.jpg"
- //sda
+
 const Slider = () => {
   const slides = [{src: slide1} , {src: slide2} , {src: slide3}];
   const [slideIndex, setSlideIndex] = useState(0);
