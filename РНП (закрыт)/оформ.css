@@ -33,25 +33,103 @@ h1 {
   font-family: "Oswald", sans-serif;
 }
 .rl {
-  top: 10vh;
-  position: absolute;
-  z-index: 0;
-  left: 0;
-  right: 0;
-  margin: 0;
-  display: inline-block;
+  display: flex;
+  width: 100%;
+  align-content: space-between;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row-reverse;
 }
-.right {
-  right: 1.5vw;
-  padding: 0.5%;
-  background-color: #000000;
+.kno {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: inherit;
+  overflow: hidden;
+}
+.slider {
+  max-width: 40%;
+  max-height: 60vh;
+  right: 0;
+  position: relative;
+  overflow: hidden;
+  border: 0.2vw solid black;
   box-shadow: 5px 5px;
   box-shadow: 3px 3px 5px rgba(122, 122, 122, 0.5);
-  position: inherit;
-  margin: inherit;
-  z-index: inherit;
-  display: inherit;
-  object-fit: cover;
+  margin-right: 0;
+  margin-left: 10%;
+  margin-top: 7vh;
+  background-color: black;
+}
+.slider .item img {
+  object-fit: contain;
+  width: 100;
+  height: 100;
+  align-content: center;
+}
+
+.slider .pr{
+  cursor: pointer;
+  position: absolute;
+  top: 45%;
+  z-index: 10;
+  width: auto;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+.slider .ne {
+  cursor: pointer;
+  position: absolute;
+  top: 45%;
+  right: 0;
+  z-index: 10;
+  width: auto;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  border-radius: 3px 0 0 3px;
+}
+.slider .pr:hover,
+.slider .ne:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.slider .item {
+  animation-name: other;
+  animation-duration: 1.2s;
+}
+@keyframes fade {
+  from {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes other {
+  0%  {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+button {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 .left {
@@ -116,52 +194,56 @@ header {
   border-collapse: collapse;
 }
 .play {
-  left: 70%;
-  top: inherit;
-  position: inherit;
-  min-width: 45px;
-  min-height: 45px;
-  max-width: 45px;
-  max-height: 45px;
-  z-index: inherit;
-  background-image: url(assets/images/плей.bmp);
-  border-collapse: inherit;
+  cursor: pointer;
+  top: 0.2%;
+  left: 74%;
+  position: fixed;
+  min-width: 2.3%;
+  min-height: 4.5%;
+  max-width: 35px;
+  max-height: 35px;
+  z-index: 101;
+  font-size: 30px;
+  border-collapse: collapse;
 }
 .pause {
-  left: 75%;
-  top: inherit;
-  position: inherit;
-  min-width: 45px;
-  min-height: 45px;
-  max-width: 45px;
-  max-height: 45px;
-  z-index: inherit;
-  background-image: url(assets/images/пауза.bmp);
-  border-collapse: inherit;
+  cursor: pointer;
+  top: 0.2%;
+  left: 78%;
+  position: fixed;
+  min-width: 2.3%;
+  min-height: 4.5%;
+  max-width: 35px;
+  max-height: 35px;
+  z-index: 101;
+  font-size: 30px;
+  border-collapse: collapse;
 }
 .prev {
-  left: 80%;
-  top: inherit;
-  position: inherit;
-  min-width: 45px;
-  min-height: 45px;
-  max-width: 45px;
-  max-height: 45px;
-  z-index: inherit;
-  background-image: url(assets/images/назад.bmp);
-  border-collapse: inherit;
+  cursor: pointer;
+  top: 0.2%;
+  left: 82%;
+  position: fixed;
+  min-width: 2.3%;
+  min-height: 4.5%;
+  max-width: 35px;
+  max-height: 35px;
+  z-index: 101;
+  font-size: 30px;
+  border-collapse: collapse;
 }
 .next {
-  left: 85%;
-  top: inherit;
-  position: inherit;
-  min-width: 45px;
-  min-height: 45px;
-  max-width: 45px;
-  max-height: 45px;
-  z-index: inherit;
-  background-image: url(assets/images/вперде.bmp);
-  border-collapse: inherit;
+  cursor: pointer;
+  top: 0.2%;
+  left: 86%;
+  position: fixed;
+  min-width: 2.3%;
+  min-height: 4.5%;
+  max-width: 35px;
+  max-height: 35px;
+  z-index: 101;
+  font-size: 30px;
+  border-collapse: collapse;
 }
 .audio-track {
   width: 100%;
@@ -185,7 +267,7 @@ header {
 table {
   position: absolute;
   width: 95vw;
-  top: 108vh;
+  top: 125vh;
   left: 2vw;
   border-collapse: collapse;
   border-spacing: 0px 0px;
@@ -220,7 +302,7 @@ td {
 }
 .spisok {
   position: absolute;
-  top: 101vh;
+  top: 116vh;
   left: 35vw;
   font-size: 22px;
   font-family: "Nanum Gothic Coding", monospace;
@@ -239,33 +321,67 @@ td {
 }
 .videoyou {
   position: absolute;
-  top: 380vh;
+  top: 385vh;
   left: 15vw;
   width: 70vw;
   height: 80vh;
 }
+/* Контейнер с видео*/
+
 .vdcon {
-  position: absolute;
-  top: 45vh;
-  left: 5vw;
-  display: block;
-  width: 25vw;
-  height: 50vh;
-  border-radius: 50%;
+  box-sizing: border-box;
+  display: flex;
   overflow: hidden;
+  min-width: 25vmax;
+  min-height: 20vmax;
+  max-height: 25vmax;
+  max-width: 25vmax;
+  border-radius: 50%;
   box-shadow: 0 0 3px 3px #000000;
-  margin: 13px;
   z-index: 2;
+  justify-content: center;
 }
 .video {
-  position: inherit;
-  display: block;
+  justify-content: center;
   align-items: center;
   width: 100%;
   height: 100%;
   object-fit: cover;
   z-index: inherit;
 }
+.playv {
+  cursor: pointer;
+  opacity: 0.7;
+  height: 8%;
+  width: 5%;
+  z-index: 3;
+  font-size: 40px;
+  align-items: center;
+  position: absolute;
+  margin-top: 17%;
+  margin-right: 10%;
+  border-collapse: collapse;
+  width: auto;
+  border-radius: 0 3px 3px 0;
+  border-radius: 3px 0 0 3px;
+}
+.pausev {
+  cursor: pointer;
+  opacity: 0.7;
+  height: 8%;
+  width: 5%;
+  z-index: 3;
+  align-items: center;
+  position: absolute;
+  margin-top: 17%;
+  margin-left: 10%;
+  font-size: 45px;
+  width: auto;
+  border-collapse: collapse;
+  border-radius: 0 3px 3px 0;
+  border-radius: 3px 0 0 3px;
+}
+
 .fonts {
   font-family: "Gothic A1", sans-serif;
   font-family: "Lato", sans-serif;

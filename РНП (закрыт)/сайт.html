@@ -9,29 +9,45 @@
       rel="stylesheet"
     />
     <title>Роман Туленинов - Наш Президент 2024!</title>
-  </head>
+  </head> 
   <body>
     <div class="con">
       <header>
-        <h1>Роман Туленинов - Наш Выбор!</h1>
-        <button class="play" type="button"></button>
-        <button class="pause" type="button"></button>
-        <button class="prev" type="button"></button>
-        <button class="next" type="button"></button>
-        <div class="audio-track"></div>
-        <div class="time"></div>
+       
+      <audio id="audio" type="audio/mpeg">
+        <source src="sounds/111.mp3" />
+        <source src="sounds/222.mp3" />
+        <source src="sounds/333.mp3" />
+      </audio>
+      <div class="track__item"> </div>
+      <a class="play">&#9655;</a>
+      <a class="pause">&#9723;</a>
+      <a class="next" onclick="nexttrack()">&#8811;</a>
+      <a class="prev" onclick="prevtrack()">&#8810;</a>
+      <div class="audio-track"><div class="time"></div></div>
       </header>
     </div>
-
-    <div class="vdcon">
-      <video>
-        <source src="video.mp4" type="video/mp4" />
-      </video>
-    </div>
+ 
+    
     <div class="rl">
-      <button class="butass" onclick="prevfoto()"></button>
-      <button class="butass1" onclick="nextfoto()"></button>
-      <img class="right" id="foto" src="assets/images/РНП1.jpg" />
+      <div class="slider">
+ 
+        <div class="kno">
+          <a class="pr" onclick="previousSlide()">&#10094;</a>
+          <a class="ne" onclick="nextSlide()">&#10095;</a>
+          <div class="item">
+              <img src="assets/images/РНП1.jpg">
+          </div>
+          <div class="item">
+              <img src="assets/images/РНП2.jpg">
+          </div>
+          <div class="item">
+              <img src="assets/images/РНП3.jpg">
+          </div>
+        </div>
+        </div>
+         
+
 
       <div class="left">
         <p>
@@ -46,13 +62,17 @@
           А главное, очень любит свою страну, настоящий патриот!<br />
         </p>
       </div>
+      
     </div>
+  
+    <div class="vdcon">
+      <a class="playv">&#9655;</a>
+      <a class="pausev">&#9723;</a>
+      <video class="vid" id="video">
+        <source src="video.mp4" type="video/mp4" />
+      </video>
 
-    <audio id="audio" type="audio/mpeg">
-      <source src="sounds/111.mp3" />
-      <source src="sounds/222.mp3" />
-      <source src="sounds/333.mp3" />
-    </audio>
+
     <div class="spisok"><p>Список людей, поддерживающих Романа</p></div>
     <table>
       <tr>
@@ -595,6 +615,7 @@
         Сратов, РА СИ Я. <br />
       </p>
     </footer>
+
     <script src="java.js"></script>
   </body>
 </html>
