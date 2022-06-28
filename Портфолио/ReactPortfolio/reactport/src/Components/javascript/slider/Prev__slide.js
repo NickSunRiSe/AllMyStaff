@@ -2,7 +2,7 @@ let slideIndex = 1;
 
 
 const previousSlide = () => {
-slideIndex.toString--;
+slideIndex--;
 }
  
 export default previousSlide;

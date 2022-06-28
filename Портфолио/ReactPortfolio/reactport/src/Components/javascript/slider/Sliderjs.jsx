@@ -1,4 +1,3 @@
-import currentSlide from "./CurrentSlide";
 import nextSlide from "./Nextslide";
 import previousSlide from "./Prev__slide";
 import slide1 from "../../Images/foto1.jpg"
