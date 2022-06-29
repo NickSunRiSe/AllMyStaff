@@ -1,8 +1,9 @@
-let slideIndex = 1;
-
+const [slideIndex, setSlideIndex] = 1;
 
 const previousSlide = () => {
-slideIndex--;
+    setSlideIndex((currentSlide) =>
+    currentSlide === 0 ? slideIndex.length - 1 : currentSlide - 1
+  );
 }
  
 export default previousSlide;

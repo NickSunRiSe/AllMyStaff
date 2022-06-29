@@ -1,4 +1,5 @@
 import { useState } from "react";
+import {Link } from "react-router-dom";
 import song1 from "./Sounds/111.mp3"
 import song2 from "./Sounds/222.mp3"
 import song3 from "./Sounds/333.mp3"
@@ -33,6 +34,12 @@ export default function Player() {
   return (
     <div className="header">
       <audio  id="audio" type="audio/mpeg" src={musicTracks[trackIndex].src}/>
+      <Link to="/main" className="HeaderText">
+          Главная
+        </Link>
+        <Link to="/*" className="HeaderText">
+          Вторая
+        </Link>
       <a class="audio__play" onclick={audio__play}>&#9655;</a>
       <a class="audio__pause" onclick={audio__pause}>&#9723;</a>
       <a class="audio__next" onclick={audio__next}>&#8811;</a>
