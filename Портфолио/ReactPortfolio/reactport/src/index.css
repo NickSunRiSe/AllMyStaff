@@ -534,3 +534,8 @@ button {
   width: auto;
   color: #000000;
 }
+.nothing {
+  padding-top: 20vh;
+  padding-bottom: 35vh;
+  text-align: center;
+}
