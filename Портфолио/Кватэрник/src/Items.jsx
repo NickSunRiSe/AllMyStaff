@@ -5,7 +5,6 @@ import Pic3 from "./images/Pic3"
 import Pic4 from "./images/Pic4"
 import Pic5 from "./images/Pic5"
 import Pic6 from "./images/Pic6"
-import Pic7 from "./images/Pic7"
 
 const Items = () => {
     return (
@@ -16,7 +15,6 @@ const Items = () => {
             <Pic4/>
             <Pic5/>
             <Pic6/>
-            <Pic7/>
         </div>
     );
 };

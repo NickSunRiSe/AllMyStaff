@@ -8,6 +8,30 @@ body {
   align-items: center;
 }
 
+@media (max-width: 550px ) {
+  .container {
+    max-width: 540px;
+    margin: auto;
+    padding: 0;
+  }
+  .foto{
+    max-width: 380px;
+    max-height: 180px;
+  }
+  .Images{
+    max-height: 180px;
+  }
+  .HeaderLogo{
+    max-width: 150px;
+    max-height: 130px;
+  }
+  .Logo{
+    max-width: 150px;
+    max-height: 130px;
+  }
+}
+
+
 .container {
   overflow: hidden;
   width: 700px;
@@ -18,19 +42,18 @@ body {
   padding: 0px 15px;
   background-color: rgb(221, 221, 221);
 }
-.Logo{
+.HeaderLogo{
   max-width: 580px;
   max-height: 130px;
   margin: auto;
   position: relative;
 }
-.Isten{
+.Logo{
   overflow: hidden;
   position: relative;
   margin-left: auto;
   margin-right: auto;
   display: block;
-  height: 300px;
   width: 300px;
   max-height: 130px;
 }
@@ -60,6 +83,7 @@ body {
   position: relative;
   margin-left: auto;
   margin-right: auto;
+  opacity: 1;
   font-weight: 700;
 }
 .Links{
@@ -69,7 +93,7 @@ body {
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  opacity: .25;
+  opacity: 1;
   text-align: center;
 }
 .endlink {

@@ -1,10 +1,10 @@
 import React from 'react';
-import LogoW from "./images/LogoW"
+import Logo from './images/Logo'
 
 const Header = () => {
     return (
-        <div className='Logo'>
-        <LogoW/>
+        <div className='HeaderLogo'>
+            <Logo/>
         </div>
     );
 };
