@@ -1,0 +1,85 @@
+body {
+  font-family: "Source Code Pro", Monaco, Consolas, "Liberation Mono",
+    "Courier New", monospace;
+  font-size: 14px;
+  line-height: 1.71429;
+  color: #000000;
+  background-color: white;
+  align-items: center;
+}
+
+.container {
+  overflow: hidden;
+  width: 700px;
+  max-width: 70%;
+  max-height: 100%;
+  margin: 0 auto;
+  margin-top: auto;
+  padding: 0px 15px;
+  background-color: rgb(221, 221, 221);
+}
+.Logo{
+  max-width: 580px;
+  max-height: 130px;
+  margin: auto;
+  position: relative;
+}
+.Isten{
+  overflow: hidden;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  height: 300px;
+  width: 300px;
+  max-height: 130px;
+}
+.Items{
+  position: relative;
+  max-width: 580px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10vh;  
+}
+.foto {
+  max-width: 580px;
+  height: 435px;
+  overflow: hidden;
+  position: relative;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.Footer{
+  max-width: 100%;
+  padding-top: 10vh;
+  font-family: "Source Code Pro", Monaco, Consolas, "Liberation Mono",
+    "Courier New", monospace;
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 700;
+}
+.Links{
+  height: 50px;
+  width: 200px;
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: .25;
+  text-align: center;
+}
+.endlink {
+  padding: 1vh;
+  overflow: hidden;
+  display: inline-block;
+  cursor: pointer;
+  opacity: .25;
+  position: relative;
+  color: rgb(0, 0, 0);
+}
+.Links:hover {opacity: 1;}
+.endlink:hover {opacity: 1;}
