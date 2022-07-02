@@ -8,29 +8,28 @@ body {
   align-items: center;
 }
 
-@media (max-width: 550px ) {
+@media (max-width: 550px) {
   .container {
     max-width: 540px;
     margin: auto;
     padding: 0;
   }
-  .foto{
+  .foto {
     max-width: 380px;
     max-height: 175px;
   }
-  .Images{
+  .Images {
     max-height: 175px;
   }
-  .HeaderLogo{
+  .HeaderLogo {
     max-width: 150px;
     max-height: 130px;
   }
-  .Logo{
+  .Logo {
     max-width: 150px;
     max-height: 130px;
   }
 }
-
 
 .container {
   overflow: hidden;
@@ -40,29 +39,55 @@ body {
   margin: 0 auto;
   margin-top: auto;
   padding: 0px 15px;
-  background-color: rgb(221, 221, 221);
 }
-.HeaderLogo{
+
+/* Elements */
+
+.Logo {
   max-width: 580px;
   max-height: 130px;
   margin: auto;
   position: relative;
 }
-.Logo{
+.Isten {
   overflow: hidden;
   position: relative;
   margin-left: auto;
   margin-right: auto;
   display: block;
+  height: 300px;
   width: 300px;
   max-height: 130px;
 }
-.Items{
+.nav_main {
+  width: auto;
+  text-align: center;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: lowercase;
+  letter-spacing: 0.63px;
+  border-bottom: 1px solid rgba(38, 3, 3, 0);
+  border-top: 1px solid rgba(38, 3, 3, 0);
+  margin: 0;
+  margin-top: 3vh;
+}
+.nav_text {
+  color: #000000;
+  font-family: le-monde-journal-std;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: lowercase;
+  cursor: pointer;
+  padding: 28px;
+  text-align: center;
+  text-decoration: none;
+}
+.Items {
   position: relative;
   max-width: 580px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 10vh;  
+  margin-top: 5vh;
 }
 .foto {
   max-width: 580px;
@@ -74,7 +99,7 @@ body {
   margin-right: auto;
   display: block;
 }
-.Footer{
+.Footer {
   max-width: 100%;
   padding-top: 10vh;
   font-family: "Source Code Pro", Monaco, Consolas, "Liberation Mono",
@@ -83,17 +108,16 @@ body {
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  opacity: 1;
   font-weight: 700;
 }
-.Links{
+.Links {
   height: 50px;
   width: 200px;
   display: block;
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  opacity: 1;
+  opacity: 0.25;
   text-align: center;
 }
 .endlink {
@@ -101,9 +125,60 @@ body {
   overflow: hidden;
   display: inline-block;
   cursor: pointer;
-  opacity: .25;
+  opacity: 0.25;
   position: relative;
   color: rgb(0, 0, 0);
 }
-.Links:hover {opacity: 1;}
-.endlink:hover {opacity: 1;}
+.Links:hover {
+  opacity: 1;
+}
+.endlink:hover {
+  opacity: 1;
+}
+
+/* Sub-Elements */
+
+.about__text {
+  max-width: 700px;
+  text-align: center;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: 0.17px;
+  text-transform: none;
+  display: block;
+  line-height: 1.9em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding: 50px;
+}
+.ContactsLine {
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  text-align: left;
+  justify-content: space-between;
+}
+.contact1 {
+  font-size: 14px;
+  font-weight: 300;
+  font-family: "Source Code Pro", Monaco, Consolas, "Liberation Mono",
+    "Courier New", monospace;
+}
+.Zag1 {
+  font-size: 30px;
+  padding-top: 2vh;
+  font-weight: 700;
+  font-family: "Source Code Pro", Monaco, Consolas, "Liberation Mono",
+    "Courier New", monospace;
+}
+.zag1 {
+  font-size: 24px;
+  padding-bottom: 1vh;
+  font-weight: 700;
+  font-family: "Source Code Pro", Monaco, Consolas, "Liberation Mono",
+    "Courier New", monospace;
+}

@@ -1,15 +1,12 @@
-import FooterLinks from './FooterLinks';
-import Header from './Header';
+import { BrowserRouter as Router } from "react-router-dom";
 import './index.css';
-import Items from './Items';
+import Nav__menu from "./Elements/Nav__menu"
 
 function App() {
   return (
-    <div className="container">
-     <Header/>
-     <Items/>
-     <FooterLinks/>
-    </div>
+    <Router>
+        <Nav__menu/>
+    </Router>
   );
 }
 
