@@ -22,14 +22,47 @@ body {
     max-height: 175px;
   }
   .HeaderLogo {
-    max-width: 200px;
-    max-height: 130px;
+    width: 200px;
+    max-height: 100px;
     margin: 0;
     overflow: auto;
   }
+  .Isten{
+    width: 200px;
+    max-height: 100px;
+  }
   .Logo {
     max-height: 130px;
-
+  }
+}
+@media (min-width: 1800px) {
+  .container {
+    max-width: 70vw;
+    margin: auto;
+    padding: 0;
+  }
+  .foto {
+    max-width: 90vw;
+    max-height: 25vh;
+  }
+  .Images {
+    max-height: 475px;
+  }
+  .HeaderLogo {
+    width: 800px;
+    max-height: 400px;
+    margin: 0;
+    overflow: auto;
+  }
+  .Isten{
+    width: 800px;
+    max-height: 400px;
+  }
+  .Logo {
+    max-height: 430px;
+  }
+  .nav_main{
+    width: 1110px;
   }
 }
 
@@ -49,7 +82,7 @@ body {
   max-width: 580px;
   height: 130px;
   margin: auto;
-  margin-bottom: 5vh;
+  margin-bottom: 3vh;
   position: relative;
 }
 .Isten {
@@ -62,7 +95,7 @@ body {
   height: 130px;
 }
 .nav_main {
-  max-width: 580px;
+  max-width: 480px;
   text-align: center;
   font-style: normal;
   text-transform: lowercase;
@@ -71,6 +104,8 @@ body {
   border-top: 1px solid rgba(38, 3, 3, 0);
   margin-left: auto;
   margin-right: auto;
+  display: flex;
+  justify-content: space-between;
   margin-bottom: 5vh;
   margin-top: 3vh;
 }
@@ -81,7 +116,6 @@ body {
   font-style: normal;
   text-transform: lowercase;
   cursor: pointer;
-  padding: 28px;
   text-align: center;
   text-decoration: none;
 }
