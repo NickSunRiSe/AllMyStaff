@@ -8,7 +8,7 @@ const Music = () => {
     <div className="container">
       <Header />
       <Nav_main />
-      <FooterLinks/>
+      <FooterLinks/> 
     </div>
   );
 };

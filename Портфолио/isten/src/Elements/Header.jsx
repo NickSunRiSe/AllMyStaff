@@ -4,7 +4,7 @@ import LogoW from "../images/LogoW"
 const Header = () => {
     return (
         <div className='Logo'>
-        <LogoW/>
+        <LogoW/> 
         </div>
     );
 };

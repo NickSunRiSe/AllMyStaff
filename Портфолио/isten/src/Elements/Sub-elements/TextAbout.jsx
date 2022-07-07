@@ -6,7 +6,7 @@ import PlaceG from "../../images/PlaceG";
 import Sundisc from "../../images/Sundisc";
 import Rain from "../../images/Rain";
 import Isten from "../../images/Isten";
-
+ 
 const TextAbout = () => {
   return (
     <div>

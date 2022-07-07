@@ -5,7 +5,7 @@ import Nav_main from "../Elements/Nav_main";
 import TextAbout from "../Elements/Sub-elements/TextAbout";
 
 const About = () => {
-  return (
+  return ( 
     <div className="container">
       <Header />
       <Nav_main />

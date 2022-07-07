@@ -5,4 +5,4 @@ const Isten = () => {
     return <img src={EyesF} className="foto"></img>;
 };
 
-export default Isten;
+export default Isten; 
