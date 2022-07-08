@@ -34,7 +34,7 @@ body {
   .Logo {
     max-height: 130px;
   }
-}
+} 
 @media (min-width: 1800px) {
   .container {
     max-width: 70vw;
