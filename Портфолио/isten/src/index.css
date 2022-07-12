@@ -126,16 +126,16 @@ body {
   text-align: center;
   text-decoration: none;
   background: 
-    linear-gradient(white 0 0) left  var(--p, 50%) bottom 0 /var(--d, 10%) 3px no-repeat,
-    linear-gradient(white 0 0) right var(--p, 50%) bottom 0 /var(--d, 10%) 3px no-repeat;
+    linear-gradient(white 0 0) left  var(--p, 100%) bottom 0 /var(--d, 15%) 3px no-repeat,
+    linear-gradient(white 0 0) right var(--p, 100%) bottom 0 /var(--d, 15%) 3px no-repeat;
 }
 .nav_text:hover {
   --d: 90%;
   --p: 50%;
   background: 
-    linear-gradient(black 0 0) left  var(--p, 100%) bottom 0 /var(--d, 100%) 3px no-repeat,
-    linear-gradient(black 0 0) right var(--p, 100%) bottom 0 /var(--d, 100%) 3px no-repeat;
-  transition: cubic-bezier(0.46, 0.03, 0.52, 0.96) 0.3s, background-size 0.5s 0.5s;
+    linear-gradient(black 0 0) left  var(--p, 50%) bottom 0 /var(--d, 100%) 3px no-repeat,
+    linear-gradient(black 0 0) right var(--p, 50%) bottom 0 /var(--d, 100%) 3px no-repeat;
+  transition: cubic-bezier(0.46, 0.03, 0.52, 0.96) 0.2s, background-size 0.4s 0.4s;
 }
 
 .Items {
