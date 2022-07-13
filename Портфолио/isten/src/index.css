@@ -128,7 +128,7 @@ body {
   background: 
     linear-gradient(white 0 0) left  var(--p, 100%) bottom 0 /var(--d, 15%) 3px no-repeat,
     linear-gradient(white 0 0) right var(--p, 100%) bottom 0 /var(--d, 15%) 3px no-repeat;
-}
+} 
 .nav_text:hover {
   --d: 90%;
   --p: 50%;
