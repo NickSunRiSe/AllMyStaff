@@ -5,7 +5,7 @@ import Nav__menu from "./Elements/Nav__menu"
 function App() {
   return ( 
     <Router>
-        <Nav__menu/>
+        <Nav__menu/> 
     </Router>
   );
 }
