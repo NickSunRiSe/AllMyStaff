@@ -7,7 +7,7 @@ function App() {
     <Router>
         <Nav__menu/> 
     </Router>
-  );
+  ); 
 }
 
 export default App;
